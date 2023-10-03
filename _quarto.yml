@@ -37,6 +37,7 @@ website:
     contents:
       - href: https://arxiv.org/abs/2309.15884
         text: "Get the paper!"
+        target: "_blank"
       - href: about.qmd
         text: "About the authors"
       - href: in-the-press.qmd
