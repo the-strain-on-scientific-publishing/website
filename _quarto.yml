@@ -18,8 +18,8 @@ website:
     align: center
     tools:
       - icon: github
-        href: https://github.com/sta210-s22
-        text: "GitHub organization"
+        href: https://github.com/the-strain-on-scientific-publishing
+        text: "GitHub pages for the project"
       - icon: people-fill
         href: about.qmd
         text: "About the team"
