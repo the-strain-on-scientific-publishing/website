@@ -1,9 +1,23 @@
 ---
-title: "About"
+title: "About the authors"
 ---
 
-About this site
+# The authors
 
-```{r}
-1 + 1
-```
+## Mark A Hanson
+
+ADD HERE LINKS, PICTURE, ETC
+
+##  Pablo Gómez Barreiro
+
+ADD HERE LINKS, PICTURE, ETC
+
+
+## Paolo Crosetto
+
+ADD HERE LINKS, PICTURE, ETC
+
+
+## Dan Brockington
+
+ADD HERE LINKS, PICTURE, ETC
