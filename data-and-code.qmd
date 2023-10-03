@@ -1,0 +1,51 @@
+---
+title: "Data and Code to reproduce our results"
+---
+
+Unfortunately we have been legally advised not to share the data at the moment (October 2023).
+
+## Data sources
+
+### *Global researcher statistics*
+
+-   Total PhD graduates: OECD
+
+-   Total PhD graduates for China and India: NSF, 2022 and Zwetsloot et al., 2021
+
+-   Researchers-per-million: UNESCO [[http://data.uis.unesco.org]{.underline}](http://data.uis.unesco.org/), \"9.5.2 Researchers per million inhabitants\"
+
+### Publisher and Journal-level data
+
+-   Total article per year and other journal metrics: Scimago [[https://www.scimagojr.com/journalrank.php]{.underline}](https://www.scimagojr.com/journalrank.php)
+
+-   Impact Factor data: Clarivate
+
+-   Rejection rates
+
+    -   Frontiers
+
+    -   PLOS, Taylor & Francis: upon request
+
+    -   MDPI: web scrape
+
+    -   Hindawi: web scrape + the wayback machine
+
+    -   Elsevier: web scrape via journal insight website
+
+### Article-level data
+
+-   Turnarounf times:
+
+    -   PLOS, Hindawi: extracted directly from downloadable corpus
+
+    -   Wiley: extracted from corpus, obtained upon request
+
+    -   BMC, Frontiers, MDPI, Nature, Springer: web scrape
+
+    -   Taylor & Francis: via CrossRef
+
+    -   Elsevier: ISSNs from Scimago, list of DOIs from CrossRef + web scrape
+
+## Code
+
+We use `R` for all our scraping and analyses. The R scripts to reproduce all our analyses will be available once we will clear the legal statute of sharing the scraped data.
