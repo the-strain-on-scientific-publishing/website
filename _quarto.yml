@@ -42,6 +42,9 @@ website:
       - href: https://arxiv.org/abs/2309.15884
         text: "Get the paper!"
         target: "_blank"
+      - href: https://figshare.com/articles/figure/The_strain_on_scientific_publishing_figures_/24203790
+        text: "Plots and Tables (on fighsare)"
+        target: "_blank"
       - href: data-and-code.qmd
         text: "Data and Code (forthcoming)"
       - href: about.qmd
