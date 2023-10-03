@@ -37,6 +37,8 @@ website:
     search: false
     collapse-level: 0
     contents:
+      - href: index.qmd
+        text: "Home"
       - href: https://arxiv.org/abs/2309.15884
         text: "Get the paper!"
         target: "_blank"
