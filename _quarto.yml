@@ -1,0 +1,53 @@
+project:
+  type: website
+
+website:
+  page-navigation: true
+  title: "The Strain on Scientific Publishing"
+  description: "Home page for the paper 'The Strain on Scientific Publishing' by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro"
+  
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2023, Paolo Crosetto"
+    background: "#D9E3E4"
+    
+  sidebar:
+    background: "#D9E3E4"
+    logo: "images/logo.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/sta210-s22
+        text: "GitHub organization"
+      - icon: people-fill
+        href: about.qmd
+        text: "About the team"
+      - icon: file-pdf-fill
+        href: https://arxiv.org/abs/2309.15884 
+        text: "The paper on ArXiV"
+        
+    style: "docked"
+    search: false
+    collapse-level: 0
+    contents:
+      - href: the-paper.qmd
+        text: "The paper in a nutshell"
+      - href: about.qmd
+        text: "About the authors"
+      - href: in-the-press.qmd
+        text: "Mentions and articles"
+      - href: media.qmd
+        text: "Videos and audios"
+      - href: presentation.qmd
+        text: "Slide decks"
+    
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    toc: true
+
+editor: visual
+
