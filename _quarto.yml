@@ -43,7 +43,7 @@ website:
         text: "Get the paper!"
         target: "_blank"
       - href: data-and-code.qmd
-        text "Data and Code (forthcoming)"
+        text: "Data and Code (forthcoming)"
       - href: about.qmd
         text: "About the authors"
       - href: in-the-press.qmd
