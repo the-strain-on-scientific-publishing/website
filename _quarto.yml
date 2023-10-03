@@ -6,6 +6,9 @@ website:
   title: "The Strain on Scientific Publishing"
   description: "Home page for the paper 'The Strain on Scientific Publishing' by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro"
   site-path: "/"
+  twitter-card:
+    creator: "@paolocrosetto"
+    image: images/abstract.jpeg
   
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
@@ -32,8 +35,8 @@ website:
     search: false
     collapse-level: 0
     contents:
-      - href: the-paper.qmd
-        text: "The paper in a nutshell"
+      - href: https://arxiv.org/abs/2309.15884
+        text: "Get the paper!"
       - href: about.qmd
         text: "About the authors"
       - href: in-the-press.qmd
