@@ -2,22 +2,97 @@
 title: "About the authors"
 ---
 
-# The authors
-
 ## Mark A Hanson
 
-ADD HERE LINKS, PICTURE, ETC
+:::: columns
+::: {.column width="30%"}
+![](images/Mark.jpg){fig-align="center"}
+:::
 
-##  Pablo Gómez Barreiro
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
 
-ADD HERE LINKS, PICTURE, ETC
+::: {.column width="60%"}
+*WHO IS MARK*
+
+- Institutional website:
+- Blog and personal website:
+- Twitter:
+- Mastodon:
+- BlueSky:
+:::
+::::
+
+## Pablo Gómez Barreiro
+
+:::: columns
+
+::: {.column width="60%"}
+*WHO IS PABLO*
+
+- Institutional website:
+- Blog and personal website:
+- Twitter:
+- Mastodon:
+- BlueSky:
+:::
+
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](images/Pablo.jpg){fig-align="center"}
+:::
+
+::::
 
 
 ## Paolo Crosetto
 
-ADD HERE LINKS, PICTURE, ETC
+:::: columns
+::: {.column width="30%"}
+![](images/Paolo.jpg){fig-align="center"}
+:::
 
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="60%"}
+*WHO IS MARK*
+
+- Institutional website:
+- Blog and personal website:
+- Twitter:
+- Mastodon:
+- BlueSky:
+:::
+::::
 
 ## Dan Brockington
 
-ADD HERE LINKS, PICTURE, ETC
+:::: columns
+
+::: {.column width="60%"}
+*WHO IS PABLO*
+
+- Institutional website:
+- Blog and personal website:
+- Twitter:
+- Mastodon:
+- BlueSky:
+:::
+
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="30%"}
+![](images/Dan.jpg){fig-align="center"}
+:::
+
+::::
