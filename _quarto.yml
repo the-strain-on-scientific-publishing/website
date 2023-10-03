@@ -24,12 +24,14 @@ website:
       - icon: github
         href: https://github.com/the-strain-on-scientific-publishing
         text: "GitHub pages for the project"
+        target: "_blank"
       - icon: people-fill
         href: about.qmd
         text: "About the team"
       - icon: file-pdf-fill
         href: https://arxiv.org/abs/2309.15884 
         text: "The paper on ArXiV"
+        target: "_blank"
         
     style: "docked"
     search: false
