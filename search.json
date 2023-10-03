@@ -65,8 +65,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "website",
+    "title": "The Strain on Scientific Publishing – home page",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This web page hosts the paper “The Strain on Scientific Publishing” by Mark A Hanson, Pablo Gomez Barreiro, Paolo Crosetto and Dan Brockington. It is a repository for the paper and all activity revolving around it – blog posts, news coverage, audio, video, presentations, comments and criticism.\n\nThis website will also host, when this will be possible, the data underlying the paper, as well as the R code used to generate our analysis and allowing anyone to reproduce it. This is unfortunately not yet possible for legal reasons (as of October 2023).\n\n\nYou can find the paper on ArXiV."
+  },
+  {
+    "objectID": "index.html#the-paper",
+    "href": "index.html#the-paper",
+    "title": "The Strain on Scientific Publishing – home page",
+    "section": "",
+    "text": "You can find the paper on ArXiV."
   }
 ]
