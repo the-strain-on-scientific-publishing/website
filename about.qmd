@@ -4,7 +4,7 @@ title: "About the authors"
 
 ## Mark A Hanson
 
-:::: columns
+::: columns
 ::: {.column width="30%"}
 ![](images/Mark.jpg){fig-align="center"}
 :::
@@ -14,30 +14,26 @@ title: "About the authors"
 :::
 
 ::: {.column width="60%"}
-*WHO IS MARK*
+*Biologist interested in immunity and host pathogen interactions \@ University of Exeter, UK, using Drosophila*
 
-- Institutional website:
-- Blog and personal website:
-- Twitter:
-- Mastodon:
-- BlueSky:
+-   [Institutional website](https://ecologyconservation.exeter.ac.uk/staff/profile/index.php?web_id=mark_hanson)
+-   [Blog and personal website](https://mahansonresearch.weebly.com)
+-   [Google scholar](https://scholar.google.ca/citations?user=lfL-37cAAAAJ&hl=en)
+-   [Twitter](https://x.com/HansonM90?s=20)
+-   [Mastodon](https://fediscience.org/@MarkHanson)
 :::
-::::
+:::
 
 ## Pablo Gómez Barreiro
 
-:::: columns
-
+::: columns
 ::: {.column width="60%"}
-*WHO IS PABLO*
+*Agricultural Engineer with a Plant Breeding MSc and +10 years of experience in the Plant & Seed Science sector. Currently working as a Seed Biology Lab. Technician at the [Millennium Seed Bank](https://www.kew.org/wakehurst/whats-at-wakehurst/millennium-seed-bank) (Royal Botanic Gardens, Kew)*
 
-- Institutional website:
-- Blog and personal website:
-- Twitter:
-- Mastodon:
-- BlueSky:
+-   [Institutional website](https://www.kew.org/science/our-science/people/pablo-gomez-barreiro)
+-   [Personal website](https://pagomba.netlify.app)
+-   [Twitter](https://x.com/pagomba?s=20)
 :::
-
 
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
@@ -46,13 +42,11 @@ title: "About the authors"
 ::: {.column width="30%"}
 ![](images/Pablo.jpg){fig-align="center"}
 :::
-
-::::
-
+:::
 
 ## Paolo Crosetto
 
-:::: columns
+::: columns
 ::: {.column width="30%"}
 ![](images/Paolo.jpg){fig-align="center"}
 :::
@@ -62,30 +56,27 @@ title: "About the authors"
 :::
 
 ::: {.column width="60%"}
-*WHO IS MARK*
+*Experimental economist • Senior Researcher \@ INRAE, Grenoble, France • Food labeling • Risk • Open licenses • R enthusiast*
 
-- Institutional website:
-- Blog and personal website:
-- Twitter:
-- Mastodon:
-- BlueSky:
+-   [Institutional website](https://gael.univ-grenoble-alpes.fr/membres/paolo-crosetto)
+-   [Blog and personal website](https://paolocrosetto.wordpress.com)
+-   [Google Scholar](https://scholar.google.com/citations?user=whPRYPAAAAAJ&hl=en)
+-   [Twitter](https://twitter.com/PaoloCrosetto)
+-   [Mastodon](https://fediscience.org/@paolocrosetto@econtwitter.net)
 :::
-::::
+:::
 
 ## Dan Brockington
 
-:::: columns
-
+::: columns
 ::: {.column width="60%"}
-*WHO IS PABLO*
+*ICREA Research Professor at the Universitat Autonoma de Barcelona,* [Institut de Ciència i Tecnologia Ambientals (ICTA)](https://www.uab.cat/icta/)
 
-- Institutional website:
-- Blog and personal website:
-- Twitter:
-- Mastodon:
-- BlueSky:
+-   [Institutional website](https://portalrecerca.uab.cat/en/persons/daniel-brockington)
+-   [Blog and personal website](https://danbrockington.com)
+-   [Google Scholar](https://scholar.google.co.uk/citations?user=tf22B7IAAAAJ&hl=en)
+-   [Twitter](https://twitter.com/danbrockington)
 :::
-
 
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
@@ -94,5 +85,4 @@ title: "About the authors"
 ::: {.column width="30%"}
 ![](images/Dan.jpg){fig-align="center"}
 :::
-
-::::
+:::
