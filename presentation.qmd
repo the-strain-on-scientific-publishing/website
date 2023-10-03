@@ -2,8 +2,6 @@
 title: "Presentations"
 ---
 
-About this site
+# Academic presentations
 
-```{r}
-1 + 1
-```
+-   Paolo presented a preliminary version of the paper to the Swiss National Science Foundation in April 2023. [Here the slides](Slides/SNSF_04_23_Paolo.pdf).
