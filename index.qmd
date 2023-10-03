@@ -1,8 +1,6 @@
 ---
-title: "The Strain on Scientific Publishing -- home page "
+title: "The Strain on Scientific Publishing"
 ---
-
-# The Strain on Scientific Publishing
 
 This web page hosts the paper "*The Strain on Scientific Publishing*" by Mark A Hanson, Pablo Gomez Barreiro, Paolo Crosetto and Dan Brockington. It is a repository for the paper and all activity revolving around it -- blog posts, news coverage, audio, video, presentations, comments and criticism.\
 \
