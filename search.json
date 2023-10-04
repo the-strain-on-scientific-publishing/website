@@ -18,7 +18,7 @@
     "href": "about.html#pablo-gómez-barreiro",
     "title": "About the authors",
     "section": "Pablo Gómez Barreiro",
-    "text": "Pablo Gómez Barreiro\n\n\nAgricultural Engineer with a Plant Breeding MSc and +10 years of experience in the Plant & Seed Science sector. Currently working as a Seed Biology Lab. Technician at the Millennium Seed Bank (Royal Botanic Gardens, Kew)\n\nInstitutional website\nPersonal website\nTwitter"
+    "text": "Pablo Gómez Barreiro\n\n\nAgricultural Engineer with a Plant Breeding MSc and +10 years of experience in the Plant & Seed Science sector. Currently working as a Seed Biology Lab. Technician at the Millennium Seed Bank (Royal Botanic Gardens, Kew)\n\nInstitutional website\nPersonal website\nGoogle Scholar\nTwitter"
   },
   {
     "objectID": "about.html#paolo-crosetto",
@@ -67,7 +67,7 @@
     "href": "data-and-code.html#data-sources",
     "title": "Data and Code to reproduce our results",
     "section": "Data sources",
-    "text": "Data sources\n\nGlobal researcher statistics\n\nTotal PhD graduates: OECD\nTotal PhD graduates for China and India: NSF, 2022 and Zwetsloot et al., 2021\nResearchers-per-million: UNESCO http://data.uis.unesco.org, \"9.5.2 Researchers per million inhabitants\"\n\n\n\nPublisher and Journal-level data\n\nTotal article per year and other journal metrics: Scimago https://www.scimagojr.com/journalrank.php\nImpact Factor data: Clarivate\nRejection rates\n\nFrontiers\nPLOS, Taylor & Francis: upon request\nMDPI: web scrape\nHindawi: web scrape + the wayback machine\nElsevier: web scrape via journal insight website\n\n\n\n\nArticle-level data\n\nTurnarounf times:\n\nPLOS, Hindawi: extracted directly from downloadable corpus\nWiley: extracted from corpus, obtained upon request\nBMC, Frontiers, MDPI, Nature, Springer: web scrape\nTaylor & Francis: via CrossRef\nElsevier: ISSNs from Scimago, list of DOIs from CrossRef + web scrape"
+    "text": "Data sources\n\nGlobal researcher statistics\n\nTotal PhD graduates: OECD\nTotal PhD graduates for China and India: NSF, 2022 and Zwetsloot et al., 2021\nResearchers-per-million: UNESCO http://data.uis.unesco.org, “9.5.2 Researchers per million inhabitants”\n\n\n\nPublisher and Journal-level data\n\nTotal article per year and other journal metrics: Scimago https://www.scimagojr.com/journalrank.php\nImpact Factor data: Clarivate\nRejection rates\n\nFrontiers\nPLOS, Taylor & Francis: upon request\nMDPI: web scrape\nHindawi: web scrape + the wayback machine\nElsevier: web scrape via journal insight website\n\n\n\n\nArticle-level data\n\nTurnarounf times:\n\nPLOS, Hindawi: extracted directly from downloadable corpus\nWiley: extracted from corpus, obtained upon request\nBMC, Frontiers, MDPI, Nature, Springer: web scrape\nTaylor & Francis: via CrossRef\nElsevier: ISSNs from Scimago, list of DOIs from CrossRef + web scrape"
   },
   {
     "objectID": "data-and-code.html#code",
