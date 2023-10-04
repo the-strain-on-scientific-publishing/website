@@ -12,7 +12,7 @@ Unfortunately we have been legally advised not to share the data at the moment (
 
 -   Total PhD graduates for China and India: NSF, 2022 and Zwetsloot et al., 2021
 
--   Researchers-per-million: UNESCO [[http://data.uis.unesco.org]{.underline}](http://data.uis.unesco.org/), \"9.5.2 Researchers per million inhabitants\"
+-   Researchers-per-million: UNESCO [[http://data.uis.unesco.org]{.underline}](http://data.uis.unesco.org/), "9.5.2 Researchers per million inhabitants"
 
 ### Publisher and Journal-level data
 

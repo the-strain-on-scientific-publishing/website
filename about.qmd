@@ -32,6 +32,7 @@ title: "About the authors"
 
 -   [Institutional website](https://www.kew.org/science/our-science/people/pablo-gomez-barreiro)
 -   [Personal website](https://pagomba.netlify.app)
+-   [Google Scholar](https://scholar.google.com/citations?user=CeSB2tQAAAAJ&hl=es)
 -   [Twitter](https://x.com/pagomba?s=20)
 :::
 
