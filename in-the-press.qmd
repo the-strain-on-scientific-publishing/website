@@ -1,6 +1,16 @@
 ---
-title: "They have covered our paper"
+title: "Articles, threads, posts, and more about our paper"
 ---
+
+# Twitter + Mastodon threads
+
+-   Mastodon thread by Mark A Hanson: <https://t.co/pL6Hwl9mnk>
+
+-   Twitter thread by Pablo Gomez Barreiro: <https://x.com/pagomba/status/1709835364301443388?s=20>
+
+-   Twitter thread by Paolo Crosetto: <https://twitter.com/PaoloCrosetto/status/1707771226947469471>
+
+-   Twitter thread by Dan Brockington: <https://twitter.com/danbrockington/status/1707737121228820523>
 
 # Blogs
 
