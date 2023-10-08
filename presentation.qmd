@@ -5,3 +5,4 @@ title: "Presentations"
 # Academic presentations
 
 -   Paolo presented a preliminary version of the paper to the Swiss National Science Foundation in April 2023. [Here the slides](Slides/SNSF_04_2023_Paolo.pdf).
+-   Mark presented at the University of Exeter in May 2023. [Here the slides](Slides/HansonMark_ResponsibleMetrics_UoExeter.pdf).
