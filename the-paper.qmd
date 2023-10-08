@@ -1,9 +1,0 @@
----
-title: "The paper in a nutshell"
----
-
-The paper
-
-```{r}
-1 + 1
-```
