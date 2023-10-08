@@ -42,20 +42,6 @@
     "text": "Podcasts\n\nMark participated to the Tech & Science Daily podcast run by the Evening Standard. Listen to Mark here!\n\n\n\nVideos"
   },
   {
-    "objectID": "the-paper.html",
-    "href": "the-paper.html",
-    "title": "The paper in a nutshell",
-    "section": "",
-    "text": "The paper\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "in-the-press.html",
-    "href": "in-the-press.html",
-    "title": "Articles, threads, posts, and more about our paper",
-    "section": "",
-    "text": "Twitter + Mastodon threads\n\nMastodon thread by Mark A Hanson\nTwitter thread by Pablo Gomez Barreiro\nTwitter thread by Paolo Crosetto\nTwitter thread by Dan Brockington\nTwitter thread by Matthias Egger\n\n\n\nBlogs\n\nIn the Dark [EN] – the blog of astrophysicits Peter Coles\nBishop Blog [EN] - the blog of Dorothy Bishop\nRevues et Integrité [FR] – the blog of Hervé Maisonneuve\nThe Blot Report [EN]\nWeekend list of Retraction Watch [EN] - 7/10/2023\n\n\n\nPress\n\nNRC [NL] - Dutch newspaper"
-  },
-  {
     "objectID": "data-and-code.html",
     "href": "data-and-code.html",
     "title": "Data and Code to reproduce our results",
@@ -67,7 +53,7 @@
     "href": "data-and-code.html#data-sources",
     "title": "Data and Code to reproduce our results",
     "section": "Data sources",
-    "text": "Data sources\n\nGlobal researcher statistics\n\nTotal PhD graduates: OECD\nTotal PhD graduates for China and India: NSF, 2022 and Zwetsloot et al., 2021\nResearchers-per-million: UNESCO http://data.uis.unesco.org, “9.5.2 Researchers per million inhabitants”\n\n\n\nPublisher and Journal-level data\n\nTotal article per year and other journal metrics: Scimago https://www.scimagojr.com/journalrank.php\nImpact Factor data: Clarivate\nRejection rates\n\nFrontiers\nPLOS, Taylor & Francis: upon request\nMDPI: web scrape\nHindawi: web scrape + the wayback machine\nElsevier: web scrape via journal insight website\n\n\n\n\nArticle-level data\n\nTurnarounf times:\n\nPLOS, Hindawi: extracted directly from downloadable corpus\nWiley: extracted from corpus, obtained upon request\nBMC, Frontiers, MDPI, Nature, Springer: web scrape\nTaylor & Francis: via CrossRef\nElsevier: ISSNs from Scimago, list of DOIs from CrossRef + web scrape"
+    "text": "Data sources\n\nGlobal researcher statistics\n\nTotal PhD graduates: OECD\nTotal PhD graduates for China and India: NSF, 2022 and Zwetsloot et al., 2021\nResearchers-per-million: UNESCO http://data.uis.unesco.org, “9.5.2 Researchers per million inhabitants”\n\n\n\nPublisher and Journal-level data\n\nTotal article per year and other journal metrics: Scimago https://www.scimagojr.com/journalrank.php\nImpact Factor data: Clarivate\nRejection rates\n\nFrontiers\nPLOS, Taylor & Francis: upon request\nMDPI: web scrape\nHindawi: web scrape + the wayback machine\nElsevier: web scrape via journal insight website\n\n\n\n\nArticle-level data\n\nTurnaround times:\n\nPLOS, Hindawi: extracted directly from downloadable corpus\nWiley: extracted from corpus, obtained upon request\nBMC, Frontiers, MDPI, Nature, Springer: web scrape\nTaylor & Francis: via CrossRef\nElsevier: ISSNs from Scimago, list of DOIs from CrossRef + web scrape"
   },
   {
     "objectID": "data-and-code.html#code",
@@ -75,6 +61,13 @@
     "title": "Data and Code to reproduce our results",
     "section": "Code",
     "text": "Code\nWe use R for all our scraping and analyses. The R scripts to reproduce all our analyses will be available once we will clear the legal statute of sharing the scraped data."
+  },
+  {
+    "objectID": "in-the-press.html",
+    "href": "in-the-press.html",
+    "title": "Articles, threads, posts, and more about our paper",
+    "section": "",
+    "text": "Twitter + Mastodon threads\n\nMastodon thread by Mark A Hanson\nTwitter thread by Pablo Gómez Barreiro\nTwitter thread by Paolo Crosetto\nTwitter thread by Dan Brockington\nTwitter thread by Matthias Egger\n\n\n\nBlogs\n\nIn the Dark [EN] – the blog of astrophysicits Peter Coles\nBishop Blog [EN] - the blog of Dorothy Bishop\nRevues et Integrité [FR] – the blog of Hervé Maisonneuve\nThe Blot Report [EN]\nWeekend list of Retraction Watch [EN] - 7/10/2023\n\n\n\nPress\n\nNRC [NL] - Dutch newspaper"
   },
   {
     "objectID": "presentation.html",
@@ -88,7 +81,7 @@
     "href": "index.html",
     "title": "The Strain on Scientific Publishing",
     "section": "",
-    "text": "This web page hosts the paper “The Strain on Scientific Publishing” by Mark A Hanson, Pablo Gomez Barreiro, Paolo Crosetto and Dan Brockington. It is a repository for the paper and all activity revolving around it – blog posts, news coverage, audio, video, presentations, comments and criticism.\n\nThis website will also host, when this will be possible, the data underlying the paper, as well as the R code used to generate our analysis and allowing anyone to reproduce it. This is unfortunately not yet possible for legal reasons (as of October 2023)."
+    "text": "This web page hosts the paper “The Strain on Scientific Publishing” by Mark A Hanson, Pablo Gómez Barreiro, Paolo Crosetto and Dan Brockington. It is a repository for the paper and all activity revolving around it – blog posts, news coverage, audio, video, presentations, comments and criticism.\n\nThis website will also host, when this will be possible, the data underlying the paper, as well as the R code used to generate our analysis and allowing anyone to reproduce it. This is unfortunately not yet possible for legal reasons (as of October 2023)."
   },
   {
     "objectID": "index.html#the-paper",
