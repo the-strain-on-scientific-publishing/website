@@ -1,8 +1,10 @@
 {
-  "hash": "4d7b659d3c8dd25545dc6b8ab6887e59",
+  "hash": "342c8e64344374c0b59e0df23baaf2b2",
   "result": {
     "markdown": "---\ntitle: \"The paper in a nutshell\"\n---\n\n\nThe paper\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
-    "supporting": [],
+    "supporting": [
+      "the-paper_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

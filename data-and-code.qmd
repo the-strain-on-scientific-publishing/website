@@ -34,7 +34,7 @@ Unfortunately we have been legally advised not to share the data at the moment (
 
 ### Article-level data
 
--   Turnarounf times:
+-   Turnaround times:
 
     -   PLOS, Hindawi: extracted directly from downloadable corpus
 
