@@ -7,8 +7,6 @@ title: "Articles, threads, posts... about our paper"
 ```{=html}
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="medium-donut" data-badge-details='right' data-altmetric-id="154736608"></div>
 ```
-
-
 # Twitter + Mastodon threads
 
 -   [Mastodon thread](https://t.co/pL6Hwl9mnk) by Mark A Hanson
@@ -24,6 +22,7 @@ title: "Articles, threads, posts... about our paper"
 -   [**Revues et Integrité \[FR\]**](https://www.redactionmedicale.fr/2023/10/le-miracle-des-numeros-speciaux-des-revues-scientifiques-consequence-de-la-mediocrite-de-certains-milieux-academiques-fait-le-bonheur-de-marchands-de-reves#) -- the blog of [Hervé Maisonneuve](https://www.redactionmedicale.fr/about)
 -   [**The Blot Report \[EN\]**](https://blotreport.com/2023/09/30/thematic-sets-of-scientific-papers/)
 -   [**Weekend list of Retraction Watch \[EN\]**](https://retractionwatch.com/2023/10/07/weekend-reads-the-strain-on-publishing-gino-defends-herself-the-rise-of-fake-peer-review-retractions/) - 7/10/2023
+-   [**Digital Koans \[EN\]**](https://digital-scholarship.org/digitalkoans/2023/10/09/the-strain-on-scientific-publishing/) - Blog of Digital Scholarship
 
 # Online magazines
 
@@ -32,5 +31,3 @@ title: "Articles, threads, posts... about our paper"
 # Press
 
 -   [**NRC \[NL\]**](https://www.nrc.nl/nieuws/2023/10/07/2800000-a4176187) - Dutch newspaper
-
-
