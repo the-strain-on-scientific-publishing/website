@@ -32,3 +32,4 @@ title: "Articles, threads, posts... about our paper"
 
 -   [**Press release**](https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/avalanche-of-papers-could-erode-trust-in-science/) - University of Exeter
 -   [**NRC \[NL\]**](https://www.nrc.nl/nieuws/2023/10/07/2800000-a4176187) - Dutch newspaper
+-   [**Actualité web \[FR\]**](https://www.inrae.fr/actualites/ledition-scientifique-pression) on the INRAE website
