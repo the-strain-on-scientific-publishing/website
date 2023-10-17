@@ -43,16 +43,16 @@ website:
         text: "Get the paper!"
         target: "_blank"
       - href: https://figshare.com/articles/figure/The_strain_on_scientific_publishing_figures_/24203790
-        text: "Plots and Tables (on fighsare)"
+        text: "Plots & Tables (Figshare)"
         target: "_blank"
       - href: data-and-code.qmd
-        text: "Data and Code (forthcoming)"
+        text: "Data & Code (forthcoming)"
       - href: about.qmd
         text: "About the authors"
       - href: in-the-press.qmd
-        text: "Mentions and articles"
+        text: "Mentions & articles"
       - href: media.qmd
-        text: "Videos and audios"
+        text: "Videos & audios"
       - href: presentation.qmd
         text: "Slide decks"
     
