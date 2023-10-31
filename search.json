@@ -1,17 +1,38 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The Strain on Scientific Publishing",
+    "objectID": "data-and-code.html",
+    "href": "data-and-code.html",
+    "title": "Data and Code to reproduce our results",
     "section": "",
-    "text": "This web page hosts the paper “The Strain on Scientific Publishing” by Mark A Hanson, Pablo Gómez Barreiro, Paolo Crosetto and Dan Brockington. It is a repository for the paper and all activity revolving around it – blog posts, news coverage, audio, video, presentations, comments and criticism.\n\nThis website will also host, when this will be possible, the data underlying the paper, as well as the R code used to generate our analysis and allowing anyone to reproduce it. This is unfortunately not yet possible for legal reasons (as of October 2023)."
+    "text": "Unfortunately we have been legally advised not to share the data at the moment (October 2023)."
   },
   {
-    "objectID": "index.html#the-paper",
-    "href": "index.html#the-paper",
-    "title": "The Strain on Scientific Publishing",
-    "section": "The paper",
-    "text": "The paper\nYou can find the paper on ArXiV."
+    "objectID": "data-and-code.html#data-sources",
+    "href": "data-and-code.html#data-sources",
+    "title": "Data and Code to reproduce our results",
+    "section": "Data sources",
+    "text": "Data sources\n\nGlobal researcher statistics\n\nTotal PhD graduates: OECD\nTotal PhD graduates for China and India: NSF, 2022 and Zwetsloot et al., 2021\nResearchers-per-million: UNESCO http://data.uis.unesco.org, “9.5.2 Researchers per million inhabitants”\n\n\n\nPublisher and Journal-level data\n\nTotal article per year and other journal metrics: Scimago https://www.scimagojr.com/journalrank.php\nImpact Factor data: Clarivate\nRejection rates\n\nFrontiers\nPLOS, Taylor & Francis: upon request\nMDPI: web scrape\nHindawi: web scrape + the wayback machine\nElsevier: web scrape via journal insight website\n\n\n\n\nArticle-level data\n\nTurnaround times:\n\nPLOS, Hindawi: extracted directly from downloadable corpus\nWiley: extracted from corpus, obtained upon request\nBMC, Frontiers, MDPI, Nature, Springer: web scrape\nTaylor & Francis: via CrossRef\nElsevier: ISSNs from Scimago, list of DOIs from CrossRef + web scrape"
+  },
+  {
+    "objectID": "data-and-code.html#code",
+    "href": "data-and-code.html#code",
+    "title": "Data and Code to reproduce our results",
+    "section": "Code",
+    "text": "Code\nWe use R for all our scraping and analyses. The R scripts to reproduce all our analyses will be available once we will clear the legal statute of sharing the scraped data."
+  },
+  {
+    "objectID": "in-the-press.html",
+    "href": "in-the-press.html",
+    "title": "Articles, threads, posts… about our paper",
+    "section": "",
+    "text": "Altmetric\n\n\n\nTwitter + Mastodon threads\n\nMastodon thread by Mark A Hanson\nTwitter thread by Pablo Gómez Barreiro\nTwitter thread by Paolo Crosetto\nTwitter thread by Dan Brockington\nTwitter thread by Matthias Egger\n\n\n\nBlogs\n\nIn the Dark [EN] – the blog of astrophysicits Peter Coles\nBishop Blog [EN] - the blog of Dorothy Bishop\nRevues et Integrité [FR] – the blog of Hervé Maisonneuve\nThe Blot Report [EN]\nWeekend list of Retraction Watch [EN] - 7/10/2023\nDigital Koans [EN] - Blog of Digital Scholarship\nLSE Impact blog [EN] – a Social Science impact Blog from the London School of Economics\n\n\n\nOnline magazines\n\nROARS [IT] - the Returns on Academic Research and School website interviewed Paolo on the preprint.\n\n\n\nPress\n\nPress release - University of Exeter\nEl Pais [ES] - La burbuja de las revistas científicas se traga millones de euros de dinero público\nNRC [NL] - Dutch newspaper\nActualité web [FR] on the INRAE website"
+  },
+  {
+    "objectID": "presentation.html",
+    "href": "presentation.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Academic presentations\n\nPaolo presented a preliminary version of the paper to the Swiss National Science Foundation in April 2023. Here the slides.\nMark presented at the University of Exeter in May 2023. Here the slides."
   },
   {
     "objectID": "about.html",
@@ -49,11 +70,18 @@
     "text": "Dan Brockington\n\n\nICREA Research Professor at the Universitat Autonoma de Barcelona, Institut de Ciència i Tecnologia Ambientals (ICTA)\n\nInstitutional website\nBlog and personal website\nGoogle Scholar\nTwitter"
   },
   {
-    "objectID": "presentation.html",
-    "href": "presentation.html",
-    "title": "Presentations",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Strain on Scientific Publishing",
     "section": "",
-    "text": "Academic presentations\n\nPaolo presented a preliminary version of the paper to the Swiss National Science Foundation in April 2023. Here the slides.\nMark presented at the University of Exeter in May 2023. Here the slides."
+    "text": "This web page hosts the paper “The Strain on Scientific Publishing” by Mark A Hanson, Pablo Gómez Barreiro, Paolo Crosetto and Dan Brockington. It is a repository for the paper and all activity revolving around it – blog posts, news coverage, audio, video, presentations, comments and criticism.\n\nThis website will also host, when this will be possible, the data underlying the paper, as well as the R code used to generate our analysis and allowing anyone to reproduce it. This is unfortunately not yet possible for legal reasons (as of October 2023)."
+  },
+  {
+    "objectID": "index.html#the-paper",
+    "href": "index.html#the-paper",
+    "title": "The Strain on Scientific Publishing",
+    "section": "The paper",
+    "text": "The paper\nYou can find the paper on ArXiV."
   },
   {
     "objectID": "media.html",
@@ -61,33 +89,5 @@
     "title": "Media related to our project",
     "section": "",
     "text": "Podcasts\n\nMark participated to the Tech & Science Daily podcast run by the Evening Standard. Listen to Mark here!\n\n\n\nVideos"
-  },
-  {
-    "objectID": "data-and-code.html",
-    "href": "data-and-code.html",
-    "title": "Data and Code to reproduce our results",
-    "section": "",
-    "text": "Unfortunately we have been legally advised not to share the data at the moment (October 2023)."
-  },
-  {
-    "objectID": "data-and-code.html#data-sources",
-    "href": "data-and-code.html#data-sources",
-    "title": "Data and Code to reproduce our results",
-    "section": "Data sources",
-    "text": "Data sources\n\nGlobal researcher statistics\n\nTotal PhD graduates: OECD\nTotal PhD graduates for China and India: NSF, 2022 and Zwetsloot et al., 2021\nResearchers-per-million: UNESCO http://data.uis.unesco.org, “9.5.2 Researchers per million inhabitants”\n\n\n\nPublisher and Journal-level data\n\nTotal article per year and other journal metrics: Scimago https://www.scimagojr.com/journalrank.php\nImpact Factor data: Clarivate\nRejection rates\n\nFrontiers\nPLOS, Taylor & Francis: upon request\nMDPI: web scrape\nHindawi: web scrape + the wayback machine\nElsevier: web scrape via journal insight website\n\n\n\n\nArticle-level data\n\nTurnaround times:\n\nPLOS, Hindawi: extracted directly from downloadable corpus\nWiley: extracted from corpus, obtained upon request\nBMC, Frontiers, MDPI, Nature, Springer: web scrape\nTaylor & Francis: via CrossRef\nElsevier: ISSNs from Scimago, list of DOIs from CrossRef + web scrape"
-  },
-  {
-    "objectID": "data-and-code.html#code",
-    "href": "data-and-code.html#code",
-    "title": "Data and Code to reproduce our results",
-    "section": "Code",
-    "text": "Code\nWe use R for all our scraping and analyses. The R scripts to reproduce all our analyses will be available once we will clear the legal statute of sharing the scraped data."
-  },
-  {
-    "objectID": "in-the-press.html",
-    "href": "in-the-press.html",
-    "title": "Articles, threads, posts… about our paper",
-    "section": "",
-    "text": "Altmetric\n\n\n\nTwitter + Mastodon threads\n\nMastodon thread by Mark A Hanson\nTwitter thread by Pablo Gómez Barreiro\nTwitter thread by Paolo Crosetto\nTwitter thread by Dan Brockington\nTwitter thread by Matthias Egger\n\n\n\nBlogs\n\nIn the Dark [EN] – the blog of astrophysicits Peter Coles\nBishop Blog [EN] - the blog of Dorothy Bishop\nRevues et Integrité [FR] – the blog of Hervé Maisonneuve\nThe Blot Report [EN]\nWeekend list of Retraction Watch [EN] - 7/10/2023\nDigital Koans [EN] - Blog of Digital Scholarship\nLSE Impact blog [EN] – a Social Science impact Blog from the London School of Economics\n\n\n\nOnline magazines\n\nROARS [IT] - the Returns on Academic Research and School website interviewed Paolo on the preprint.\n\n\n\nPress\n\nPress release - University of Exeter\nNRC [NL] - Dutch newspaper\nActualité web [FR] on the INRAE website"
   }
 ]
