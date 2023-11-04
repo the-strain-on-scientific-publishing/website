@@ -31,11 +31,29 @@ title: "Articles, threads, posts... about our paper"
 # Online magazines
 
 -   [**ROARS \[IT\]**](https://www.roars.it/la-pressione-per-pubblicare-e-le-crepe-delleditoria-scientifica/) - the Returns on Academic Research and School website interviewed Paolo on the preprint.
+-   [**The Meta News \[FR\]**](https://themeta.news/bourdieu-ou-shakespeare/) - access restricted to researchers in French universities and Research Institutes
 
 # Press
 
+### English
+
 -   [**Press release**](https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/avalanche-of-papers-could-erode-trust-in-science/) - University of Exeter
--   [**El Pais \[ES\]**](https://elpais.com/ciencia/2023-10-31/la-burbuja-de-las-revistas-cientificas-se-traga-millones-de-euros-de-dinero-publico.html) - *La burbuja de las revistas científicas se traga millones de euros de dinero público*
+
 -   [**El Pais \[EN\]**](https://english.elpais.com/science-tech/2023-10-31/public-funds-being-swallowed-up-by-scientific-journals-with-dubious-articles.html) - the same article as above translated into English
--   [**NRC \[NL\]**](https://www.nrc.nl/nieuws/2023/10/07/2800000-a4176187) - Dutch newspaper
+
+### French
+
 -   [**Actualité web \[FR\]**](https://www.inrae.fr/actualites/ledition-scientifique-pression) on the INRAE website
+
+### Spanish
+
+-   [**Press release \[ES\]**](https://www.uab.cat/web/sala-de-premsa-icta-uab/detall-noticia/la-avalancha-de-articulos-podria-socavar-la-confianza-en-la-ciencia-1345819907210.html?detid=1345899419174) - Universitat Autonoma de Barcelona
+-   [**El Pais \[ES\]**](https://elpais.com/ciencia/2023-10-31/la-burbuja-de-las-revistas-cientificas-se-traga-millones-de-euros-de-dinero-publico.html) - *La burbuja de las revistas científicas se traga millones de euros de dinero público*
+-   [**CubaSi \[ES\]**](https://cubasi.cu/es/noticia/la-avalancha-de-articulos-puede-socavar-la-confianza-en-la-ciencia-alerta-un-estudio) - Cuba
+-   [**El Nacional \[ES\]**](https://www.elnacional.com/ciencia-y-tecnologia/la-avalancha-de-articulos-puede-socavar-la-confianza-en-la-ciencia/) - Venezuela
+-   [**ABC \[ES\]**](https://www.abc.com.py/ciencia/2023/11/03/la-avalancha-de-articulos-puede-socavar-la-confianza-en-la-ciencia-alerta-un-estudio/) - Paraguay
+-   [**El Diario \[ES\]**](https://www.eldiario.es/tecnologia/avalancha-articulos-socavar-confianza-ciencia-alerta-estudio_1_10654678.html) - Spain
+
+### Dutch
+
+-   [**NRC \[NL\]**](https://www.nrc.nl/nieuws/2023/10/07/2800000-a4176187) - Dutch newspaper
