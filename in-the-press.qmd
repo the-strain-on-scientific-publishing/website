@@ -51,6 +51,7 @@ title: "Articles, threads, posts... about our paper"
 -   [**Digital Koans \[EN\]**](https://digital-scholarship.org/digitalkoans/2023/10/09/the-strain-on-scientific-publishing/) - Blog of Digital Scholarship
 -   [**LSE Impact blog \[EN\]**](https://blogs.lse.ac.uk/impactofsocialsciences/2023/10/23/the-strain-on-academic-publishing/) -- a Social Science impact Blog from the London School of Economics
 -   [**Scholarly Kitchen \[EN\]**](https://scholarlykitchen.sspnet.org/2023/10/30/quantifying-consolidation-in-the-scholarly-journals-market/) - an article about consolidation in the publishing market cites us for reference
+-   [**Scholarly Kitchen \[EN\]**](https://scholarlykitchen.sspnet.org/2023/11/02/we-need-more-garbage-subtraction-because-of-ai) - an article about he rise of AI and the future of scientific publications
 -   [**The Brief \[EN\]**](https://www.ce-strategy.com/the-brief/strategic-combination/) - monthly newsletter about scientific publishing by Clarke & Esposito talks about our paper in their "briefly noted" section
 -   [**Reasonable people \[EN\]**](https://tomstafford.substack.com/p/a-new-study-puts-another-nail-in?utm_source=profile&utm_medium=reader2) - the substack blog of Tom Stafford
 
