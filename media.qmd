@@ -6,6 +6,6 @@ title: "Media related to our project"
 
 -   **Mark** participated to the [Tech & Science Daily](https://play.acast.com/s/tech-science-daily) podcast run by the Evening Standard. [Listen to Mark here!](https://play.acast.com/s/tech-science-daily/tom-hanks-targeted-in-fake-ai-dental-plan-ad)
 -   **Pablo** was interviewed live on Radio 5 \[Spanish\]. Listen here: [Ciencia con pies de barro](https://www.rtve.es/play/audios/a-hombros-de-gigantes/proliferacion-publicaciones-cientificas-ciencia-pies-barro/7006765/)
--   **Pablo** was also interviewed by Cadena Ser \[Catalan/Spanish\]. Download section [here](https://github.com/the-strain-on-scientific-publishing/website/blob/main/audio/exces%20estudis.wav)
+-   **Pablo** was also interviewed by Cadena Ser \[Catalan/Spanish\]. Download section [here](https://github.com/the-strain-on-scientific-publishing/website/raw/main/audio/exces%20estudis.wav) (Github link)
 
 # Videos
