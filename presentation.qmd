@@ -2,7 +2,7 @@
 title: "Presentations"
 ---
 
-# Academic presentations
+# Presentations
 
 -   April 2023, SNSF Swiss National Science Foundation (with **preliminary** results) by Paolo. [Here the slides](Slides/SNSF_04_2023_Paolo.pdf).
 -   May 2023, University of Exeter (with **preliminary** results) by Mark. [Here the slides](Slides/HansonMark_ResponsibleMetrics_UoExeter.pdf).
