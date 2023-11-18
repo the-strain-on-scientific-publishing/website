@@ -31,7 +31,7 @@ title: "About the authors"
 *Agricultural Engineer with a Plant Breeding MSc and +10 years of experience in the Plant & Seed Science sector. Currently working as a Seed Biology Lab. Technician at the [Millennium Seed Bank](https://www.kew.org/wakehurst/whats-at-wakehurst/millennium-seed-bank) (Royal Botanic Gardens, Kew)*
 
 -   [Institutional website](https://www.kew.org/science/our-science/people/pablo-gomez-barreiro)
--   [Personal website](https://pagomba.netlify.app)
+-   [Personal website](https://pgomba.github.io/pgb_website/)
 -   [Google Scholar](https://scholar.google.com/citations?user=CeSB2tQAAAAJ&hl=es)
 -   [Twitter](https://x.com/pagomba?s=20)
 :::
