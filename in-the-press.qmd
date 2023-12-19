@@ -20,9 +20,10 @@ title: "Articles, threads, posts... about our paper"
 ### English
 
 -   [**Press release**](https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/avalanche-of-papers-could-erode-trust-in-science/) - University of Exeter
+-   [**Science \[EN\]**](https://www.science.org/content/article/scienceadviser-scientists-are-publishing-too-many-papers-and-s-bad-science) - Scienceadviser 16 november 2023
 -   [**El País \[EN\]**](https://english.elpais.com/science-tech/2023-10-31/public-funds-being-swallowed-up-by-scientific-journals-with-dubious-articles.html) - *Public funds being swallowed up by scientific journals with dubious articles*
--   [**Newswise \[EN\]**](https://www.newswise.com/articles/avalanche-of-papers-could-erode-trust-in-science) **-** *Avalanche of papers could erode trust in science*
--   [**Phys.org \[EN\]**](https://phys.org/news/2023-11-avalanche-published-academic-articles-erode.html) **-** *Avalanche of published academic articles could erode trust in science*
+-   [**Newswise \[EN\]**](https://www.newswise.com/articles/avalanche-of-papers-could-erode-trust-in-science) - *Avalanche of papers could erode trust in science*
+-   [**Phys.org \[EN\]**](https://phys.org/news/2023-11-avalanche-published-academic-articles-erode.html) - *Avalanche of published academic articles could erode trust in science*
 -   [**India Education Diary \[EN\]**](https://indiaeducationdiary.in/the-potential-avalanche-of-papers-a-concern-for-trust-in-science/#google_vignette) **-** *The Potential Avalanche of Papers: A Concern for Trust in Science*
 -   [**Paudal \[EN\]**](https://indiaeducationdiary.in/the-potential-avalanche-of-papers-a-concern-for-trust-in-science/#google_vignette "https://www.paudal.com/2023/11/03/the-avalanche-of-articles-can-undermine-trust-in-science-warns-a-study/") - *The "avalanche" of articles can undermine trust in science, warns a study*
 -   [**Wall Street Journal \[EN\]**](https://www.wsj.com/science/whats-wrong-with-peer-review-e5d2d428) - *What's Wrong With Peer Review?*
@@ -30,6 +31,7 @@ title: "Articles, threads, posts... about our paper"
 ### French
 
 -   [**Actualité web \[FR\]**](https://www.inrae.fr/actualites/ledition-scientifique-pression) on the INRAE website
+-   [**L'Express \[FR\]**](https://www.lexpress.fr/sciences-sante/sciences/articles-frauduleux-comment-des-dizaines-de-revues-scientifiques-ont-ete-detournees-YSAUA44SFVEWZKCOJDFO5SKSUI/?utm_medium=Social&utm_source=Twitter&s=09#Echobox=1702965183-1) - article by Antoine Beau on the Hindawi crisis and shutdown
 
 ### Spanish
 
