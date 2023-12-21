@@ -10,6 +10,9 @@ title: "Media related to our project"
 
 # Videos
 
+-   **Paolo** made a video to summarise the study for the Open Science directorate of INRAE \[French\]. Here: [L'édition Scientifique sous pression - décryptage par paolo Crosetto](http://science-ouverte.inrae.fr/fr/actualites/video-ledition-scientifique-sous-pression-decryptage-de-paolo-crosetto-co-auteur-de)
 -   **Dan** and **Mark** presented at the 384th CGHE webinar, and there is a [Youtube video](https://youtu.be/3cUSkNbYI08?si=x3LlOZvpJ8wib4Np) of the seminar.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3cUSkNbYI08?si=x3LlOZvpJ8wib4Np" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3cUSkNbYI08?si=x3LlOZvpJ8wib4Np" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
