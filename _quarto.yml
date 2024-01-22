@@ -5,6 +5,7 @@ website:
   page-navigation: true
   title: "The Strain on Scientific Publishing"
   description: "Home page for the paper 'The Strain on Scientific Publishing' by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro"
+  site-url: "https://the-strain-on-scientific-publishing.github.io/website/"
   site-path: "/"
   twitter-card:
     creator: "@paolocrosetto"
