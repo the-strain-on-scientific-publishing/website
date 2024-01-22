@@ -1,1 +1,1 @@
-Sitemap: https://github.com/the-strain-on-scientific-publishing/website/sitemap.xml
+Sitemap: https://the-strain-on-scientific-publishing.github.io/website/sitemap.xml
