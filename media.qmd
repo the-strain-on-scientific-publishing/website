@@ -17,3 +17,9 @@ title: "Media related to our project"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3cUSkNbYI08?si=x3LlOZvpJ8wib4Np" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
 </iframe>
+
+-   **Dan** presented our work in Tanzania, including [an interview in Swahili here](https://twitter.com/thechanzo/status/1752734519726080304?s=48&t=jSK1UrM52iUTsyV5Rqbg9Q). The full video of the nearly 2-hour long event, in English with some Swahili, [is here on Youtube](https://youtu.be/IwSF0eLg44w?si=jQTg9yqY44TnoPq0) (and below)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IwSF0eLg44w?si=jQTg9yqY44TnoPq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
