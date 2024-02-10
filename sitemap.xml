@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/media.html</loc>
-    <lastmod>2024-02-06T15:01:06.597Z</lastmod>
-  </url>
-  <url>
     <loc>https://the-strain-on-scientific-publishing.github.io/website/data-and-code.html</loc>
-    <lastmod>2024-02-06T15:01:06.589Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/in-the-press.html</loc>
-    <lastmod>2024-02-06T15:01:06.597Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/index.html</loc>
-    <lastmod>2024-02-06T15:01:06.597Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/presentation.html</loc>
-    <lastmod>2024-02-06T15:01:06.597Z</lastmod>
+    <lastmod>2024-02-10T13:58:08.098Z</lastmod>
   </url>
   <url>
     <loc>https://the-strain-on-scientific-publishing.github.io/website/about.html</loc>
-    <lastmod>2024-02-06T15:01:06.521Z</lastmod>
+    <lastmod>2024-02-10T13:58:08.026Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/in-the-press.html</loc>
+    <lastmod>2024-02-10T13:58:08.102Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/media.html</loc>
+    <lastmod>2024-02-10T13:58:08.102Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/index.html</loc>
+    <lastmod>2024-02-10T13:58:08.102Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/presentation.html</loc>
+    <lastmod>2024-02-10T13:58:08.102Z</lastmod>
   </url>
 </urlset>
