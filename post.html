@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -229,7 +229,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PLOS">PLOS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Text-mining">Text-mining <span class="quarto-category-count">(1)</span></div><div class="category" data-category="The Strain on Scientific Publishing">The Strain on Scientific Publishing <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
@@ -258,48 +258,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="PLOS,R,Text-mining,The Strain on Scientific Publishing" data-listing-date-sort="1696723200000" data-listing-file-modified-sort="1709751800548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="550">
-<div class="thumbnail">
-<p><a href="./posts/08_10_23/index.html" class="no-external"></a></p><a href="./posts/08_10_23/index.html" class="no-external">
-<p><img src="./posts/08_10_23/thumbn.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/08_10_23/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/08_10_23/index.html" class="no-external">Text-mining PLOS articles using R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/08_10_23/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('PLOS'); return false;">
-PLOS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Text-mining'); return false;">
-Text-mining
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('The Strain on Scientific Publishing'); return false;">
-The Strain on Scientific Publishing
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/08_10_23/index.html" class="no-external">On a recent preprint (The Strain on Scientific Publishing) we used diverse methods to web-scrap and text-mine millions of scientific articles, with emphasis in editorial…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/08_10_23/index.html" class="no-external">
-<div class="listing-date">
-Oct 8, 2023
-</div>
-<div class="listing-author">
-Pablo Gómez Barreiro
-</div>
-</a>
-</div>
-</div>
+
 </div>
 <div class="listing-no-matching d-none">
 No matching items

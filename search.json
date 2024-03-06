@@ -54,7 +54,7 @@
     "href": "post.html",
     "title": "The Daily Strain",
     "section": "",
-    "text": "Text-mining PLOS articles using R\n\n\n\n\n\n\nPLOS\n\n\nR\n\n\nText-mining\n\n\nThe Strain on Scientific Publishing\n\n\n\n\n\n\n\n\n\nOct 8, 2023\n\n\nPablo Gómez Barreiro\n\n\n\n\n\n\nNo matching items",
+    "text": "No matching items",
     "crumbs": [
       "The Daily Strain"
     ]
@@ -88,13 +88,6 @@
     "crumbs": [
       "Slide decks"
     ]
-  },
-  {
-    "objectID": "posts/08_10_23/index.html",
-    "href": "posts/08_10_23/index.html",
-    "title": "Text-mining PLOS articles using R",
-    "section": "",
-    "text": "On a recent preprint (The Strain on Scientific Publishing) we used diverse methods to web-scrap and text-mine millions of scientific articles, with emphasis in editorial times and special issues.\nOne of the easiest data sets to obtain comes from PLOS (Public Library of Science), a publisher that encourages the use of text-mining on their articles. Other publishing houses do this too, but PLOS goes beyond and provides a link to download their whole corpus (Link here), encouraging people to share the results using the hashtag #allofplos. This blog intends to be a step by step tutorial to text-mine PLOS data using R. I´m fairly sure there are ways to improve the efficiency of this methods. Let me know if you have one!\n\nStep 1: Download the data\nHead to PLOS text-mining section here and click the button Download Every PLOS article. As of Oct 23, this is a 7.7Gb .zip file, meaning that depending on the download speed you might have to wait for a while. It´s ok, I´ll see you in Step 2!\n\n\n\n\n\n\n\nPLOS corpus download button - screenshoot\n\n\n\n\nStep 2: Unzipping\nTime to unzip the file allofplos.zip .This again, is going to take some time. You can unzip a file using R with the function utils::unzip() . Keep in mind the uncompressed file is going to take at least 37 Gb of space in your disk!\nWhile we are here waiting, you can already see the name of each article file contains useful information. In the image below we see the file journal.pone.0241922.xml . The code “pone” means this particular article belongs to the jorunal PLOS ONE. If later you want to extract the journal code, you can use the R function gsub() in the file name. We won´t do this here, as we intend to extract the journal name directly from the .xml file.\n\n\n\nUnzipping allofplos.zip might take some time... - screenshot\n\n\n\n\nStep 3: Warm up / text-mining one article\nWe are going to be using R packages rvest (for text-mining) and some of the packages contained in the tidyverse (e.g.dplyr, magrittr, lubridate, stringr) for data wrangling and processing.setwd(\"C:/Users/YOUR_USER/Downloads/allofplos\").\nLet´s pick up an article to play with. For example this article from PLOS ONE: Typology, network features and damage response in worldwide urban road systems. We are going to collect information on editorial times (when was the article submitted and accepted) and whether if it belongs or not to a collection issue.\nTo do so, we are going to target the “nodes” where the information is contained. This article can be found in the allofplos. Search for the file journal.pone.0264546.xml and open it with Notepad. Here you will find all the information on the website is available in text format. For example, the journal name is within the node &lt;journal-id journal-id-type=\"nlm-ta\"&gt;PLoS ONE&lt;/journal-id&gt; , confirmation of this article being part of a collection can be found here: &lt;pub-date pub-type=\"collection\"&gt; , and editorial times (received and accepted) can be found at &lt;date date-type=\"received\"&gt; and &lt;date date-type=\"accepted\"&gt;, respectively. Let´s get to work:\nHanson, M. A., Gómez Barreiro, P., Crosetto, P., & Brockington, D. (2023). arXiv. The Strain on Scientific Publishing. https://arxiv.org/abs/2309.15884\nWickham H (2022). rvest: Easily Harvest (Scrape) Web Pages. R package version 1.0.3. https://CRAN.R-project.org/package=rvest\nWickham H, et al. (2019) “Welcome to the tidyverse.” Journal of Open Source Software, 4 (43), 1686. doi: https://doi.org/10.21105/joss.01686"
   },
   {
     "objectID": "data-and-code.html",
