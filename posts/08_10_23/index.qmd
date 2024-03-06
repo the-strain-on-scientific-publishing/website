@@ -1,0 +1,337 @@
+---
+title: "Text-mining PLOS articles using R"
+author:
+  - name: Pablo Gómez Barreiro
+    orcid: 0000-0002-3140-3326
+date: "2023-10-08"
+categories: [PLOS, R, Text-mining, The Strain on Scientific Publishing]
+image: "thumbn.jpg"
+draft: FALSE
+comments:
+  utterances: 
+    repo: quarto-dev/quarto-web
+    theme: github-light
+    issue-term: title
+---
+
+On a recent preprint ([The Strain on Scientific Publishing](https://arxiv.org/abs/2309.15884)) we used diverse methods to web-scrap and text-mine millions of scientific articles, with emphasis in editorial times and special issues.
+
+One of the easiest data sets to obtain comes from [PLOS](https://plos.org/) (Public Library of Science), a publisher that encourages the use of text-mining on their articles. Other publishing houses do this too, but PLOS goes beyond and provides a link to download their whole corpus ([Link here](https://plos.org/text-and-data-mining/)), encouraging people to share the results using the hashtag `#allofplos`. This blog intends to be a step by step tutorial to text-mine PLOS data using R. I´m fairly sure there are ways to improve the efficiency of this methods. Let me know if you have one!
+
+### Step 1: Download the data
+
+Head to PLOS text-mining section [here](https://plos.org/text-and-data-mining/ "click here to head to PLOS text-mining section") and click the button `Download Every PLOS article`. As of Oct 23, this is a 7.7Gb .zip file, meaning that depending on the download speed you might have to wait for a while. It´s ok, I´ll see you in **Step 2**!
+
+[![PLOS corpus download button - screenshoot](plos_web_capture.PNG){fig-alt="PLOS corpus download button screenshoot" fig-align="center"}](https://plos.org/text-and-data-mining/)
+
+### Step 2: Unzipping
+
+Time to unzip the file `allofplos.zip` .This again, is going to take some time. You can unzip a file using R with the function `utils::unzip()` . Keep in mind the uncompressed file is going to take at least 37 Gb of space in your disk!
+
+While we are here waiting, you can already see the name of each article file contains useful information. In the image below we see the file `journal.pone.0241922.xml` . The code "pone" means this particular article belongs to the jorunal PLOS ONE. If later you want to extract the journal code, you can use the R function `gsub()` in the file name. We won´t do this here, as we intend to extract the journal name directly from the .xml file.
+
+![Unzipping allofplos.zip might take some time\... - screenshot](unzip_caption.PNG){fig-align="center"}
+
+### Step 3: Warm up / text-mining one article
+
+We are going to be using R packages `rvest` (for text-mining) and some of the packages contained in the `tidyverse` (e.g.`dplyr`, `magrittr`, `lubridate`, `stringr`) for data wrangling and processing.
+
+```{r, echo=TRUE, results='hide', message=FALSE,eval=FALSE}
+library(tidyverse)
+library(rvest)
+```
+
+I´m also going to set up the unzipped folder as the working directory. You can do this with the code: `setwd("C:/Users/YOUR_USER/Downloads/allofplos")`.
+
+Let´s pick up an article to play with. For example this article from PLOS ONE: [Typology, network features and damage response in worldwide urban road systems](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264546). We are going to collect information on editorial times (when was the article submitted and accepted) and whether if it belongs or not to a collection issue.
+
+To do so, we are going to target the "nodes" where the information is contained. This article can be found in the `allofplos`. Search for the file `journal.pone.0264546.xml` and open it with Notepad. Here you will find all the information on the website is available in text format. For example, the journal name is within the node `<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>` , confirmation of this article being part of a collection can be found here: `<pub-date pub-type="collection">` , and editorial times (received and accepted) can be found at `<date date-type="received">` and `<date date-type="accepted">`, respectively. Let´s get to work:
+
+First, we read and store in an object the .xml file
+
+```{r, echo=TRUE, results='hide',eval=FALSE}
+
+# Use read_html to "read" a .xml file
+article<-read_html("journal.pone.0264546.xml")
+```
+
+Now we are going to look for the name of the journal.
+
+```{r, echo=TRUE, results='hide',eval=FALSE}
+
+journal_name<-article%>%
+  html_nodes("journal-id")%>%
+  html_text2()%>%.[1]
+
+journal_name
+```
+
+Let´s figure out if this article is part of a collection too.
+
+```{r, echo=TRUE, results='hide',eval=FALSE}
+
+collection<-article%>%
+  html_nodes("pub-date")%>%
+  .[1]%>%
+  html_attr("pub-type")
+
+if (collection=="collection"){
+  print("Article is part of a collection")
+}else{
+  "Article is not part of a collection"
+}
+```
+
+Lastly (and slightly more complicated), lets obtain the dates when the article was received and accepted
+
+```{r, echo=TRUE, results='hide',eval=FALSE}
+
+# target editorial times
+
+editorial<-article%>%
+  html_nodes("date")
+
+# create objects containing date info
+
+received_nodeset<-editorial[grepl("received", editorial)] 
+accepted_nodeset<-editorial[grepl("accepted", editorial)] 
+
+# transform nodesets to date (d-m-Y)
+
+received_date<- paste(received_nodeset%>%html_node("day")%>%html_text2(),
+                     received_nodeset%>%html_node("month")%>%html_text2(),
+                     received_nodeset%>%html_node("year")%>%html_text2(),
+                     sep = "-")
+
+accepted_date<- paste(accepted_nodeset%>%html_node("day")%>%html_text2(),
+                     accepted_nodeset%>%html_node("month")%>%html_text2(),
+                     accepted_nodeset%>%html_node("year")%>%html_text2(),
+                     sep = "-")
+
+received_date
+accepted_date
+```
+
+Easy peasy until here. On **Step 4** we are going to get crafty and modify the code to fit a `for` loop, text-mine and store the extracted data from ALL PLOS articles.
+
+### Step 4. Mining loops
+
+Basically now we just have to wrap the code in a loop to go through \>344k articles. My approach is to create a vector with all the .xml files in the folder and create an empty table (`final_table`) which will store the results of running the loop. Is probably more efficient to work with lists (instead of data frames) and parallelize the process to reduce wait times. But, to keep it simple, I will start here:
+
+```{r eval=FALSE}
+
+list_of_articles<-list.files()
+
+final_table<-data.frame()
+
+for (i in list_of_articles) {
+  # the code goes here
+  # append text-mined data to final table code here
+}
+```
+
+Now is time to adapt the code from **Step 3** for `i` to be the file name:
+
+```{r eval=FALSE}
+
+list_of_articles<-list.files()
+
+final_table<-data.frame()
+
+for (i in list_of_articles) {
+  
+  article<-read_html(i) #Load article at the start of each instance
+  
+  journal_name<-article%>%
+    html_nodes("journal-id")%>%
+    html_text2()%>%.[1]
+  
+  collection<-article%>%
+    html_nodes("pub-date")%>%
+    .[1]%>%
+    html_attr("pub-type")
+  
+  editorial<-article%>%
+  html_nodes("date")
+  
+  received_nodeset<-editorial[grepl("received", editorial)] 
+  accepted_nodeset<-editorial[grepl("accepted", editorial)] 
+  
+  
+  received_date<- paste(received_nodeset%>%html_node("day")%>%html_text2(),
+                     received_nodeset%>%html_node("month")%>%html_text2(),
+                     received_nodeset%>%html_node("year")%>%html_text2(),
+                     sep = "-")
+  
+  accepted_date<- paste(accepted_nodeset%>%html_node("day")%>%html_text2(),
+                     accepted_nodeset%>%html_node("month")%>%html_text2(),
+                     accepted_nodeset%>%html_node("year")%>%html_text2(),
+                     sep = "-")
+  
+  # Let´s put all in a temporary data frame and append it to final_table!
+  
+  temp_df<-data.frame(i,journal_name,collection,received_date,accepted_date)
+  
+  final_table<-bind_rows(final_table,temp_df)
+  
+  
+}
+```
+
+and voilà! We have now a loop that in theory should work... but it does not. I see two issues already.
+
+1.  The column `collection` in the object `final table` is being populated with text different to the word "collection". This means these articles are not part of collections. Let´s add some code to transform any word that is not the string "collection" in the column `collection` into "No".
+
+2.  Sometimes an article does not have the editorial data we are looking for and the objects returns `character(empty)`. The temporary data frame `temp_df` can´t have this class of items. We are going to have to transform these into a string (e.g. "Not available") to make it work.
+
+```{r eval=FALSE}
+
+list_of_articles<-list.files()
+
+final_table<-data.frame()
+
+for (i in list_of_articles) {
+  
+  article<-read_html(i) #Load article at the start of each instance
+  
+  journal_name<-article%>%
+    html_nodes("journal-id")%>%
+    html_text2()%>%.[1]
+  
+  collection<-article%>%
+    html_nodes("pub-date")%>%
+    .[1]%>%
+    html_attr("pub-type")
+  
+  if (collection=="collection"){
+    collection<-collection
+  }else{
+    collection<-"No"
+  }
+  
+  editorial<-article%>%
+  html_nodes("date")
+  
+  received_nodeset<-editorial[grepl("received", editorial)] 
+  accepted_nodeset<-editorial[grepl("accepted", editorial)] 
+  
+  
+  received_date<- paste(received_nodeset%>%html_node("day")%>%html_text2(),
+                     received_nodeset%>%html_node("month")%>%html_text2(),
+                     received_nodeset%>%html_node("year")%>%html_text2(),
+                     sep = "-")
+  if (identical(received_date,character(0))) {
+      received_date<-"Not available"
+      } else {
+        received_date<-received_date}
+  
+  accepted_date<- paste(accepted_nodeset%>%html_node("day")%>%html_text2(),
+                     accepted_nodeset%>%html_node("month")%>%html_text2(),
+                     accepted_nodeset%>%html_node("year")%>%html_text2(),
+                     sep = "-")
+  
+  if (identical(accepted_date,character(0))) {
+      accepted_date<-"Not available"
+      } else {
+        accepted_date<-accepted_date}
+  
+  
+  # Let´s put all in a temporary data frame and append it to final_table!
+  
+  temp_df<-data.frame(i,journal_name,collection,received_date,accepted_date)
+  
+  final_table<-bind_rows(final_table,temp_df)
+  
+}  
+```
+
+Well, the loop is going to be working now for quite some time. If you are using Rstudio, you can refresh the global environment to check which `i` the loop is at. But let´s add a counter to the loop too!
+
+```{r eval=FALSE}
+
+list_of_articles<-list.files()
+count<-0
+final_table<-data.frame()
+
+for (i in list_of_articles) {
+  
+  article<-read_html(i) #Load article at the start of each instance
+  
+  journal_name<-article%>%
+    html_nodes("journal-id")%>%
+    html_text2()%>%.[1]
+  
+  collection<-article%>%
+    html_nodes("pub-date")%>%
+    .[1]%>%
+    html_attr("pub-type")
+  
+  if (collection=="collection"){
+    collection<-collection
+  }else{
+    collection<-"No"
+  }
+  
+  editorial<-article%>%
+  html_nodes("date")
+  
+  received_nodeset<-editorial[grepl("received", editorial)] 
+  accepted_nodeset<-editorial[grepl("accepted", editorial)] 
+  
+  
+  received_date<- paste(received_nodeset%>%html_node("day")%>%html_text2(),
+                     received_nodeset%>%html_node("month")%>%html_text2(),
+                     received_nodeset%>%html_node("year")%>%html_text2(),
+                     sep = "-")
+  if (identical(received_date,character(0))) {
+      received_date<-"Not available"
+      } else {
+        received_date<-received_date}
+  
+  accepted_date<- paste(accepted_nodeset%>%html_node("day")%>%html_text2(),
+                     accepted_nodeset%>%html_node("month")%>%html_text2(),
+                     accepted_nodeset%>%html_node("year")%>%html_text2(),
+                     sep = "-")
+  
+  if (identical(accepted_date,character(0))) {
+      accepted_date<-"Not available"
+      } else {
+        accepted_date<-accepted_date}
+  
+  
+  # Let´s put all in a temporary data frame and append it to final_table!
+  
+  temp_df<-data.frame(i,journal_name,collection,received_date,accepted_date)
+  
+  final_table<-bind_rows(final_table,temp_df)
+  count<-count+1
+  print(count)
+  
+}  
+```
+
+This is the basic loop to text-mine PLOS corpus. The more `final_table` grows in size, the slower it will perform. This can be solved by wrapping the loop into another loop to save `final_table` into a .csv file every 10,000 articles, clear `final_table` and continue the loop for another 10,000 articles.
+
+### Extra
+
+Maybe you are not interested in exploring the whole corpus and just want to work in a sample. To take a sample of 10,000 random articles you can just run the following code:
+
+```{r eval=FALSE}
+sample_articles<-sample(list_of_articles,10000)
+```
+
+Remember to replace `list_of_articles` with `sample_articles` at the start of the loop!
+
+Similarly, you might want to focus in a particular PLOS journal. We can use the code journal to filter out all the unwanted journals since this code is available in the file name. If for example, we want to target PLOS Biology articles, the code "pbio" will select only this journal:
+
+```{r eval=FALSE}
+PLOS_Biology_articles<-list_of_articles[grep("pbio",list_of_articles)]
+```
+
+### References:
+
+Hanson, M. A., Gómez Barreiro, P., Crosetto, P., & Brockington, D. (2023). *arXiv*. The Strain on Scientific Publishing. <https://arxiv.org/abs/2309.15884>
+
+Wickham H (2022). rvest: Easily Harvest (Scrape) Web Pages. R package version 1.0.3. <https://CRAN.R-project.org/package=rvest>
+
+Wickham H, et al. (2019) "Welcome to the tidyverse." *Journal of Open Source Software*, 4 (43), 1686. doi: <https://doi.org/10.21105/joss.01686>
