@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>The Strain on Scientific Publishing</title>
+<link>https://the-strain-on-scientific-publishing.github.io/website/post.html</link>
+<atom:link href="https://the-strain-on-scientific-publishing.github.io/website/post.xml" rel="self" type="application/rss+xml"/>
+<description>Home page for the paper &#39;The Strain on Scientific Publishing&#39; by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro</description>
+<generator>quarto-1.4.551</generator>
+<lastBuildDate>Sun, 08 Oct 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Text-mining PLOS articles using R</title>
+  <dc:creator>Pablo Gómez Barreiro</dc:creator>
+  <link>https://the-strain-on-scientific-publishing.github.io/website/posts/08_10_23/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>On a recent preprint (<a href="https://arxiv.org/abs/2309.15884">The Strain on Scientific Publishing</a>) we used diverse methods to web-scrap and text-mine millions of scientific articles, with emphasis in editorial times and special issues.</p>
+<p>One of the easiest data sets to obtain comes from <a href="https://plos.org/">PLOS</a> (Public Library of Science), a publisher that encourages the use of text-mining on their articles. Other publishing houses do this too, but PLOS goes beyond and provides a link to download their whole corpus (<a href="https://plos.org/text-and-data-mining/">Link here</a>), encouraging people to share the results using the hashtag <code>#allofplos</code>. This blog intends to be a step by step tutorial to text-mine PLOS data using R. I´m fairly sure there are ways to improve the efficiency of this methods. Let me know if you have one!</p>
+<section id="step-1-download-the-data" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-download-the-data">Step 1: Download the data</h3>
+<p>Head to PLOS text-mining section <a href="https://plos.org/text-and-data-mining/" title="click here to head to PLOS text-mining section">here</a> and click the button <code>Download Every PLOS article</code>. As of Oct 23, this is a 7.7Gb .zip file, meaning that depending on the download speed you might have to wait for a while. It´s ok, I´ll see you in <strong>Step 2</strong>!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://plos.org/text-and-data-mining/"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/08_10_23/plos_web_capture.PNG" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="PLOS corpus download button screenshoot"></a></p>
+</figure>
+</div>
+<figcaption>PLOS corpus download button - screenshoot</figcaption>
+</figure>
+</div>
+</section>
+<section id="step-2-unzipping" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-unzipping">Step 2: Unzipping</h3>
+<p>Time to unzip the file <code>allofplos.zip</code> .This again, is going to take some time. You can unzip a file using R with the function <code>utils::unzip()</code> . Keep in mind the uncompressed file is going to take at least 37 Gb of space in your disk!</p>
+<p>While we are here waiting, you can already see the name of each article file contains useful information. In the image below we see the file <code>journal.pone.0241922.xml</code> . The code “pone” means this particular article belongs to the jorunal PLOS ONE. If later you want to extract the journal code, you can use the R function <code>gsub()</code> in the file name. We won´t do this here, as we intend to extract the journal name directly from the .xml file.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/08_10_23/unzip_caption.PNG" class="img-fluid figure-img"></p>
+<figcaption>Unzipping allofplos.zip might take some time... - screenshot</figcaption>
+</figure>
+</div>
+</section>
+<section id="step-3-warm-up-text-mining-one-article" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-warm-up-text-mining-one-article">Step 3: Warm up / text-mining one article</h3>
+<p>We are going to be using R packages <code>rvest</code> (for text-mining) and some of the packages contained in the <code>tidyverse</code> (e.g.<code>dplyr</code>, <code>magrittr</code>, <code>lubridate</code>, <code>stringr</code>) for data wrangling and processing.<code>setwd("C:/Users/YOUR_USER/Downloads/allofplos")</code>.</p>
+<p>Let´s pick up an article to play with. For example this article from PLOS ONE: <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264546">Typology, network features and damage response in worldwide urban road systems</a>. We are going to collect information on editorial times (when was the article submitted and accepted) and whether if it belongs or not to a collection issue.</p>
+<p>To do so, we are going to target the “nodes” where the information is contained. This article can be found in the <code>allofplos</code>. Search for the file <code>journal.pone.0264546.xml</code> and open it with Notepad. Here you will find all the information on the website is available in text format. For example, the journal name is within the node <code>&lt;journal-id journal-id-type="nlm-ta"&gt;PLoS ONE&lt;/journal-id&gt;</code> , confirmation of this article being part of a collection can be found here: <code>&lt;pub-date pub-type="collection"&gt;</code> , and editorial times (received and accepted) can be found at <code>&lt;date date-type="received"&gt;</code> and <code>&lt;date date-type="accepted"&gt;</code>, respectively. Let´s get to work:</p>
+<p>Hanson, M. A., Gómez Barreiro, P., Crosetto, P., &amp; Brockington, D. (2023). <em>arXiv</em>. The Strain on Scientific Publishing. <a href="https://arxiv.org/abs/2309.15884" class="uri">https://arxiv.org/abs/2309.15884</a></p>
+<p>Wickham H (2022). rvest: Easily Harvest (Scrape) Web Pages. R package version 1.0.3. <a href="https://CRAN.R-project.org/package=rvest" class="uri">https://CRAN.R-project.org/package=rvest</a></p>
+<p>Wickham H, et al.&nbsp;(2019) “Welcome to the tidyverse.” <em>Journal of Open Source Software</em>, 4 (43), 1686. doi: <a href="https://doi.org/10.21105/joss.01686" class="uri">https://doi.org/10.21105/joss.01686</a></p>
+
+
+</section>
+
+ ]]></description>
+  <category>PLOS</category>
+  <category>R</category>
+  <category>Text-mining</category>
+  <category>The Strain on Scientific Publishing</category>
+  <guid>https://the-strain-on-scientific-publishing.github.io/website/posts/08_10_23/</guid>
+  <pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://the-strain-on-scientific-publishing.github.io/website/posts/08_10_23/thumbn.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

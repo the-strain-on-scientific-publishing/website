@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Pablo Gómez Barreiro">
+<meta name="dcterms.date" content="2023-10-08">
 
-<title>The Strain on Scientific Publishing - Data and Code to reproduce our results</title>
+<title>The Strain on Scientific Publishing - Text-mining PLOS articles using R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./about.html" rel="next">
-<link href="./index.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta name="twitter:title" content="The Strain on Scientific Publishing - Data and Code to reproduce our results">
+<meta name="twitter:title" content="The Strain on Scientific Publishing - Text-mining PLOS articles using R">
 <meta name="twitter:description" content="Home page for the paper ‘The Strain on Scientific Publishing’ by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro">
-<meta name="twitter:image" content="https://the-strain-on-scientific-publishing.github.io/website/images/abstract.jpeg">
+<meta name="twitter:image" content="https://the-strain-on-scientific-publishing.github.io/website/posts/08_10_23/thumbn.jpg">
 <meta name="twitter:creator" content="@paolocrosetto">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -81,29 +81,63 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data-and-code.html">Data &amp; Code (forthcoming)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Text-mining PLOS articles using R</li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Text-mining PLOS articles using R</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">PLOS</div>
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">Text-mining</div>
+                <div class="quarto-category">The Strain on Scientific Publishing</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Pablo Gómez Barreiro <a href="https://orcid.org/0000-0002-3140-3326" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 8, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/the-strain-on-scientific-publishing" title="GitHub pages for the project" class="quarto-navigation-tool px-1" aria-label="GitHub pages for the project" target="_blank"><i class="bi bi-github"></i></a>
-    <a href="./about.html" title="About the team" class="quarto-navigation-tool px-1" aria-label="About the team"><i class="bi bi-people-fill"></i></a>
+    <a href="../../about.html" title="About the team" class="quarto-navigation-tool px-1" aria-label="About the team"><i class="bi bi-people-fill"></i></a>
     <a href="https://arxiv.org/abs/2309.15884" title="The paper on ArXiV" class="quarto-navigation-tool px-1" aria-label="The paper on ArXiV" target="_blank"><i class="bi bi-file-pdf-fill"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
@@ -112,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
@@ -130,37 +164,37 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data-and-code.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../data-and-code.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data &amp; Code (forthcoming)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
+  <a href="../../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About the authors</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./in-the-press.html" class="sidebar-item-text sidebar-link">
+  <a href="../../in-the-press.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mentions &amp; articles</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./media.html" class="sidebar-item-text sidebar-link">
+  <a href="../../media.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Videos &amp; audios</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./presentation.html" class="sidebar-item-text sidebar-link">
+  <a href="../../presentation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Slide decks</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./post.html" class="sidebar-item-text sidebar-link">
+  <a href="../../post.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The Daily Strain</span></a>
   </div>
 </li>
@@ -174,81 +208,54 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-sources" id="toc-data-sources" class="nav-link active" data-scroll-target="#data-sources">Data sources</a>
-  <ul class="collapse">
-  <li><a href="#global-researcher-statistics" id="toc-global-researcher-statistics" class="nav-link" data-scroll-target="#global-researcher-statistics"><em>Global researcher statistics</em></a></li>
-  <li><a href="#publisher-and-journal-level-data" id="toc-publisher-and-journal-level-data" class="nav-link" data-scroll-target="#publisher-and-journal-level-data">Publisher and Journal-level data</a></li>
-  <li><a href="#article-level-data" id="toc-article-level-data" class="nav-link" data-scroll-target="#article-level-data">Article-level data</a></li>
-  </ul></li>
-  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
+  <li><a href="#step-1-download-the-data" id="toc-step-1-download-the-data" class="nav-link active" data-scroll-target="#step-1-download-the-data">Step 1: Download the data</a></li>
+  <li><a href="#step-2-unzipping" id="toc-step-2-unzipping" class="nav-link" data-scroll-target="#step-2-unzipping">Step 2: Unzipping</a></li>
+  <li><a href="#step-3-warm-up-text-mining-one-article" id="toc-step-3-warm-up-text-mining-one-article" class="nav-link" data-scroll-target="#step-3-warm-up-text-mining-one-article">Step 3: Warm up / text-mining one article</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Data and Code to reproduce our results</h1>
+
+
+
+
+<p>On a recent preprint (<a href="https://arxiv.org/abs/2309.15884">The Strain on Scientific Publishing</a>) we used diverse methods to web-scrap and text-mine millions of scientific articles, with emphasis in editorial times and special issues.</p>
+<p>One of the easiest data sets to obtain comes from <a href="https://plos.org/">PLOS</a> (Public Library of Science), a publisher that encourages the use of text-mining on their articles. Other publishing houses do this too, but PLOS goes beyond and provides a link to download their whole corpus (<a href="https://plos.org/text-and-data-mining/">Link here</a>), encouraging people to share the results using the hashtag <code>#allofplos</code>. This blog intends to be a step by step tutorial to text-mine PLOS data using R. I´m fairly sure there are ways to improve the efficiency of this methods. Let me know if you have one!</p>
+<section id="step-1-download-the-data" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-download-the-data">Step 1: Download the data</h3>
+<p>Head to PLOS text-mining section <a href="https://plos.org/text-and-data-mining/" title="click here to head to PLOS text-mining section">here</a> and click the button <code>Download Every PLOS article</code>. As of Oct 23, this is a 7.7Gb .zip file, meaning that depending on the download speed you might have to wait for a while. It´s ok, I´ll see you in <strong>Step 2</strong>!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://plos.org/text-and-data-mining/"><img src="plos_web_capture.PNG" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="PLOS corpus download button screenshoot"></a></p>
+</figure>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Unfortunately we have been legally advised not to share the data at the moment (October 2023).</p>
-<section id="data-sources" class="level2">
-<h2 class="anchored" data-anchor-id="data-sources">Data sources</h2>
-<section id="global-researcher-statistics" class="level3">
-<h3 class="anchored" data-anchor-id="global-researcher-statistics"><em>Global researcher statistics</em></h3>
-<ul>
-<li><p>Total PhD graduates: OECD</p></li>
-<li><p>Total PhD graduates for China and India: NSF, 2022 and Zwetsloot et al., 2021</p></li>
-<li><p>Researchers-per-million: UNESCO <a href="http://data.uis.unesco.org/"><u>http://data.uis.unesco.org</u></a>, “9.5.2 Researchers per million inhabitants”</p></li>
-</ul>
+<figcaption>PLOS corpus download button - screenshoot</figcaption>
+</figure>
+</div>
 </section>
-<section id="publisher-and-journal-level-data" class="level3">
-<h3 class="anchored" data-anchor-id="publisher-and-journal-level-data">Publisher and Journal-level data</h3>
-<ul>
-<li><p>Total article per year and other journal metrics: Scimago <a href="https://www.scimagojr.com/journalrank.php"><u>https://www.scimagojr.com/journalrank.php</u></a></p></li>
-<li><p>Impact Factor data: Clarivate</p></li>
-<li><p>Rejection rates</p>
-<ul>
-<li><p>Frontiers</p></li>
-<li><p>PLOS, Taylor &amp; Francis: upon request</p></li>
-<li><p>MDPI: web scrape</p></li>
-<li><p>Hindawi: web scrape + the wayback machine</p></li>
-<li><p>Elsevier: web scrape via journal insight website</p></li>
-</ul></li>
-</ul>
+<section id="step-2-unzipping" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-unzipping">Step 2: Unzipping</h3>
+<p>Time to unzip the file <code>allofplos.zip</code> .This again, is going to take some time. You can unzip a file using R with the function <code>utils::unzip()</code> . Keep in mind the uncompressed file is going to take at least 37 Gb of space in your disk!</p>
+<p>While we are here waiting, you can already see the name of each article file contains useful information. In the image below we see the file <code>journal.pone.0241922.xml</code> . The code “pone” means this particular article belongs to the jorunal PLOS ONE. If later you want to extract the journal code, you can use the R function <code>gsub()</code> in the file name. We won´t do this here, as we intend to extract the journal name directly from the .xml file.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="unzip_caption.PNG" class="img-fluid figure-img"></p>
+<figcaption>Unzipping allofplos.zip might take some time... - screenshot</figcaption>
+</figure>
+</div>
 </section>
-<section id="article-level-data" class="level3">
-<h3 class="anchored" data-anchor-id="article-level-data">Article-level data</h3>
-<ul>
-<li><p>Turnaround times:</p>
-<ul>
-<li><p>PLOS, Hindawi: extracted directly from downloadable corpus</p></li>
-<li><p>Wiley: extracted from corpus, obtained upon request</p></li>
-<li><p>BMC, Frontiers, MDPI, Nature, Springer: web scrape</p></li>
-<li><p>Taylor &amp; Francis: via CrossRef</p></li>
-<li><p>Elsevier: ISSNs from Scimago, list of DOIs from CrossRef + web scrape</p></li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="code" class="level2">
-<h2 class="anchored" data-anchor-id="code">Code</h2>
-<p>We use <code>R</code> for all our scraping and analyses. The R scripts to reproduce all our analyses will be available once we will clear the legal statute of sharing the scraped data.</p>
+<section id="step-3-warm-up-text-mining-one-article" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-warm-up-text-mining-one-article">Step 3: Warm up / text-mining one article</h3>
+<p>We are going to be using R packages <code>rvest</code> (for text-mining) and some of the packages contained in the <code>tidyverse</code> (e.g.<code>dplyr</code>, <code>magrittr</code>, <code>lubridate</code>, <code>stringr</code>) for data wrangling and processing.<code>setwd("C:/Users/YOUR_USER/Downloads/allofplos")</code>.</p>
+<p>Let´s pick up an article to play with. For example this article from PLOS ONE: <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264546">Typology, network features and damage response in worldwide urban road systems</a>. We are going to collect information on editorial times (when was the article submitted and accepted) and whether if it belongs or not to a collection issue.</p>
+<p>To do so, we are going to target the “nodes” where the information is contained. This article can be found in the <code>allofplos</code>. Search for the file <code>journal.pone.0264546.xml</code> and open it with Notepad. Here you will find all the information on the website is available in text format. For example, the journal name is within the node <code>&lt;journal-id journal-id-type="nlm-ta"&gt;PLoS ONE&lt;/journal-id&gt;</code> , confirmation of this article being part of a collection can be found here: <code>&lt;pub-date pub-type="collection"&gt;</code> , and editorial times (received and accepted) can be found at <code>&lt;date date-type="received"&gt;</code> and <code>&lt;date date-type="accepted"&gt;</code>, respectively. Let´s get to work:</p>
+<p>Hanson, M. A., Gómez Barreiro, P., Crosetto, P., &amp; Brockington, D. (2023). <em>arXiv</em>. The Strain on Scientific Publishing. <a href="https://arxiv.org/abs/2309.15884" class="uri">https://arxiv.org/abs/2309.15884</a></p>
+<p>Wickham H (2022). rvest: Easily Harvest (Scrape) Web Pages. R package version 1.0.3. <a href="https://CRAN.R-project.org/package=rvest" class="uri">https://CRAN.R-project.org/package=rvest</a></p>
+<p>Wickham H, et al.&nbsp;(2019) “Welcome to the tidyverse.” <em>Journal of Open Source Software</em>, 4 (43), 1686. doi: <a href="https://doi.org/10.21105/joss.01686" class="uri">https://doi.org/10.21105/joss.01686</a></p>
 
 
 </section>
@@ -807,18 +814,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Home">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Home</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./about.html" class="pagination-link" aria-label="About the authors">
-        <span class="nav-page-text">About the authors</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
+<script src="https://utteranc.es/client.js" repo="quarto-dev/quarto-web" issue-term="title" theme="github-light" crossorigin="anonymous" async="">
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

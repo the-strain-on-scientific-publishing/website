@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Strain on Scientific Publishing - Data and Code to reproduce our results</title>
+<title>The Strain on Scientific Publishing - The Daily Strain</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./about.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./presentation.html" rel="prev">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,10 +70,67 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<meta name="twitter:title" content="The Strain on Scientific Publishing - Data and Code to reproduce our results">
-<meta name="twitter:description" content="Home page for the paper ‘The Strain on Scientific Publishing’ by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro">
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="The Strain on Scientific Publishing" href="post.xml" data-external="1"><meta name="twitter:title" content="The Strain on Scientific Publishing - The Daily Strain">
 <meta name="twitter:image" content="https://the-strain-on-scientific-publishing.github.io/website/images/abstract.jpeg">
 <meta name="twitter:creator" content="@paolocrosetto">
 <meta name="twitter:card" content="summary_large_image">
@@ -81,20 +139,36 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./data-and-code.html">Data &amp; Code (forthcoming)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./post.html">The Daily Strain</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">The Daily Strain</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-body">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
@@ -130,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data-and-code.html" class="sidebar-item-text sidebar-link active">
+  <a href="./data-and-code.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data &amp; Code (forthcoming)</span></a>
   </div>
 </li>
@@ -160,7 +234,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./post.html" class="sidebar-item-text sidebar-link">
+  <a href="./post.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">The Daily Strain</span></a>
   </div>
 </li>
@@ -170,90 +244,68 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#data-sources" id="toc-data-sources" class="nav-link active" data-scroll-target="#data-sources">Data sources</a>
-  <ul class="collapse">
-  <li><a href="#global-researcher-statistics" id="toc-global-researcher-statistics" class="nav-link" data-scroll-target="#global-researcher-statistics"><em>Global researcher statistics</em></a></li>
-  <li><a href="#publisher-and-journal-level-data" id="toc-publisher-and-journal-level-data" class="nav-link" data-scroll-target="#publisher-and-journal-level-data">Publisher and Journal-level data</a></li>
-  <li><a href="#article-level-data" id="toc-article-level-data" class="nav-link" data-scroll-target="#article-level-data">Article-level data</a></li>
-  </ul></li>
-  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">Code</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PLOS">PLOS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Text-mining">Text-mining <span class="quarto-category-count">(1)</span></div><div class="category" data-category="The Strain on Scientific Publishing">The Strain on Scientific Publishing <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Data and Code to reproduce our results</h1>
+
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="PLOS,R,Text-mining,The Strain on Scientific Publishing" data-listing-date-sort="1696723200000" data-listing-file-modified-sort="1709751528111" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="550">
+<div class="thumbnail">
+<p><a href="./posts/08_10_23/index.html" class="no-external"></a></p><a href="./posts/08_10_23/index.html" class="no-external">
+<p><img src="./posts/08_10_23/thumbn.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/08_10_23/index.html" class="no-external"></a></p>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Unfortunately we have been legally advised not to share the data at the moment (October 2023).</p>
-<section id="data-sources" class="level2">
-<h2 class="anchored" data-anchor-id="data-sources">Data sources</h2>
-<section id="global-researcher-statistics" class="level3">
-<h3 class="anchored" data-anchor-id="global-researcher-statistics"><em>Global researcher statistics</em></h3>
-<ul>
-<li><p>Total PhD graduates: OECD</p></li>
-<li><p>Total PhD graduates for China and India: NSF, 2022 and Zwetsloot et al., 2021</p></li>
-<li><p>Researchers-per-million: UNESCO <a href="http://data.uis.unesco.org/"><u>http://data.uis.unesco.org</u></a>, “9.5.2 Researchers per million inhabitants”</p></li>
-</ul>
-</section>
-<section id="publisher-and-journal-level-data" class="level3">
-<h3 class="anchored" data-anchor-id="publisher-and-journal-level-data">Publisher and Journal-level data</h3>
-<ul>
-<li><p>Total article per year and other journal metrics: Scimago <a href="https://www.scimagojr.com/journalrank.php"><u>https://www.scimagojr.com/journalrank.php</u></a></p></li>
-<li><p>Impact Factor data: Clarivate</p></li>
-<li><p>Rejection rates</p>
-<ul>
-<li><p>Frontiers</p></li>
-<li><p>PLOS, Taylor &amp; Francis: upon request</p></li>
-<li><p>MDPI: web scrape</p></li>
-<li><p>Hindawi: web scrape + the wayback machine</p></li>
-<li><p>Elsevier: web scrape via journal insight website</p></li>
-</ul></li>
-</ul>
-</section>
-<section id="article-level-data" class="level3">
-<h3 class="anchored" data-anchor-id="article-level-data">Article-level data</h3>
-<ul>
-<li><p>Turnaround times:</p>
-<ul>
-<li><p>PLOS, Hindawi: extracted directly from downloadable corpus</p></li>
-<li><p>Wiley: extracted from corpus, obtained upon request</p></li>
-<li><p>BMC, Frontiers, MDPI, Nature, Springer: web scrape</p></li>
-<li><p>Taylor &amp; Francis: via CrossRef</p></li>
-<li><p>Elsevier: ISSNs from Scimago, list of DOIs from CrossRef + web scrape</p></li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="code" class="level2">
-<h2 class="anchored" data-anchor-id="code">Code</h2>
-<p>We use <code>R</code> for all our scraping and analyses. The R scripts to reproduce all our analyses will be available once we will clear the legal statute of sharing the scraped data.</p>
-
-
-</section>
-
-</main> <!-- /main -->
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/08_10_23/index.html" class="no-external">Text-mining PLOS articles using R</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/08_10_23/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('PLOS'); return false;">
+PLOS
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Text-mining'); return false;">
+Text-mining
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('The Strain on Scientific Publishing'); return false;">
+The Strain on Scientific Publishing
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/08_10_23/index.html" class="no-external">On a recent preprint (The Strain on Scientific Publishing) we used diverse methods to web-scrap and text-mine millions of scientific articles, with emphasis in editorial…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/08_10_23/index.html" class="no-external">
+<div class="listing-date">
+Oct 8, 2023
+</div>
+<div class="listing-author">
+Pablo Gómez Barreiro
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -807,16 +859,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
+<nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Home">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Home</span>
+      <a href="./presentation.html" class="pagination-link" aria-label="Slide decks">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Slide decks</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./about.html" class="pagination-link" aria-label="About the authors">
-        <span class="nav-page-text">About the authors</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
