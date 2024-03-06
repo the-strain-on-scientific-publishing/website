@@ -12,7 +12,7 @@ author:
 date: "2023-10-08"
 categories: [Frontiers, The Strain on Scientific Publishing, Open Access]
 image: "thumbn.png"
-draft: TRUE
+draft: FALSE
 comments:
   utterances: 
     repo: quarto-dev/quarto-web
