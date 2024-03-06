@@ -15,7 +15,8 @@ image: "thumbn.png"
 draft: FALSE
 comments:
   utterances: 
-    repo: quarto-dev/quarto-web
+    repo: the-strain-on-scientific-publishing/website
+    label: comment
     theme: github-light
     issue-term: title
 ---
