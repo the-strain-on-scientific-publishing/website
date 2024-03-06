@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -229,7 +229,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Frontiers">Frontiers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Open Access">Open Access <span class="quarto-category-count">(1)</span></div><div class="category" data-category="The Strain on Scientific Publishing">The Strain on Scientific Publishing <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
@@ -258,7 +258,45 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-
+<div class="quarto-post image-right" data-index="0" data-categories="Frontiers,The Strain on Scientific Publishing,Open Access" data-listing-date-sort="1696723200000" data-listing-file-modified-sort="1709754814003" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="505">
+<div class="thumbnail">
+<p><a href="./posts/08_10_23/index.html" class="no-external"></a></p><a href="./posts/08_10_23/index.html" class="no-external">
+<p><img src="./posts/08_10_23/thumbn.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/08_10_23/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/08_10_23/index.html" class="no-external">Super-duper title</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/08_10_23/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Frontiers'); return false;">
+Frontiers
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('The Strain on Scientific Publishing'); return false;">
+The Strain on Scientific Publishing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Open Access'); return false;">
+Open Access
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/08_10_23/index.html" class="no-external"><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit. Pellentesque sed velit aliquam, consectetur urna quis, interdum mauris. Morbi vitae cursus mi, vel tincidunt neque.…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/08_10_23/index.html" class="no-external">
+<div class="listing-date">
+Oct 8, 2023
+</div>
+<div class="listing-author">
+Mark Hanson, Pablo Gómez Barreiro, Paolo Crosetto, Dan Brockington
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
