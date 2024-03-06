@@ -4,9 +4,9 @@ author:
   - name: Pablo Gómez Barreiro
     orcid: 0000-0002-3140-3326
 date: "2023-10-08"
-categories: [PLOS, R, Text-mining, The Strain on Scientific Publishing]
+categories: [Frontiers, The Strain on Scientific Publishing, Open Access]
 image: "thumbn.jpg"
-draft: FALSE
+draft: TRUE
 comments:
   utterances: 
     repo: quarto-dev/quarto-web
