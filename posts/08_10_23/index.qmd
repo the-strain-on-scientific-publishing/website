@@ -48,6 +48,16 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 :::
 :::
 
+```{=html}
+<div>
+    <div style="float: left; position: relative; top: 0px; padding: 30px;">
+    ![](F7qGu8qWsAAI69N.jpg)
+    </div>
+
+Some text, some text, some text, some text, some text, [...] some text, some text
+</div>
+
+```
 
 Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum a nisi aliquet, efficitur metus at, vulputate nulla. Ut eget vestibulum massa. Praesent dapibus dolor non metus tempus, vitae fringilla magna pretium. Nam lorem justo, consequat nec semper nec, viverra id dui. Nullam accumsan gravida rhoncus. Curabitur et dolor lacus. Integer vulputate libero quis dolor feugiat, non lacinia arcu ultricies. Cras eget nisi ante. Proin vestibulum ultrices interdum. Cras aliquet libero et turpis accumsan, quis maximus lectus hendrerit. Ut sit amet neque nulla. Etiam vel ex orci. Sed tempus justo tellus, ut facilisis turpis ornare a
 
