@@ -50,7 +50,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 ```{=html}
 <div>
     <div style="float: left; position: relative; top: 0px; padding: 30px;">
-    ![](F7qGu8qWsAAI69N.jpg)
+    ![](thumbn.png)
     </div>
 
 Some text, some text, some text, some text, some text, [...] some text, some text
