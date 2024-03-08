@@ -23,8 +23,6 @@ comments:
 
 **Lorem ipsum** dolor sit amet, consectetur adipiscing elit. Pellentesque sed velit aliquam, consectetur urna quis, interdum mauris. Morbi vitae cursus mi, vel tincidunt neque. Etiam sit amet vulputate ante, vitae pharetra nibh. Suspendisse convallis sagittis erat, quis posuere mauris ullamcorper vel. Etiam malesuada tristique ante non sagittis. Cras nec ipsum condimentum, scelerisque lacus a, viverra urna. Fusce egestas quam eu lectus porttitor, quis efficitur augue viverra. Donec ut nulla tempor, sagittis mauris vel, malesuada ante. Curabitur accumsan urna sed facilisis congue. Aenean nec odio dui. **TLDR/Summary:** @tbl-summ
 
-@tip-example
-
 Mauris dictum mattis est, ut ultricies lectus pharetra non. In sed iaculis ligula. Pellentesque urna velit, ornare eleifend tristique sit amet, accumsan venenatis ipsum. Suspendisse potenti. Ut ultrices diam quis velit volutpat finibus. Fusce sagittis dui ultrices pulvinar tempus. Cras tincidunt risus nibh, a scelerisque velit dictum nec. Donec tincidunt tincidunt molestie. Curabitur sodales gravida tortor, in facilisis odio fringilla vel. Nam sit amet dolor auctor, pulvinar sem quis, sollicitudin risus. Suspendisse dignissim, sem nec blandit varius, sapien leo tincidunt lectus, at fermentum sem justo et leo. Aliquam porttitor odio eu egestas vehicula. Quisque condimentum ex eget facilisis posuere. Vestibulum viverra diam ut egestas gravida. Suspendisse vitae lorem eget magna consectetur maximus eget et metus. Fusce pellentesque ex eu sem feugiat, eget bibendum tellus interdum.
 
 ::: {.callout-note collapse="true"}
