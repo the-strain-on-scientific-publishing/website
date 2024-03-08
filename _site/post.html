@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Strain on Scientific Publishing - About the authors</title>
+<title>The Strain on Scientific Publishing - The Daily Strain</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./in-the-press.html" rel="next">
-<link href="./data-and-code.html" rel="prev">
+<link href="./presentation.html" rel="prev">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,9 +62,40 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<meta name="twitter:title" content="The Strain on Scientific Publishing - About the authors">
+    const options = {
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="alternate" type="application/rss+xml" title="The Strain on Scientific Publishing" href="post.xml"><meta name="twitter:title" content="The Strain on Scientific Publishing - The Daily Strain">
 <meta name="twitter:image" content="https://the-strain-on-scientific-publishing.github.io/website/images/abstract.jpeg">
 <meta name="twitter:creator" content="@paolocrosetto">
 <meta name="twitter:card" content="summary_large_image">
@@ -79,14 +111,14 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">About the authors</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./post.html">The Daily Strain</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
@@ -128,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link active">
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About the authors</span></a>
   </div>
 </li>
@@ -152,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./post.html" class="sidebar-item-text sidebar-link">
+  <a href="./post.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">The Daily Strain</span></a>
   </div>
 </li>
@@ -162,23 +194,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#mark-a-hanson" id="toc-mark-a-hanson" class="nav-link active" data-scroll-target="#mark-a-hanson">Mark A Hanson</a></li>
-  <li><a href="#pablo-gómez-barreiro" id="toc-pablo-gómez-barreiro" class="nav-link" data-scroll-target="#pablo-gómez-barreiro">Pablo Gómez Barreiro</a></li>
-  <li><a href="#paolo-crosetto" id="toc-paolo-crosetto" class="nav-link" data-scroll-target="#paolo-crosetto">Paolo Crosetto</a></li>
-  <li><a href="#dan-brockington" id="toc-dan-brockington" class="nav-link" data-scroll-target="#dan-brockington">Dan Brockington</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About the authors</h1>
+<h1 class="title">The Daily Strain</h1>
 </div>
 
 
@@ -193,100 +216,18 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="mark-a-hanson" class="level2">
-<h2 class="anchored" data-anchor-id="mark-a-hanson">Mark A Hanson</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Mark.jpg" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div><div class="column" style="width:10%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:60%;">
-<p><em>Biologist interested in immunity and host pathogen interactions @ University of Exeter, UK, using Drosophila</em></p>
-<ul>
-<li><a href="https://ecologyconservation.exeter.ac.uk/staff/profile/index.php?web_id=mark_hanson">Institutional website</a></li>
-<li><a href="https://mahansonresearch.weebly.com">Blog and personal website</a></li>
-<li><a href="https://scholar.google.ca/citations?user=lfL-37cAAAAJ&amp;hl=en">Google scholar</a></li>
-<li><a href="https://x.com/HansonM90?s=20">Twitter</a></li>
-<li><a href="https://fediscience.org/@MarkHanson">Mastodon</a></li>
-</ul>
-</div>
-</div>
-</section>
-<section id="pablo-gómez-barreiro" class="level2">
-<h2 class="anchored" data-anchor-id="pablo-gómez-barreiro">Pablo Gómez Barreiro</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><em>Agricultural Engineer with a Plant Breeding MSc and +10 years of experience in the Plant &amp; Seed Science sector. Currently working as a Seed Biology Lab. Technician at the <a href="https://www.kew.org/wakehurst/whats-at-wakehurst/millennium-seed-bank">Millennium Seed Bank</a> (Royal Botanic Gardens, Kew)</em></p>
-<ul>
-<li><a href="https://www.kew.org/science/our-science/people/pablo-gomez-barreiro">Institutional website</a></li>
-<li><a href="https://pgomba.github.io/pgb_website/">Personal website</a></li>
-<li><a href="https://scholar.google.com/citations?user=CeSB2tQAAAAJ&amp;hl=es">Google Scholar</a></li>
-<li><a href="https://x.com/pagomba?s=20">Twitter</a></li>
-</ul>
-</div><div class="column" style="width:10%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Pablo.jpg" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="paolo-crosetto" class="level2">
-<h2 class="anchored" data-anchor-id="paolo-crosetto">Paolo Crosetto</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Paolo.jpg" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div><div class="column" style="width:10%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:60%;">
-<p><em>Experimental economist • Senior Researcher @ INRAE, Grenoble, France • Food labeling • Risk • Open licenses • R enthusiast</em></p>
-<ul>
-<li><a href="https://gael.univ-grenoble-alpes.fr/membres/paolo-crosetto">Institutional website</a></li>
-<li><a href="https://paolocrosetto.wordpress.com">Blog and personal website</a></li>
-<li><a href="https://scholar.google.com/citations?user=whPRYPAAAAAJ&amp;hl=en">Google Scholar</a></li>
-<li><a href="https://twitter.com/PaoloCrosetto">Twitter</a></li>
-<li><a href="https://fediscience.org/@paolocrosetto@econtwitter.net">Mastodon</a></li>
-</ul>
-</div>
-</div>
-</section>
-<section id="dan-brockington" class="level2">
-<h2 class="anchored" data-anchor-id="dan-brockington">Dan Brockington</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><em>ICREA Research Professor at the Universitat Autonoma de Barcelona,</em> <a href="https://www.uab.cat/icta/">Institut de Ciència i Tecnologia Ambientals (ICTA)</a></p>
-<ul>
-<li><a href="https://portalrecerca.uab.cat/en/persons/daniel-brockington">Institutional website</a></li>
-<li><a href="https://danbrockington.com">Blog and personal website</a></li>
-<li><a href="https://scholar.google.co.uk/citations?user=tf22B7IAAAAJ&amp;hl=en">Google Scholar</a></li>
-<li><a href="https://twitter.com/danbrockington">Twitter</a></li>
-</ul>
-</div><div class="column" style="width:10%;">
-<!-- empty column to create gap -->
-</div><div class="column" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Dan.jpg" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -635,16 +576,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
+<nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="./data-and-code.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Data &amp; Code (forthcoming)</span>
+      <a href="./presentation.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Slide decks</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./in-the-press.html" class="pagination-link">
-        <span class="nav-page-text">Mentions &amp; articles</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

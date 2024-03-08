@@ -1,0 +1,11 @@
+---
+title: "Untitled"
+---
+
+::: {#tip-example .callout-tip}
+## Cross-Referencing a Tip
+
+Add an ID starting with `#tip-` to reference a tip.
+:::
+
+See @tip-example...
