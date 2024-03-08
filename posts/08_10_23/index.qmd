@@ -33,10 +33,9 @@ In sed luctus nisi. Sed lorem mi, maximus a metus non, commodo porttitor enim. N
 
 Sed efficitur ac eros at varius. Pellentesque eu dui nec arcu porttitor luctus. Maecenas hendrerit tempor tempor. Suspendisse lobortis sodales tempus. Quisque id massa eu est accumsan vehicula. Sed ornare dignissim neque, venenatis convallis quam varius et. Suspendisse tempus nibh mi, non faucibus ante facilisis sed. Suspendisse lacinia ex eu turpis faucibus, eu aliquet dolor posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse dapibus tortor eu porta laoreet. Vivamus feugiat eget nulla sit amet vestibulum. Nunc in sollicitudin elit. In ornare, nibh nec fringilla dignissim, nulla erat dictum nibh, vel blandit felis erat quis magna. Phasellus sollicitudin efficitur sem, at ultricies diam. Nulla varius commodo eros eget imperdiet. Ut venenatis arcu in mi condimentum, vel consequat velit elementum.
 
-<div>
-    <div style="float: left; position: relative; top: 0px; padding: 30px;">
-    ![](F7qGu8qWsAAI69N.jpg)
-    </div>
+:::{.column-page}
+![](F7qGu8qWsAAI69N.jpg)
+:::
 
 Some text, some text, some text, some text, some text, [...] some text, some text
 </div>
