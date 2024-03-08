@@ -13,6 +13,7 @@ date: "2023-10-08"
 categories: [Frontiers, The Strain on Scientific Publishing, Open Access]
 image: "thumbn.png"
 draft: TRUE
+format: html
 comments:
   utterances: 
     repo: the-strain-on-scientific-publishing/website
