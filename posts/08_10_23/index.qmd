@@ -5,6 +5,7 @@ author:
     orcid: 0000-0002-6125-3672
   - name: Pablo Gómez Barreiro
     orcid: 0000-0002-3140-3326
+    twitter: @pagomba
   - name: Paolo Crosetto
     orcid: 0000-0002-9153-0159
   - name: Dan Brockington
