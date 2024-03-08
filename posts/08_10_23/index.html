@@ -73,6 +73,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta name="twitter:title" content="The Strain on Scientific Publishing - Super-duper title">
 <meta name="twitter:description" content="Home page for the paper ‘The Strain on Scientific Publishing’ by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro">
@@ -83,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -178,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -241,26 +270,17 @@ Click here for detailed information
 <div class="columns">
 <div class="column" style="width:40%;">
 <p><img src="F7qGu8qWsAAI69N.jpg" class="img-fluid"></p>
-</div><div class="column" style="width:60%;">
+</div><div class="column" style="width:5%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:55%;">
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 </div>
 </div>
 
-  
-    <div class="container">
-      <div class="image">
-        <img src="www/F7qGu8qWsAAI69N.jpg"></div>
-      <div class="text">
-      <a href="https://pgomba.github.io/MDPI_explorer/"><h2 class="anchored">MDPIexploreR</h2></a><a></a></div><a>
-      <div>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
-        </a></div><a>
-  
-  
-   
-  
-
-<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum a nisi aliquet, efficitur metus at, vulputate nulla. Ut eget vestibulum massa. Praesent dapibus dolor non metus tempus, vitae fringilla magna pretium. Nam lorem justo, consequat nec semper nec, viverra id dui. Nullam accumsan gravida rhoncus. Curabitur et dolor lacus. Integer vulputate libero quis dolor feugiat, non lacinia arcu ultricies. Cras eget nisi ante. Proin vestibulum ultrices interdum. Cras aliquet libero et turpis accumsan, quis maximus lectus hendrerit. Ut sit amet neque nulla. Etiam vel ex orci. Sed tempus justo tellus, ut facilisis turpis ornare a</p>
+<div class="no-row-height column-margin column-container"><div class="">
+<p>We can put things in the margin too. Including references and “footnotes” We know from <em>the first fundamental theorem of calculus</em> that for <span class="math inline">\(x\)</span> in <span class="math inline">\([a, b]\)</span>:</p>
+<p><span class="math display">\[\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).\]</span></p>
+</div></div><p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum a nisi aliquet, efficitur metus at, vulputate nulla. Ut eget vestibulum massa. Praesent dapibus dolor non metus tempus, vitae fringilla magna pretium. Nam lorem justo, consequat nec semper nec, viverra id dui. Nullam accumsan gravida rhoncus. Curabitur et dolor lacus. Integer vulputate libero quis dolor feugiat, non lacinia arcu ultricies. Cras eget nisi ante. Proin vestibulum ultrices interdum. Cras aliquet libero et turpis accumsan, quis maximus lectus hendrerit. Ut sit amet neque nulla. Etiam vel ex orci. Sed tempus justo tellus, ut facilisis turpis ornare a</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -308,7 +328,7 @@ Table&nbsp;1: Super duper summary table
 </div>
 </div>
 </div>
-</a>
+
 
 
 </main> <!-- /main -->
@@ -876,8 +896,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right"><a>
-</a><p><a>This page is built with </a><a href="https://quarto.org/">Quarto</a>.</p>
+    <div class="nav-footer-right">
+<p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
   </div>
 </footer>
