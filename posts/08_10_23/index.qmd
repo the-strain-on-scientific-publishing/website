@@ -13,7 +13,6 @@ date: "2023-10-08"
 categories: [Frontiers, The Strain on Scientific Publishing, Open Access]
 image: "thumbn.png"
 draft: TRUE
-format: html
 comments:
   utterances: 
     repo: the-strain-on-scientific-publishing/website
@@ -48,15 +47,23 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 :::
 :::
 
-
-<div>
-    <div style="float: left; position: relative; top: 0px; padding: 30px;">
-    ![](F7qGu8qWsAAI69N.jpg)
-    </div>
-
-Some text, some text, some text, some text, some text, [...] some text, some text
-</div>
-
+```{=html}
+<html>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="www/F7qGu8qWsAAI69N.jpg"></div>
+      <div class="text">
+      <a href="https://pgomba.github.io/MDPI_explorer/"><h2>MDPIexploreR</h2><a></div>
+      <div>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+        </div>
+  </body>
+  
+   
+  
+</html>
+```
 Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum a nisi aliquet, efficitur metus at, vulputate nulla. Ut eget vestibulum massa. Praesent dapibus dolor non metus tempus, vitae fringilla magna pretium. Nam lorem justo, consequat nec semper nec, viverra id dui. Nullam accumsan gravida rhoncus. Curabitur et dolor lacus. Integer vulputate libero quis dolor feugiat, non lacinia arcu ultricies. Cras eget nisi ante. Proin vestibulum ultrices interdum. Cras aliquet libero et turpis accumsan, quis maximus lectus hendrerit. Ut sit amet neque nulla. Etiam vel ex orci. Sed tempus justo tellus, ut facilisis turpis ornare a
 
 ::: {.callout-tip}
