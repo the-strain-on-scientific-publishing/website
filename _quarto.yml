@@ -58,6 +58,8 @@ website:
         text: "Slide decks"
       - href: post.qmd
         text: "The Daily Strain"
+      - href: https://pagoba.shinyapps.io/strain_explorer/
+        text: "The Strain Explorer (beta app)"
     
 format:
   html:
