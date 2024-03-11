@@ -19,7 +19,7 @@ comments:
     issue-term: title
 ---
 
-![Illustrated by Jasmina El Bouamraoui and Karabo Poppy Moletsane, distributed under CC0 1.0](thumbn.png){fig-align="center" width="599"}
+![Illustrated by Jasmina El Bouamraoui and Karabo Poppy Moletsane, distributed under CC0 1.0](thumbn.png){fig-align="center" width="486"}
 
 We have received a diverse, global, and humbling response to our preprint "[The Strain on Scientific Publishing](https://arxiv.org/abs/2309.15884)." We thank everyone for the kind words, thoughtful commentaries, and critiques from across the spectrum. We embrace the opportunity to critically re-evaluate our positions and better our understanding of the data. This is Open Science at its best, and we fully support it.
 
@@ -113,15 +113,15 @@ Frontiers claims we said many things we simply never said. We encourage readers 
 
     ![Who wore it better? Linear (red), or exponential (black)?](expolinear.png)
 
-+--------------------+--------------------------------+----------+-----------------------------+----------+
-| **Model**          | **2013-2022**                  | **R^2^** | **2000-2022**               | **R^2^** |
-+--------------------+--------------------------------+----------+-----------------------------+----------+
-| Linear: ax + b     | ax = 120379 \* yr\             | 0.93     | a = 80319 \* yr\            | 0.96     |
-|                    | b = -240712967                 |          | b = -159895398              |          |
-+--------------------+--------------------------------+----------+-----------------------------+----------+
-| Exponential: a^bx^ | a = 1.637\*106\                | 0.97     | a = 8.74\*105\              | 0.99     |
-|                    | bx = (5.76\* 10-2) (yr - 2013) |          | bx = (5.12\*10-2) (yr-2000) |          |
-+--------------------+--------------------------------+----------+-----------------------------+----------+
++--------------------+--------------------------------+-----------+-----------------------------+-----------+
+| **Model**          | **2013-2022**                  | **R^2^**  | **2000-2022**               | **R^2^**  |
++--------------------+--------------------------------+-----------+-----------------------------+-----------+
+| Linear: ax + b     | ax = 120379 \* yr\             | 0.93      | a = 80319 \* yr\            | 0.96      |
+|                    | b = -240712967                 |           | b = -159895398              |           |
++--------------------+--------------------------------+-----------+-----------------------------+-----------+
+| Exponential: a^bx^ | a = 1.637\*106\                | 0.97      | a = 8.74\*105\              | 0.99      |
+|                    | bx = (5.76\* 10-2) (yr - 2013) |           | bx = (5.12\*10-2) (yr-2000) |           |
++--------------------+--------------------------------+-----------+-----------------------------+-----------+
 
 **Decline of the number of researchers**
 
