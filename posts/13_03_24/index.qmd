@@ -19,7 +19,7 @@ comments:
     issue-term: title
 ---
 
-![Illustrated by Jasmina El Bouamraoui and Karabo Poppy Moletsane, distributed under CC0 1.0](thumbn.png)
+![Illustrated by Jasmina El Bouamraoui and Karabo Poppy Moletsane, distributed under CC0 1.0](thumbn.png){fig-align="center" width="599"}
 
 We have received a diverse, global, and humbling response to our preprint "[The Strain on Scientific Publishing](https://arxiv.org/abs/2309.15884)." We thank everyone for the kind words, thoughtful commentaries, and critiques from across the spectrum. We embrace the opportunity to critically re-evaluate our positions and better our understanding of the data. This is Open Science at its best, and we fully support it.
 
