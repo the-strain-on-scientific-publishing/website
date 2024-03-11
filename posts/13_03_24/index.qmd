@@ -9,7 +9,7 @@ author:
 date: "2024-03-13"
 categories: [Frontiers, The Strain on Scientific Publishing, Open Access]
 image: "thumbn.png"
-draft: TRUE
+draft: false
 format: html
 comments:
   utterances: 
@@ -53,7 +53,7 @@ We have redacted rows in this spreadsheet that focused on another publisher. We 
 
 While it is true that we did web scrape part of the data used in [our preprint](https://arxiv.org/abs/2309.15884), our work relied on different sources of data for different indicators. We scraped data on shares of special issues and turnaround times; but our data on the number of published articles and on the number of newly-minted PhDs and world researchers -- the core of Frontiers' rebuke -- were downloaded from **publicly available, official data** (via Scimago, OECD, and UNESCO as sources). This is not hidden but plainly stated in our preprint.
 
-**Third:** Frontiers writes "**When contacted for access to their dataset**, the authors responded that they had "embargoed" their data, **with the result that no one can verify or replicate their findings**".
+**Third:** Frontiers writes "**When contacted for access to their dataset**, the authors responded that they had"embargoed" their data, **with the result that no one can verify or replicate their findings**".
 
 ::: column-margin
 *"When contacted for access to their dataset, the authors responded that they had"embargoed" their data, with the result that no one can verify or replicate their findings."* <br> - Frontiers
@@ -141,7 +141,7 @@ Frontiers accuses us of omitting, cutting and editing data to reach pre-ordained
 
 **Frontiers claims:**
 
-"The proxy data was **not reproducible** and **not representative** of the original sources of Scopus and Web of Science. The original data does not show the claimed "exponential increase" in the total number of articles published during the study period (2013-2022), **in fact growth is linear** during this period (Figure 2A)."
+"The proxy data was **not reproducible** and **not representative** of the original sources of Scopus and Web of Science. The original data does not show the claimed"exponential increase" in the total number of articles published during the study period (2013-2022), **in fact growth is linear** during this period (Figure 2A)."
 
 **First:** Frontiers presents this plot of historical article growth, which suggests that the total new articles per year has declined from 2021 to 2022 slightly in Dimensions and Scopus, and by approximately half a million articles per year in the Web of Science. Here is their Figure 1:
 
