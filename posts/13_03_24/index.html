@@ -73,35 +73,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <meta name="twitter:title" content="The Strain on Scientific Publishing - Response to: “Bad bibliometrics don’t add up for research or why research publishing policy needs sound science”">
 <meta name="twitter:description" content="Home page for the paper ‘The Strain on Scientific Publishing’ by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro">
@@ -218,6 +189,7 @@ window.Quarto = {
   <li><a href="#straw-men-or-what-we-actually-said-vs.-what-frontiers-claims-we-said" id="toc-straw-men-or-what-we-actually-said-vs.-what-frontiers-claims-we-said" class="nav-link" data-scroll-target="#straw-men-or-what-we-actually-said-vs.-what-frontiers-claims-we-said">2. Straw men, or: what we actually said vs.&nbsp;what Frontiers claims we said</a></li>
   <li><a href="#of-bad-bibliometrics-that-dont-add-up" id="toc-of-bad-bibliometrics-that-dont-add-up" class="nav-link" data-scroll-target="#of-bad-bibliometrics-that-dont-add-up">3. Of Bad bibliometrics that don’t add up</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#tldr---summary-box." id="toc-tldr---summary-box." class="nav-link" data-scroll-target="#tldr---summary-box.">TLDR - Summary Box.</a></li>
   </ul>
 </nav>
     </div>
@@ -305,7 +277,7 @@ window.Quarto = {
 <div class="no-row-height column-margin column-container"><div class="">
 <p><a href="https://pagoba.shinyapps.io/strain_explorer/"><img src="strain_explorer.PNG" class="img-fluid"></a></p>
 </div></div></section>
-<section id="straw-men-or-what-we-actually-said-vs.-what-frontiers-claims-we-said" class="level2">
+<section id="straw-men-or-what-we-actually-said-vs.-what-frontiers-claims-we-said" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="straw-men-or-what-we-actually-said-vs.-what-frontiers-claims-we-said">2. Straw men, or: what we actually said vs.&nbsp;what Frontiers claims we said</h2>
 <p>Frontiers claims we said many things we simply never said. We encourage readers to actually read <a href="https://arxiv.org/abs/2309.15884">our manuscript</a> to see what it is we do say. Below we give a brief summary of some of the many straw men populating Frontiers’ piece.</p>
 <p><strong>Sampling of Frontiers statements:</strong></p>
@@ -325,6 +297,7 @@ window.Quarto = {
 <p>Frontiers claims these are “false pillars of strain”, suggesting instead that the growth in articles we described is linear, and that the number of scientists over time has seen “a continuous increase.” We will give these suggestions the scrutiny they deserve.</p>
 <p><strong>Linearity</strong></p>
 <p><strong>First, it bears saying: “Humans tend to systematically underestimate exponential growth and perceive it in linear terms” (<a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1125810/full">Frontiers in Psychology, 2023</a>).</strong> With this in mind… Frontiers suggested growth in articles was linear by… saying so. While criticizing us for not performing “scientific analysis”, their analysis can be summed up as showing plots and saying “it’s linear!”</p>
+
 <p>However, we ran the stats on this, and over our study’s time period, a linear model is a good fit (R2 = 0.93) but an exponential model is an even better fit (R2 = 0.97, below). Indeed, we reported a mean year-over-year growth of ~5.6% over the period 2016-2022. The bizarre thing is… Frontiers also annotated a 6% year-over-year growth in their Dimensions data from 2017-2022 (above: see the Dimensions data they shared).</p>
 <p>Constant absolute growth is linear. Constant year-over-year percent growth is exponential. So in fact, we both agree? The data are exponential. Below we have provided plots of our data with linear or exponential curves annotated, and provided formulae and model fits for both models.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -334,7 +307,9 @@ window.Quarto = {
 </figure>
 </div></li>
 </ul>
-<table class="table">
+<div class="no-row-height column-margin column-container"><div class="">
+<p><em>“Humans tend to systematically underestimate exponential growth and perceive it in linear terms, which can have severe consequences in a variety of fields.”</em> <br> - Melnik-Leroy, Gerda Ana, et al.&nbsp;“<a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1125810/full">Is my visualization better than yours? Analyzing factors modulating exponential growth bias in graphs.</a>” <em>Frontiers in psychology</em> 14 (2023): 1125810.</p>
+</div></div><table class="table">
 <colgroup>
 <col style="width: 18%">
 <col style="width: 29%">
@@ -385,7 +360,7 @@ bx = (5.12*10-2) (yr-2000)</td>
 <p><strong>Finally, the straw man to bind them all</strong></p>
 <p>In their piece, Frontiers makes us out to somehow be “detractors” of the open science movement, setting out to falsely prove our pre-ordained views… while discussing our open access preprint. We are confident our record of public statements and publishing history firmly advocate for open science.</p>
 </section>
-<section id="of-bad-bibliometrics-that-dont-add-up" class="level2 page-columns page-full">
+<section id="of-bad-bibliometrics-that-dont-add-up" class="level2">
 <h2 class="anchored" data-anchor-id="of-bad-bibliometrics-that-dont-add-up">3. Of Bad bibliometrics that don’t add up</h2>
 <p>Frontiers accuses us of omitting, cutting and editing data to reach pre-ordained and biased conclusions, of using methodologically unsound practices, of leaning on visual impressions to imply causality, and more. <strong>These accusations are particularly hideous to make about scientists.</strong> Moreover, this may be a case of “pointing fingers with a mouth full of cookies…” We struggled to come up with a delicate way to phrase this, but we simply couldn’t find the words. To be blunt: the Frontiers analysis is amateurish, careless in its data curation and interpretation, leans heavily on visual impressions, and evokes results out of thin air. Let’s dive in.</p>
 <p><strong>Frontiers claims:</strong></p>
@@ -407,14 +382,9 @@ Again, we never say there has been a decrease in researchers (see above). Fronti
 </div><div class="column" style="width:5%;">
 <!-- empty column to create gap -->
 </div><div class="column" style="width:55%;">
-<p>But we tend to see a plateau in this plot, similar to the plateau we saw in newly-minted PhDs. And again, the reduction in newly-minted PhDs was robust to inclusion of data from India and China (see Fig.1supp1 above). We further double checked this trend using UNESCO data on researchers per million, similar to what Frontiers has done here, finding a very limited growth in recent years. That’s why we only claimed that article growth had outpaced the growth - if any - in active researchers.</p>
+<p>But we tend to see a plateau in this plot, similar to the plateau we saw in newly-minted PhDs. And again, the reduction in newly-minted PhDs was robust to inclusion of data from India and China (see Fig.1supp1 above). We further double checked this trend using UNESCO data on researchers per million, similar to what Frontiers has done here, finding a very limited growth in recent years. That’s why we only claimed that article growth had outpaced the growth - if any - in active researchers.<strong>There are actually additional problems with the data that Frontiers plot here:</strong> the&nbsp; long timeframe they show is misleading because the countries indexed in the OECD dataset have evolved over time. Indeed, the huge spike in 2013 is due to the inclusion of many new countries, including Germany, explaining this large spike in total new researchers. It’s not as if 2013 was a particularly bumper crop of researchers.</p>
 </div>
 </div>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p>We can put things in the margin too. Including references and “footnotes” We know from <em>the first fundamental theorem of calculus</em> that for <span class="math inline">\(x\)</span> in <span class="math inline">\([a, b]\)</span>:</p>
-<p><span class="math display">\[\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).\]</span></p>
-</div></div><p><strong>There are actually additional problems with the data that Frontiers plot here:</strong> the&nbsp; long timeframe they show is misleading because the countries indexed in the OECD dataset have evolved over time. Indeed, the huge spike in 2013 is due to the inclusion of many new countries, including Germany, explaining this large spike in total new researchers. It’s not as if 2013 was a particularly bumper crop of researchers.</p>
 <p>Further, Frontiers claims the COVID-19 pandemic is behind the plateauing of PhD graduates that we saw. However, this plateau, also seen in the total researchers data above, started in ~2017. It’s almost as if PhD graduates become researchers…&nbsp;<br>
 <strong>Frontiers actually validates our data:</strong> this response would not be complete without a look at Figure 2C. It purports to show the absence of correlation between total articles per year being generated and the number of Frontiers articles published in “Research Topics” (i.e.&nbsp;special issues). Frontiers plots the datasets of Scopus and Web of Science as lines, and then its own Research Topic articles as bars, choosing two different visualization styles within the same plot.</p>
 <div class="columns">
@@ -436,6 +406,9 @@ Again, we never say there has been a decrease in researchers (see above). Fronti
 <p>We hope Frontiers will reflect on what they’ve said, how they’ve said it, and choose to engage with us more productively in the future.</p>
 <p><em>Sincerely,</em></p>
 <p><em>Mark A. Hanson, Pablo Gómez Barreiro, Paolo Crosetto, Dan Brockington</em></p>
+</section>
+<section id="tldr---summary-box." class="level2">
+<h2 class="anchored" data-anchor-id="tldr---summary-box.">TLDR - Summary Box.</h2>
 
 
 </section>
