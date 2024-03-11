@@ -9,7 +9,7 @@ author:
 date: "2024-03-13"
 categories: [Frontiers, The Strain on Scientific Publishing, Open Access]
 image: "thumbn.png"
-draft: false
+draft: true
 format: html
 comments:
   utterances: 
