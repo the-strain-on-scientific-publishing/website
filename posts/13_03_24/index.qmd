@@ -101,6 +101,10 @@ Frontiers claims we said many things we simply never said. We encourage readers 
 
     **First, it bears saying: "Humans tend to systematically underestimate exponential growth and perceive it in linear terms" ([Frontiers in Psychology, 2023](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1125810/full)).** With this in mind... Frontiers suggested growth in articles was linear by... saying so. While criticizing us for not performing "scientific analysis", their analysis can be summed up as showing plots and saying "it's linear!"
 
+    ::: column-margin
+    *"Humans tend to systematically underestimate exponential growth and perceive it in linear terms, which can have severe consequences in a variety of fields."* <br> - Melnik-Leroy, Gerda Ana, et al. "[Is my visualization better than yours? Analyzing factors modulating exponential growth bias in graphs.](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1125810/full)" *Frontiers in psychology* 14 (2023): 1125810.
+    :::
+
     However, we ran the stats on this, and over our study's time period, a linear model is a good fit (R2 = 0.93) but an exponential model is an even better fit (R2 = 0.97, below). Indeed, we reported a mean year-over-year growth of \~5.6% over the period 2016-2022. The bizarre thing is... Frontiers also annotated a 6% year-over-year growth in their Dimensions data from 2017-2022 (above: see the Dimensions data they shared).
 
     Constant absolute growth is linear. Constant year-over-year percent growth is exponential. So in fact, we both agree? The data are exponential. Below we have provided plots of our data with linear or exponential curves annotated, and provided formulae and model fits for both models.
@@ -173,17 +177,9 @@ Again, we never say there has been a decrease in researchers (see above). Fronti
 :::
 
 ::: {.column width="55%"}
-But we tend to see a plateau in this plot, similar to the plateau we saw in newly-minted PhDs. And again, the reduction in newly-minted PhDs was robust to inclusion of data from India and China (see Fig.1supp1 above). We further double checked this trend using UNESCO data on researchers per million, similar to what Frontiers has done here, finding a very limited growth in recent years. That's why we only claimed that article growth had outpaced the growth - if any - in active researchers.
+But we tend to see a plateau in this plot, similar to the plateau we saw in newly-minted PhDs. And again, the reduction in newly-minted PhDs was robust to inclusion of data from India and China (see Fig.1supp1 above). We further double checked this trend using UNESCO data on researchers per million, similar to what Frontiers has done here, finding a very limited growth in recent years. That's why we only claimed that article growth had outpaced the growth - if any - in active researchers.**There are actually additional problems with the data that Frontiers plot here:** the  long timeframe they show is misleading because the countries indexed in the OECD dataset have evolved over time. Indeed, the huge spike in 2013 is due to the inclusion of many new countries, including Germany, explaining this large spike in total new researchers. It's not as if 2013 was a particularly bumper crop of researchers.
 :::
 :::
-
-::: column-margin
-We can put things in the margin too. Including references and "footnotes" We know from *the first fundamental theorem of calculus* that for $x$ in $[a, b]$:
-
-$$\frac{d}{dx}\left( \int_{a}^{x} f(u)\,du\right)=f(x).$$
-:::
-
-**There are actually additional problems with the data that Frontiers plot here:** the  long timeframe they show is misleading because the countries indexed in the OECD dataset have evolved over time. Indeed, the huge spike in 2013 is due to the inclusion of many new countries, including Germany, explaining this large spike in total new researchers. It's not as if 2013 was a particularly bumper crop of researchers.
 
 Further, Frontiers claims the COVID-19 pandemic is behind the plateauing of PhD graduates that we saw. However, this plateau, also seen in the total researchers data above, started in \~2017. It's almost as if PhD graduates become researchers... \
 **Frontiers actually validates our data:** this response would not be complete without a look at Figure 2C. It purports to show the absence of correlation between total articles per year being generated and the number of Frontiers articles published in "Research Topics" (i.e. special issues). Frontiers plots the datasets of Scopus and Web of Science as lines, and then its own Research Topic articles as bars, choosing two different visualization styles within the same plot.
@@ -217,3 +213,5 @@ We hope Frontiers will reflect on what they've said, how they've said it, and ch
 *Sincerely,*
 
 *Mark A. Hanson, Pablo Gómez Barreiro, Paolo Crosetto, Dan Brockington*
+
+## TLDR - Summary Box.
