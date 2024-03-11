@@ -19,6 +19,8 @@ comments:
     issue-term: title
 ---
 
+![Illustrated by Jasmina El Bouamraoui and Karabo Poppy Moletsane, distributed under CC0 1.0](thumbn.png)
+
 We have received a diverse, global, and humbling response to our preprint "[The Strain on Scientific Publishing](https://arxiv.org/abs/2309.15884)." We thank everyone for the kind words, thoughtful commentaries, and critiques from across the spectrum. We embrace the opportunity to critically re-evaluate our positions and better our understanding of the data. This is Open Science at its best, and we fully support it.
 
 [A recently-published Frontiers Media "science news" blog](https://www.frontiersin.org/news/2024/02/21/bad-bibliometrics-dont-add-up-for-research-or-why-research-publishing-policy) commented publicly on our work. We read this piece with great interest, but were surprised to see this blog mischaracterize our work and the relationship we had with Frontiers in the lead-up to releasing our preprint. We feel the debate around our preprint is best left to the scientific discourse, including peer review; ultimately the worth of our work to the scientific community at large will be judged by the utility that it provides to understanding the academic publishing landscape.
@@ -213,5 +215,3 @@ We hope Frontiers will reflect on what they've said, how they've said it, and ch
 *Sincerely,*
 
 *Mark A. Hanson, Pablo Gómez Barreiro, Paolo Crosetto, Dan Brockington*
-
-## TLDR - Summary Box.
