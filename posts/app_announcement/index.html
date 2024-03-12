@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:image" content="https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/thumbn.png">
 <meta name="twitter:creator" content="@paolocrosetto">
 <meta name="twitter:image-height" content="309">
-<meta name="twitter:image-width" content="721">
+<meta name="twitter:image-width" content="549">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -229,7 +229,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="thumbn.png" class="img-fluid figure-img" width="627"></p>
-<figcaption>The Strain Explorer app screenshot</figcaption>
+<figcaption>The Strain Explorer app is here!</figcaption>
 </figure>
 </div>
 <p>A common sentiment we have received is that it is a shame we cannot release our data. We think so too. But the legal advice about how to treat web-scraped data is clear: we cannot share the raw data<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
@@ -251,7 +251,24 @@ The nitty gritty details
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Instructions go here</p>
+<p>For those interested in accessing raw data, here are technical notes and instructions on how you can assemble those data for yourself.</p>
+<p><strong>Scripts</strong></p>
+<p>In the file Shiny_scripts_data_release.zip there is a folder setup in an R package format. Download this, unzip the file, and open the Rproject and the main analysis script. The “Scripts” folder does not need to be touched. But you will need to follow the instructions below to populate the folders with the data needed for running the analysis.</p>
+<p><strong>Data related to Figures 1 &amp; 5</strong></p>
+<p>These data come from Scimago, OECD, and UNESCO. This .pdf contains step-by-step instructions on how to assemble these data for yourself.</p>
+<p><strong>Data related to Figures 2, 3, and 4</strong></p>
+<p>Unfortunately, these data we simply cannot share. If publishers authorize us to release the data we have on them, we could. But until then, we have to keep these data private.</p>
+<p>Still, we can explain how we collected these data, and if you’re coding-savvy, you can follow along. Pablo has been writing blog posts on how he scraped different publishers, so stay tuned for updates. The current posts already guide you through the process for example publishers. In brief: we had to take a unique strategy to scraping each publisher, based on how they built their web HTML code. This is why our study is more limited in which publishers we analyse in Figures 2, 3, and 4. But the idea is generally the same for each publisher:</p>
+<ul>
+<li>Feed the script a list of DOIs/addresses</li>
+<li>Search the web page for lines in the html that contain the data of interest.</li>
+<li>For instance, the line below can be gives the date the article was put online: “<em>meta name=”citation_online_date” content=”2018/01/23”</em>”</li>
+<li>Customize the script for each data point you want to collect, for each publisher, sometimes in subgroup-specific ways…</li>
+<li>Check your data very very carefully for errors. Web pages can themselves contain errors even if your script is good! For example, we got quite a few articles published online Jan 1st 1970 (the so-called “epoch date”).</li>
+</ul>
+<p><strong>A technical note on Impact Inflation</strong></p>
+<p>In the preprint we used a 2-year window for Clarivate Impact Factor or Scopus cites/doc. However the standard calculation of Scimago Journal Rank (SJR) uses a 3-year window. As a result, changes in SJR lag changes in Impact Factor a bit. Because these are values derived from 2-3 years of citation behaviour, no single year totally throws off the calculation, but this difference in time window can introduce noise unnecessarily. We prefer to use 2-year Impact Factors and cites/doc values in the preprint as this is the most common form of Impact Factor, and so more intuitive for the reader.</p>
+<p>But we can avoid this lag effect if we simply use 3-year windows for Impact Factors or cites/doc. So in the shiny app, we have used Scimago cies/doc (3-years) / SJR to calculate Impact Inflation. These numbers are very similar to the values you get from using a 2-year window for cites/doc, but for journals with big changes to cites/doc over time, the result is a slightly lower volatility in Impact Inflation from year-to-year as a result.</p>
 </div>
 </div>
 
