@@ -1,6 +1,8 @@
 [
   {
     "listing": "/post.html",
-    "items": []
+    "items": [
+      "/posts/response_to_frontiers/index.html"
+    ]
   }
 ]
