@@ -35,27 +35,6 @@
     "text": "Dan Brockington\n\n\nICREA Research Professor at the Universitat Autonoma de Barcelona, Institut de Ciència i Tecnologia Ambientals (ICTA)\n\nInstitutional website\nBlog and personal website\nGoogle Scholar\nTwitter"
   },
   {
-    "objectID": "data-and-code.html",
-    "href": "data-and-code.html",
-    "title": "Data and Code to reproduce our results",
-    "section": "",
-    "text": "Unfortunately we have been legally advised not to share the data at the moment (October 2023)."
-  },
-  {
-    "objectID": "data-and-code.html#data-sources",
-    "href": "data-and-code.html#data-sources",
-    "title": "Data and Code to reproduce our results",
-    "section": "Data sources",
-    "text": "Data sources\n\nGlobal researcher statistics\n\nTotal PhD graduates: OECD\nTotal PhD graduates for China and India: NSF, 2022 and Zwetsloot et al., 2021\nResearchers-per-million: UNESCO http://data.uis.unesco.org, “9.5.2 Researchers per million inhabitants”\n\n\n\nPublisher and Journal-level data\n\nTotal article per year and other journal metrics: Scimago https://www.scimagojr.com/journalrank.php\nImpact Factor data: Clarivate\nRejection rates\n\nFrontiers\nPLOS, Taylor & Francis: upon request\nMDPI: web scrape\nHindawi: web scrape + the wayback machine\nElsevier: web scrape via journal insight website\n\n\n\n\nArticle-level data\n\nTurnaround times:\n\nPLOS, Hindawi: extracted directly from downloadable corpus\nWiley: extracted from corpus, obtained upon request\nBMC, Frontiers, MDPI, Nature, Springer: web scrape\nTaylor & Francis: via CrossRef\nElsevier: ISSNs from Scimago, list of DOIs from CrossRef + web scrape"
-  },
-  {
-    "objectID": "data-and-code.html#code",
-    "href": "data-and-code.html#code",
-    "title": "Data and Code to reproduce our results",
-    "section": "Code",
-    "text": "Code\nWe use R for all our scraping and analyses. The R scripts to reproduce all our analyses will be available once we will clear the legal statute of sharing the scraped data."
-  },
-  {
     "objectID": "delete.html",
     "href": "delete.html",
     "title": "Untitled",

@@ -126,12 +126,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../data-and-code.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data &amp; Code (forthcoming)</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About the authors</span></a>
   </div>
@@ -222,12 +216,16 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p>A common sentiment we have received is that it is a shame we cannot release our data. We think so too. But the legal advice about how to treat web-scraped data is clear: we cannot share the raw data<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
-<p>But… After many consultations, we’ve figured out exactly what data we <strong>can</strong> share, and so we’re doing just that. We’ve provided the first of some step-by-step guides for you to download the raw data for yourself (complete with screenshots!), and R code to assemble Scimago yearly data into a single dataframe. Take a look <a href="#callout-1">here</a></p>
+<p>But… After many consultations, we’ve figured out exactly what data we <strong>can</strong> share, and so we’re doing just that. We’ve provided the first of some step-by-step guides for you to download the raw data for yourself (complete with screenshots!), and R code to assemble Scimago yearly data into a single dataframe. Take a look <a href="#callout-1"><strong>here</strong></a></p>
 <p>But if that sounds like a lot of work, <strong>we’re building an R-based shiny app</strong> that lets you type in your journal or publisher of interest and get reports on strain added by each publisher, proportion of special issue articles, average turnaround times per journal, and impact inflation!</p>
 <p>We were planning to share this during our revisions, but we’ve decided to release a sneak peek: <a href="https://pagoba.shinyapps.io/strain_explorer/"><strong>we now have a beta version of this “Strain data explorer” on our website</strong></a><strong>.</strong> As this app is in beta, we expect a few bugs. We’ve also got some data visualization ideas to develop, and some kinks to fix. We’ll be making improvements over time, so do check back for updates, and do send in improvements and suggestions on what you’d like to see it show!</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p><img src="strain_explorer.PNG" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://pagoba.shinyapps.io/strain_explorer/"><img src="strain_explorer.PNG" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
 </div></div><p>Cheers,</p>
 <p>Pablo Gómez Barreiro, Mark A. Hanson, Paolo Crosetto, and Dan Brockington</p>
 <div id="callout-1" class="callout callout-style-default callout-tip callout-titled">
@@ -247,7 +245,7 @@ The nitty gritty details
 <p>These data come from Scimago, OECD, and UNESCO. This .pdf contains step-by-step instructions on how to assemble these data for yourself.</p>
 <p><strong>Data related to Figures 2, 3, and 4</strong></p>
 <p>Unfortunately, these data we simply cannot share. If publishers authorize us to release the data we have on them, we could. But until then, we have to keep these data private.</p>
-<p>Still, we can explain how we collected these data, and if you’re coding-savvy, you can follow along. Pablo has been writing blog posts on how he scraped different publishers, so stay tuned for updates. The current posts already guide you through the process for example publishers. In brief: we had to take a unique strategy to scraping each publisher, based on how they built their web HTML code. This is why our study is more limited in which publishers we analyse in Figures 2, 3, and 4. But the idea is generally the same for each publisher:</p>
+<p>Still, we can explain how we collected these data, and if you’re coding-savvy, you can follow along. Pablo has been writing blog posts [<a href="https://pgomba.github.io/pgb_website/posts/08_10_23/">1</a>, <a href="https://pgomba.github.io/pgb_website/posts/11_10_23/">2</a>, <a href="https://pgomba.github.io/pgb_website/posts/18_10_23/">3</a>] on how he scraped different publishers, so stay tuned for updates. The current posts already guide you through the process for example publishers. In brief: we had to take a unique strategy to scraping each publisher, based on how they built their web HTML code. This is why our study is more limited in which publishers we analyse in Figures 2, 3, and 4. But the idea is generally the same for each publisher:</p>
 <ul>
 <li>Feed the script a list of DOIs/addresses</li>
 <li>Search the web page for lines in the html that contain the data of interest.</li>
