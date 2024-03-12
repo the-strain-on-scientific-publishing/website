@@ -47,7 +47,7 @@ For those interested in accessing raw data, here are technical notes and instruc
 
 **Scripts**
 
-In the file Shiny_scripts_data_release.zip there is a folder setup in an R package format. Download this, unzip the file, and open the Rproject and the main analysis script. The “Scripts” folder does not need to be touched. But you will need to follow the instructions below to populate the folders with the data needed for running the analysis.
+In the file Shiny_scripts_data_release.zip there is a folder setup in an R package format. Download [this .zip file from Github](https://github.com/the-strain-on-scientific-publishing/website/blob/main/data/Shiny_scripts_data_release.zip), unzip the file, and open the Rproject and the main analysis script. The “Scripts” folder does not need to be touched. But you will need to follow the instructions below to populate the folders with the data needed for running the analysis.
 
 **Data related to Figures 1 & 5**
 
