@@ -1,5 +1,5 @@
 ---
-title: "Response to: “Bad bibliometrics don’t add up for research or why research publishing policy needs sound science”"
+title: "Announcement: “The Strain on Scientific Publishing” data explorer!"
 author:
   - name: Pablo Gómez Barreiro
   - name: Mark Hanson
