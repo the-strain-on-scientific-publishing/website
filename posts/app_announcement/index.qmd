@@ -24,19 +24,19 @@ A common sentiment we have received is that it is a shame we cannot release our 
 
 [^1]: Researchers have a right to web-scrape information and to use it for scientific analyses, but not to further release the raw data scraped. Those data belong to the web-scraped parties (in this case, publishers), who retain rights over their distribution.
 
-But... After many consultations, we've figured out exactly what data we **can** share, and so we're doing just that. We've provided the first of some step-by-step guides for you to download the raw data for yourself (complete with screenshots!), and R code to assemble Scimago yearly data into a single dataframe. Take a look [here](#callout-1)
+But... After many consultations, we've figured out exactly what data we **can** share, and so we're doing just that. We've provided the first of some step-by-step guides for you to download the raw data for yourself (complete with screenshots!), and R code to assemble Scimago yearly data into a single dataframe. Take a look [**here**](#callout-1)
 
 But if that sounds like a lot of work, **we're building an R-based shiny app** that lets you type in your journal or publisher of interest and get reports on strain added by each publisher, proportion of special issue articles, average turnaround times per journal, and impact inflation!
 
 We were planning to share this during our revisions, but we've decided to release a sneak peek: [**we now have a beta version of this "Strain data explorer" on our website**](https://pagoba.shinyapps.io/strain_explorer/)**.** As this app is in beta, we expect a few bugs. We've also got some data visualization ideas to develop, and some kinks to fix. We'll be making improvements over time, so do check back for updates, and do send in improvements and suggestions on what you'd like to see it show!
 
 ::: column-margin
-![](strain_explorer.PNG)
+[![](strain_explorer.PNG)](https://pagoba.shinyapps.io/strain_explorer/)
 :::
 
 Cheers,
 
-Pablo Gomez-Barreiro, Mark A. Hanson, Paolo Crosetto, and Dan Brockington
+Pablo Gómez Barreiro, Mark A. Hanson, Paolo Crosetto, and Dan Brockington
 
 ::: {#callout-1 .callout-tip}
 ## The nitty gritty details
@@ -45,7 +45,7 @@ For those interested in accessing raw data, here are technical notes and instruc
 
 **Scripts**
 
-In the file Shiny_scripts_data_release.zip there is a folder setup in an R package format. Download [this .zip file from Github](https://github.com/the-strain-on-scientific-publishing/website/blob/main/data/Shiny_scripts_data_release.zip), unzip the file, and open the Rproject and the main analysis script. The “Scripts” folder does not need to be touched. But you will need to follow the instructions below to populate the folders with the data needed for running the analysis.
+In the file Shiny_scripts_data_release.zip there is a folder setup in an R package format. Download [this .zip file from Github](https://github.com/the-strain-on-scientific-publishing/website/blob/main/data/Shiny_scripts_data_release.zip), unzip the file, and open the Rproject and the main analysis script. The "Scripts" folder does not need to be touched. But you will need to follow the instructions below to populate the folders with the data needed for running the analysis.
 
 **Data related to Figures 1 & 5**
 
@@ -55,13 +55,13 @@ These data come from Scimago, OECD, and UNESCO. This .pdf contains step-by-step 
 
 Unfortunately, these data we simply cannot share. If publishers authorize us to release the data we have on them, we could. But until then, we have to keep these data private.
 
-Still, we can explain how we collected these data, and if you’re coding-savvy, you can follow along. Pablo has been writing blog posts on how he scraped different publishers, so stay tuned for updates. The current posts already guide you through the process for example publishers. In brief: we had to take a unique strategy to scraping each publisher, based on how they built their web HTML code. This is why our study is more limited in which publishers we analyse in Figures 2, 3, and 4. But the idea is generally the same for each publisher:
+Still, we can explain how we collected these data, and if you're coding-savvy, you can follow along. Pablo has been writing blog posts \[[1](https://pgomba.github.io/pgb_website/posts/08_10_23/), [2](https://pgomba.github.io/pgb_website/posts/11_10_23/), [3](https://pgomba.github.io/pgb_website/posts/18_10_23/)\] on how he scraped different publishers, so stay tuned for updates. The current posts already guide you through the process for example publishers. In brief: we had to take a unique strategy to scraping each publisher, based on how they built their web HTML code. This is why our study is more limited in which publishers we analyse in Figures 2, 3, and 4. But the idea is generally the same for each publisher:
 
 -   Feed the script a list of DOIs/addresses
 -   Search the web page for lines in the html that contain the data of interest.
 -   For instance, the line below can be gives the date the article was put online: "*meta name="citation_online_date" content="2018/01/23"*"
--   Customize the script for each data point you want to collect, for each publisher, sometimes in subgroup-specific ways…
--   Check your data very very carefully for errors. Web pages can themselves contain errors even if your script is good! For example, we got quite a few articles published online Jan 1st 1970 (the so-called “epoch date”).
+-   Customize the script for each data point you want to collect, for each publisher, sometimes in subgroup-specific ways...
+-   Check your data very very carefully for errors. Web pages can themselves contain errors even if your script is good! For example, we got quite a few articles published online Jan 1st 1970 (the so-called "epoch date").
 
 **A technical note on Impact Inflation**
 

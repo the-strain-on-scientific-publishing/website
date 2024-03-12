@@ -56,7 +56,7 @@ We have redacted rows in this spreadsheet that focused on another publisher. We 
 
 For [our preprint](https://arxiv.org/abs/2309.15884), we scraped data on shares of special issues and turnaround times. However, our data on the number of published articles and on the number of newly-minted PhDs and world researchers -- the core of Frontiers' rebuke -- were downloaded from **publicly available, official data** (via Scimago, OECD, and UNESCO as sources). This is not hidden but plainly stated in our preprint.
 
-**Third:** Frontiers writes "**When contacted for access to their dataset**, the authors responded that they had "embargoed" their data, **with the result that no one can verify or replicate their findings**".
+**Third:** Frontiers writes "**When contacted for access to their dataset**, the authors responded that they had"embargoed" their data, **with the result that no one can verify or replicate their findings**".
 
 ::: column-margin
 *"When contacted for access to their dataset, the authors responded that they had"embargoed" their data, with the result that no one can verify or replicate their findings."* <br> - Frontiers
@@ -66,7 +66,7 @@ We have norecord of Frontiers requesting our dataset. Our data and scripts are u
 
 **So why are the data under embargo?** We have consulted with lawyers at our respective institutions throughout this process regarding our data management ethics and responsibilities. Unfortunately, we simply cannot release our web-scraped dataset. The reasons for this are disappointing but sensible: those articles and the metadata contained within belong to the publishers; they are not ours to redistribute. We have a right to scrape and analyse them, but not to share them further without the publishers' authorisation. Now... if Frontiers authorised us to release the web-scraped data that we collected from them, we could do that immediately.
 
-**But!!!** While the raw data are not available, we are free to disclose analyses carried out on them. **In this regard, we have an exciting announcement:** we've just released a [web app (in beta)](https://pagoba.shinyapps.io/strain_explorer/) that lets you explore data that we can share in a fully-customizable way! See the announcement **here**.
+**But!!!** While the raw data are not available, we are free to disclose analyses carried out on them. **In this regard, we have an exciting announcement:** we've just released a [web app (in beta)](https://pagoba.shinyapps.io/strain_explorer/) that lets you explore data that we can share in a fully-customizable way! See the announcement [**here**](https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/).
 
 ::: column-margin
 [![](strain_explorer.PNG)](https://pagoba.shinyapps.io/strain_explorer/)
@@ -148,7 +148,7 @@ Frontiers accuses us of omitting, cutting and editing data to reach pre-ordained
 
 **Frontiers claims:**
 
-"The proxy data was **not reproducible** and **not representative** of the original sources of Scopus and Web of Science. The original data does not show the claimed "exponential increase" in the total number of articles published during the study period (2013-2022), **in fact growth is linear** during this period (Figure 2A)."
+"The proxy data was **not reproducible** and **not representative** of the original sources of Scopus and Web of Science. The original data does not show the claimed"exponential increase" in the total number of articles published during the study period (2013-2022), **in fact growth is linear** during this period (Figure 2A)."
 
 **First:** Frontiers presents this plot of exponential historical article growth, which suggests that the total new articles per year has declined from 2021 to 2022 slightly in Dimensions and Scopus, and by approximately half a million articles per year in the Web of Science. Here is their Figure 1:
 

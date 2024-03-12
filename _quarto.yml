@@ -46,8 +46,6 @@ website:
       - href: https://figshare.com/articles/figure/The_strain_on_scientific_publishing_figures_/24203790
         text: "Plots & Tables (Figshare)"
         target: "_blank"
-      - href: data-and-code.qmd
-        text: "Data & Code (forthcoming)"
       - href: about.qmd
         text: "About the authors"
       - href: in-the-press.qmd
