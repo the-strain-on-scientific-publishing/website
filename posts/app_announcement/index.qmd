@@ -5,7 +5,6 @@ author:
   - name: Mark Hanson
   - name: Paolo Crosetto
   - name: Dan Brockington
-style: styles.css
 date: "2024-03-13"
 categories: [Frontiers, The Strain, Open Access, Scientific Publishing]
 image: "thumbn.png"
@@ -19,7 +18,7 @@ comments:
     issue-term: title
 ---
 
-![The Strain Explorer app screenshot](thumbn.png){fig-align="center" width="486"}
+![The Strain Explorer app screenshot](thumbn.png){style="text-align: center;" fig-align="center" width="486"}
 
 A common sentiment we have received is that it is a shame we cannot release our data. We think so too. But the legal advice about how to treat web-scraped data is clear: we cannot share the raw data[^1]. But . . . after many consultations, we\'ve figured out exactly what data we **can** share, and so we\'re doing just that.
 
