@@ -18,19 +18,29 @@ comments:
     issue-term: title
 ---
 
-![The Strain Explorer app screenshot](thumbn.png){style="text-align: center;" fig-align="center" width="486"}
+![The Strain Explorer app screenshot](thumbn.png){fig-align="center" width="627"}
 
-A common sentiment we have received is that it is a shame we cannot release our data. We think so too. But the legal advice about how to treat web-scraped data is clear: we cannot share the raw data[^1]. But . . . after many consultations, we\'ve figured out exactly what data we **can** share, and so we\'re doing just that.
+A common sentiment we have received is that it is a shame we cannot release our data. We think so too. But the legal advice about how to treat web-scraped data is clear: we cannot share the raw data[^1].
 
-[^1]: Researchers have a right to web-scrape information and to use it for scientific analyses, but not to further release the raw data scraped. Those data belong to the web-scraped parties (in this case, publishers), who retain rights over their distribution.
+But... After many consultations, we've figured out exactly what data we **can** share, and so we're doing just that. We've provided the first of some step-by-step guides for you to download the raw data for yourself (complete with screenshots!), and R code to assemble Scimago yearly data into a single dataframe. Take a look [here](#callout-1)
 
-We\'ve also provided the first of some step-by-step guides for you to download the raw data for yourself (complete with screenshots!), and R code to assemble Scimago yearly data into a single dataframe.
+But if that sounds like a lot of work, **we\'re building an R-based shiny app** that lets you type in your journal or publisher of interest and get reports on strain added by each publisher, proportion of special issue articles, average turnaround times per journal, and impact inflation!
 
-But if that sounds like a lot of work, we\'re building an R-based shiny now have a web app that lets you type in your journal or publisher of interest and get reports on strain added by each publisher, proportion of special issue articles, average turnaround times per journal, and impact inflation!
+We were planning to share this during our revisions, but we've decided to release a sneak peek: **we now have a beta version of this \"Strain data explorer\" on our website.** As this app is in beta, we expect a few bugs. We've also got some data visualization ideas to develop, and some kinks to fix. We'll be making improvements over time, so do check back for updates, and do send in improvements and suggestions on what you'd like to see it show!
 
-We were planning to share this during our revisions, but we've decided to release a sneak peek: [**we now have a beta version of a "Strain data explorer" on our website**](https://pagoba.shinyapps.io/strain_explorer/)**.** As a beta version, we expect a few bugs. We\'ve also got some data visualization ideas to develop, and some kinks to fix. We\'ll be making improvements over time, so do check back for updates, and do send in improvements and suggestions on what you'd like to see it show!
+::: column-margin
+![](strain_explorer.PNG)
+:::
 
 Cheers,
 
-\
-Pablo Gómez Barreiro, Mark A. Hanson, Paolo Crosetto, and Dan Brockington
+
+Pablo Gomez-Barreiro, Mark A. Hanson, Paolo Crosetto, and Dan Brockington
+
+[^1]: Researchers have a right to web-scrape information and to use it for scientific analyses, but not to further release the raw data scraped. Those data belong to the web-scraped parties (in this case, publishers), who retain rights over their distribution.
+
+
+::: {#callout-1 .callout-tip}
+## The nitty gritty details {#callout-1}
+Instructions go here
+:::
