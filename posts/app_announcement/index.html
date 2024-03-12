@@ -78,12 +78,12 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:description" content="Home page for the paper ‘The Strain on Scientific Publishing’ by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro">
 <meta name="twitter:image" content="https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/thumbn.png">
 <meta name="twitter:creator" content="@paolocrosetto">
-<meta name="twitter:image-height" content="340">
-<meta name="twitter:image-width" content="467">
+<meta name="twitter:image-height" content="309">
+<meta name="twitter:image-width" content="721">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -184,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -226,19 +226,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-figure quarto-figure-center" style="text-align: center;">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="thumbn.png" class="img-fluid figure-img" width="486"></p>
+<p><img src="thumbn.png" class="img-fluid figure-img" width="627"></p>
 <figcaption>The Strain Explorer app screenshot</figcaption>
 </figure>
 </div>
-<p>A common sentiment we have received is that it is a shame we cannot release our data. We think so too. But the legal advice about how to treat web-scraped data is clear: we cannot share the raw data<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. But . . .&nbsp;after many consultations, we've figured out exactly what data we <strong>can</strong> share, and so we're doing just that.</p>
-<p>We've also provided the first of some step-by-step guides for you to download the raw data for yourself (complete with screenshots!), and R code to assemble Scimago yearly data into a single dataframe.</p>
-<p>But if that sounds like a lot of work, we're building an R-based shiny now have a web app that lets you type in your journal or publisher of interest and get reports on strain added by each publisher, proportion of special issue articles, average turnaround times per journal, and impact inflation!</p>
-<p>We were planning to share this during our revisions, but we’ve decided to release a sneak peek: <a href="https://pagoba.shinyapps.io/strain_explorer/"><strong>we now have a beta version of a “Strain data explorer” on our website</strong></a><strong>.</strong> As a beta version, we expect a few bugs. We've also got some data visualization ideas to develop, and some kinks to fix. We'll be making improvements over time, so do check back for updates, and do send in improvements and suggestions on what you’d like to see it show!</p>
-<p>Cheers,</p>
-<p><br>
-Pablo Gómez Barreiro, Mark A. Hanson, Paolo Crosetto, and Dan Brockington</p>
+<p>A common sentiment we have received is that it is a shame we cannot release our data. We think so too. But the legal advice about how to treat web-scraped data is clear: we cannot share the raw data<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<p>But… After many consultations, we’ve figured out exactly what data we <strong>can</strong> share, and so we’re doing just that. We’ve provided the first of some step-by-step guides for you to download the raw data for yourself (complete with screenshots!), and R code to assemble Scimago yearly data into a single dataframe. Take a look <a href="#callout-1">here</a></p>
+<p>But if that sounds like a lot of work, <strong>we're building an R-based shiny app</strong> that lets you type in your journal or publisher of interest and get reports on strain added by each publisher, proportion of special issue articles, average turnaround times per journal, and impact inflation!</p>
+<p>We were planning to share this during our revisions, but we’ve decided to release a sneak peek: <strong>we now have a beta version of this "Strain data explorer" on our website.</strong> As this app is in beta, we expect a few bugs. We’ve also got some data visualization ideas to develop, and some kinks to fix. We’ll be making improvements over time, so do check back for updates, and do send in improvements and suggestions on what you’d like to see it show!</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="strain_explorer.PNG" class="img-fluid"></p>
+</div></div><p>Cheers,</p>
+<p>Pablo Gomez-Barreiro, Mark A. Hanson, Paolo Crosetto, and Dan Brockington</p>
+<div id="callout-1" class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+The nitty gritty details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Instructions go here</p>
+</div>
+</div>
 
 
 
