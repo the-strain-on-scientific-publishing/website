@@ -6,7 +6,7 @@ author:
   - name: Paolo Crosetto
   - name: Dan Brockington
 date: "2024-03-13"
-categories: [Frontiers, The Strain, Open Access, Scientific Publishing]
+categories: [Data explorer, Shiny, The Strain, Scientific Publishing]
 image: "thumbn.png"
 draft: false
 format: html
