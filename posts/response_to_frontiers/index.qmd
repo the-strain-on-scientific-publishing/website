@@ -10,7 +10,7 @@ date: "2024-03-13"
 categories: [Frontiers, The Strain, Open Access, Scientific Publishing]
 image: "thumbn2.png"
 draft: false
-lightbox: true
+lightbox: false
 format: html
 comments:
   utterances: 
