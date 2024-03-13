@@ -81,9 +81,9 @@ The nitty gritty details
 <li id="fn1"><p>Researchers have a right to web-scrape information and to use it for scientific analyses, but not to further release the raw data scraped. Those data belong to the web-scraped parties (in this case, publishers), who retain rights over their distribution.↩︎</p></li>
 </ol>
 </section></div> ]]></description>
-  <category>Frontiers</category>
+  <category>Data explorer</category>
+  <category>Shiny</category>
   <category>The Strain</category>
-  <category>Open Access</category>
   <category>Scientific Publishing</category>
   <guid>https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/index.html</guid>
   <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
@@ -189,8 +189,8 @@ The nitty gritty details
 <p><em>“Humans tend to systematically underestimate exponential growth and perceive it in linear terms, which can have severe consequences in a variety of fields.”</em> <br> - Melnik-Leroy, Gerda Ana, et al.&nbsp;“<a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1125810/full">Is my visualization better than yours? Analyzing factors modulating exponential growth bias in graphs.</a>” <em>Frontiers in psychology</em> 14 (2023): 1125810.</p>
 </div></div><table class="table">
 <colgroup>
-<col style="width: 18%">
-<col style="width: 29%">
+<col style="width: 19%">
+<col style="width: 30%">
 <col style="width: 10%">
 <col style="width: 27%">
 <col style="width: 10%">
