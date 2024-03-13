@@ -10,6 +10,7 @@ date: "2024-03-13"
 categories: [Frontiers, The Strain, Open Access, Scientific Publishing]
 image: "thumbn2.png"
 draft: false
+lightbox: true
 format: html
 comments:
   utterances: 
@@ -112,17 +113,17 @@ Frontiers claims we said many things we simply never said. We encourage readers 
 
     Constant absolute growth is linear. Constant year-over-year percent growth is exponential. So in fact, we both agree? The data are exponential. Below we have provided plots of our data with linear or exponential curves annotated, and provided formulae and model fits for both models.
 
-    ![Who wore it better? Linear (red), or exponential (black)?](expolinear.png)
+    ![Who wore it better? Linear (red), or exponential (black)?](expolinear.png){style="{.lightbox}"}
 
-+--------------------+--------------------------------+----------+-----------------------------+----------+
-| **Model**          | **2013-2022**                  | **R^2^** | **2000-2022**               | **R^2^** |
-+--------------------+--------------------------------+----------+-----------------------------+----------+
-| Linear: ax + b     | ax = 120379 \* yr\             | 0.93     | a = 80319 \* yr\            | 0.96     |
-|                    | b = -240712967                 |          | b = -159895398              |          |
-+--------------------+--------------------------------+----------+-----------------------------+----------+
-| Exponential: a^bx^ | a = 1.637\*106\                | 0.97     | a = 8.74\*105\              | 0.99     |
-|                    | bx = (5.76\* 10-2) (yr - 2013) |          | bx = (5.12\*10-2) (yr-2000) |          |
-+--------------------+--------------------------------+----------+-----------------------------+----------+
++--------------------+--------------------------------+-----------+-----------------------------+-----------+
+| **Model**          | **2013-2022**                  | **R^2^**  | **2000-2022**               | **R^2^**  |
++--------------------+--------------------------------+-----------+-----------------------------+-----------+
+| Linear: ax + b     | ax = 120379 \* yr\             | 0.93      | a = 80319 \* yr\            | 0.96      |
+|                    | b = -240712967                 |           | b = -159895398              |           |
++--------------------+--------------------------------+-----------+-----------------------------+-----------+
+| Exponential: a^bx^ | a = 1.637\*106\                | 0.97      | a = 8.74\*105\              | 0.99      |
+|                    | bx = (5.76\* 10-2) (yr - 2013) |           | bx = (5.12\*10-2) (yr-2000) |           |
++--------------------+--------------------------------+-----------+-----------------------------+-----------+
 
 **Decline of the number of researchers**
 
