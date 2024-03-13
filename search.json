@@ -1,15 +1,5 @@
 [
   {
-    "objectID": "presentation.html",
-    "href": "presentation.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "Presentations\n\nApril 2023, SNSF Swiss National Science Foundation (with preliminary results) by Paolo. Here the slides.\nMay 2023, University of Exeter (with preliminary results) by Mark. Here the slides.\nNovember 2023, Semaine de la Science Ouverte de l’Université de Bourgogne Franche Comté (in French) by Paolo. Here the slides.\nDecember 2023, Dan & Mark presented at the 385th CGHE webinar. Here the slides. You can also visit the website of the event and a youtube video of the seminar.",
-    "crumbs": [
-      "Slide decks"
-    ]
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About the authors",
@@ -60,6 +50,30 @@
     ]
   },
   {
+    "objectID": "post.html",
+    "href": "post.html",
+    "title": "The Daily Strain",
+    "section": "",
+    "text": "Response to: “Bad bibliometrics don’t add up for research or why research publishing policy needs sound science”\n\n\n\n\n\n\nFrontiers\n\n\nThe Strain\n\n\nOpen Access\n\n\nScientific Publishing\n\n\n\n\n\n\n\n\n\nMar 13, 2024\n\n\nMark Hanson, Pablo Gómez Barreiro, Paolo Crosetto, Dan Brockington\n\n\n\n\n\n\n\n\n\n\n\n\nAnnouncement: “The Strain on Scientific Publishing” data explorer!\n\n\n\n\n\n\nData explorer\n\n\nShiny\n\n\nThe Strain\n\n\nScientific Publishing\n\n\n\n\n\n\n\n\n\nMar 13, 2024\n\n\nPablo Gómez Barreiro, Mark Hanson, Paolo Crosetto, Dan Brockington\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "The Daily Strain"
+    ]
+  },
+  {
+    "objectID": "posts/app_announcement/index.html",
+    "href": "posts/app_announcement/index.html",
+    "title": "Announcement: “The Strain on Scientific Publishing” data explorer!",
+    "section": "",
+    "text": "The Strain Explorer app is here!\nA common sentiment we have received is that it is a shame we cannot release our data. We think so too. But the legal advice about how to treat web-scraped data is clear: we cannot share the raw data1.\nBut… After many consultations, we’ve figured out exactly what data we can share, and so we’re doing just that. We’ve provided the first of some step-by-step guides for you to download the raw data for yourself (complete with screenshots!), and R code to assemble Scimago yearly data into a single dataframe. Take a look here\nBut if that sounds like a lot of work, we’re building an R-based shiny app that lets you type in your journal or publisher of interest and get reports on strain added by each publisher, proportion of special issue articles, average turnaround times per journal, and impact inflation!\nWe were planning to share this during our revisions, but we’ve decided to release a sneak peek: we now have a beta version of this “Strain data explorer” on our website. As this app is in beta, we expect a few bugs. We’ve also got some data visualization ideas to develop, and some kinks to fix. We’ll be making improvements over time, so do check back for updates, and do send in improvements and suggestions on what you’d like to see it show!\nCheers,\nPablo Gómez Barreiro, Mark A. Hanson, Paolo Crosetto, and Dan Brockington"
+  },
+  {
+    "objectID": "posts/app_announcement/index.html#footnotes",
+    "href": "posts/app_announcement/index.html#footnotes",
+    "title": "Announcement: “The Strain on Scientific Publishing” data explorer!",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nResearchers have a right to web-scrape information and to use it for scientific analyses, but not to further release the raw data scraped. Those data belong to the web-scraped parties (in this case, publishers), who retain rights over their distribution.↩︎"
+  },
+  {
     "objectID": "media.html",
     "href": "media.html",
     "title": "Media related to our project",
@@ -68,6 +82,23 @@
     "crumbs": [
       "Videos & audios"
     ]
+  },
+  {
+    "objectID": "presentation.html",
+    "href": "presentation.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Presentations\n\nApril 2023, SNSF Swiss National Science Foundation (with preliminary results) by Paolo. Here the slides.\nMay 2023, University of Exeter (with preliminary results) by Mark. Here the slides.\nNovember 2023, Semaine de la Science Ouverte de l’Université de Bourgogne Franche Comté (in French) by Paolo. Here the slides.\nDecember 2023, Dan & Mark presented at the 385th CGHE webinar. Here the slides. You can also visit the website of the event and a youtube video of the seminar.",
+    "crumbs": [
+      "Slide decks"
+    ]
+  },
+  {
+    "objectID": "delete.html",
+    "href": "delete.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "Tip 1: Cross-Referencing a Tip\n\n\n\nAdd an ID starting with #tip- to reference a tip.\n\n\nSee Tip 1…"
   },
   {
     "objectID": "posts/response_to_frontiers/index.html",
@@ -105,13 +136,6 @@
     "text": "Conclusion\nWe started a conversation with Frontiers while we were working on our article. We offered them the chance to comment on our work before we released it publicly. This is a courtesy we also extended to other publishers. We were thus surprised to find this blog posted without our knowledge. Indeed, we had numerous emails with Frontiers in the lead-up to our work that were good-faith exchanges. We even have the original comments that Frontiers provided to us from when we sent them our draft article: they praised aspects of our work and provided constructive feedback, including correcting our phrasing to avoid ambiguous wording. We would be happy to share those comments, if Frontiers would give us permission to. We still thank Frontiers for those comments. \nThat is why it is so surprising to see this latest piece, which contains a startling level of animosity and many derogatory accusations that are simply untrue.\nIn an alternate universe, perhaps Frontiers might have read our article and celebrated our work. Instead, Frontiers has released this blog containing many analytical errors just one week after they published the questionable article on rodent genitalia. Of course mistakes happen, and Frontiers retracted that article swiftly. But this? This is something else. These are their own words, chosen intentionally. \nWe still want to thank specific employees at Frontiers with whom we had a respectful relationship. None of this had to be public. We made every effort we could to adhere to ethical research conduct. We had good faith, mutually beneficial exchanges with Frontiers. Thus why it is so disheartening to see this blog post and the tone it took.\nWe hope Frontiers will reflect on what they’ve said, how they’ve said it, and choose to engage with us more productively in the future.\nSincerely,\nMark A. Hanson, Pablo Gómez Barreiro, Paolo Crosetto, Dan Brockington"
   },
   {
-    "objectID": "delete.html",
-    "href": "delete.html",
-    "title": "Untitled",
-    "section": "",
-    "text": "Tip 1: Cross-Referencing a Tip\n\n\n\nAdd an ID starting with #tip- to reference a tip.\n\n\nSee Tip 1…"
-  },
-  {
     "objectID": "in-the-press.html",
     "href": "in-the-press.html",
     "title": "Articles, threads, posts… about our paper",
@@ -119,30 +143,6 @@
     "text": "Altmetric\n\n\n\nTwitter + Mastodon threads\n\nMastodon thread by Mark A Hanson\nTwitter thread by Pablo Gómez Barreiro\nTwitter thread by Paolo Crosetto\nTwitter thread by Dan Brockington\nTwitter thread by Matthias Egger\nTwitter thread by Andrew Akbashev\nBlueSky thread by Marc Veldohen\n\n\n\nPress\n\nEnglish\n\nPress release - University of Exeter\nScience [EN] - Scienceadviser 16 november 2023\nEl País [EN] - Public funds being swallowed up by scientific journals with dubious articles\nNewswise [EN] - Avalanche of papers could erode trust in science\nPhys.org [EN] - Avalanche of published academic articles could erode trust in science\nIndia Education Diary [EN] - The Potential Avalanche of Papers: A Concern for Trust in Science\nPaudal [EN] - The “avalanche” of articles can undermine trust in science, warns a study\nWall Street Journal [EN] - What’s Wrong With Peer Review?\nBrisbane Times [EN] - We’ve hit peak science, and that’s not good\nSidney Morning Herlad [EN] - We’ve hit peak science, and that’s not good\nChemical & Engineering News [EN] - Is the academic social networking site ResearchGate still relevant?\nThe Citizen – Tanzania [EN] - Mushrooming academic papers: Researchers’ concern about scientific trust\n\n\n\nFrench\n\nActualité web [FR] on the INRAE website\nL’Express [FR] - article by Antoine Beau on the Hindawi crisis and shutdown\n\n\n\nSpanish\n\nPress release [ES] - Universitat Autònoma de Barcelona\nEl País [ES] - La burbuja de las revistas científicas se traga millones de euros de dinero público\nEl País [ES] - Virus en la publicación científica\nLa Vanguardia [ES] | Agencia EFE [ES] | Infobae [ES] | Yahoo [ES] | QuéPasa [ES] | MSN|[ES]News ES Euro [ES] | HM TV [ES] | BellerDigital [ES] | Copiroyal [ES] | Minuto 30 [ES] | Portal Político TV [ES] | Canalpaís américa [ES] | El Periódico de México [ES] | CubaSí [ES] | El Nacional [ES] | El Diario | ABC Paraguay [ES] | Listin Diario [ES]: La “avalancha” de artículos puede socavar la confianza en la ciencia, alerta un estudio\n\n\n\nCatalan\n\n3CAT [Cat]: Alerten d’una “allau” d’articles científics que es publiquen sense revisar-ne la qualitat\n\n\n\nDutch\n\nNRC [NL] - 2.800.000\n\n\n\nGerman\n\nLaborJournal [DE] - Sonderausgaben – Fluch oder Segen?\n\n\n\nArabic\n\nHespress [Morocco]\n\n\n\nRomanian\n\nHotNews.ro [RO]\n\n\n\nNorwegian\n\nForskning.no [NO] - also translated in English in their sciencenorway English-language website\n\n\n\nSwahili\n\nLango La Habar [Tanzania]\n\n\n\nVietnamese\n\nThanh Niên [Vietnam]\n\n\n\n\nBlogs\n\nIn the Dark [EN] – the blog of astrophysicits Peter Coles\nBishop Blog [EN] - the blog of Dorothy Bishop. Also:\n\nhere when discussing her brilliant Defense Against the Dark Art course proposal\nhere when discussing issues with a series of papers at MDPI\n\nRevues et Integrité [FR] – the blog of Hervé Maisonneuve\nThe Blot Report [EN]\nWeekend list of Retraction Watch [EN] - 7/10/2023\nDigital Koans [EN] - Blog of Digital Scholarship\nLSE Impact blog [EN] – a Social Science impact Blog from the London School of Economics\nScholarly Kitchen [EN] - an article about consolidation in the publishing market cites us for reference\nScholarly Kitchen [EN] - an article about he rise of AI and the future of scientific publications\nThe Brief [EN] - monthly newsletter about scientific publishing by Clarke & Esposito talks about our paper in their “briefly noted” section\nReasonable people [EN] - the substack blog of Tom Stafford\nNanoscale views [EN] - the physics blog of Douglas Natelson\nGiuseppe Vizzari’s blog [EN] - Contributing to the public goods game…\n/USR/SPACE [EN] - Michael Rowe’s blog\nDaily Nous [EN] - Philosophers, Should You Pay to Publish Your Paper? by Justin Weinberg\n\n\n\nOnline magazines\n\nROARS [IT] - the Returns on Academic Research and School website interviewed Paolo on the preprint.\nThe Meta News [FR] - access restricted to researchers in French universities and Research Institutes\nSciELO en perspectiva [PT] - Portuguese blog hosting an article by Lilan Nassi-Calo",
     "crumbs": [
       "Mentions & articles"
-    ]
-  },
-  {
-    "objectID": "posts/app_announcement/index.html",
-    "href": "posts/app_announcement/index.html",
-    "title": "Announcement: “The Strain on Scientific Publishing” data explorer!",
-    "section": "",
-    "text": "The Strain Explorer app is here!\nA common sentiment we have received is that it is a shame we cannot release our data. We think so too. But the legal advice about how to treat web-scraped data is clear: we cannot share the raw data1.\nBut… After many consultations, we’ve figured out exactly what data we can share, and so we’re doing just that. We’ve provided the first of some step-by-step guides for you to download the raw data for yourself (complete with screenshots!), and R code to assemble Scimago yearly data into a single dataframe. Take a look here\nBut if that sounds like a lot of work, we’re building an R-based shiny app that lets you type in your journal or publisher of interest and get reports on strain added by each publisher, proportion of special issue articles, average turnaround times per journal, and impact inflation!\nWe were planning to share this during our revisions, but we’ve decided to release a sneak peek: we now have a beta version of this “Strain data explorer” on our website. As this app is in beta, we expect a few bugs. We’ve also got some data visualization ideas to develop, and some kinks to fix. We’ll be making improvements over time, so do check back for updates, and do send in improvements and suggestions on what you’d like to see it show!\nCheers,\nPablo Gómez Barreiro, Mark A. Hanson, Paolo Crosetto, and Dan Brockington"
-  },
-  {
-    "objectID": "posts/app_announcement/index.html#footnotes",
-    "href": "posts/app_announcement/index.html#footnotes",
-    "title": "Announcement: “The Strain on Scientific Publishing” data explorer!",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nResearchers have a right to web-scrape information and to use it for scientific analyses, but not to further release the raw data scraped. Those data belong to the web-scraped parties (in this case, publishers), who retain rights over their distribution.↩︎"
-  },
-  {
-    "objectID": "post.html",
-    "href": "post.html",
-    "title": "The Daily Strain",
-    "section": "",
-    "text": "Response to: “Bad bibliometrics don’t add up for research or why research publishing policy needs sound science”\n\n\n\n\n\n\nFrontiers\n\n\nThe Strain\n\n\nOpen Access\n\n\nScientific Publishing\n\n\n\n\n\n\n\n\n\nMar 13, 2024\n\n\nMark Hanson, Pablo Gómez Barreiro, Paolo Crosetto, Dan Brockington\n\n\n\n\n\n\n\n\n\n\n\n\nAnnouncement: “The Strain on Scientific Publishing” data explorer!\n\n\n\n\n\n\nData explorer\n\n\nShiny\n\n\nThe Strain\n\n\nScientific Publishing\n\n\n\n\n\n\n\n\n\nMar 13, 2024\n\n\nPablo Gómez Barreiro, Mark Hanson, Paolo Crosetto, Dan Brockington\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "The Daily Strain"
     ]
   },
   {
