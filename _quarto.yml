@@ -58,6 +58,7 @@ website:
         text: "The Daily Strain"
       - href: https://pagoba.shinyapps.io/strain_explorer/
         text: "The Strain Explorer (beta app)"
+        target: "_blank"
     
 format:
   html:
