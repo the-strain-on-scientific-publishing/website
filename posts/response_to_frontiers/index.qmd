@@ -1,5 +1,6 @@
 ---
 title: "Response to: “Bad bibliometrics don’t add up for research or why research publishing policy needs sound science”"
+lightbox: true
 author:
   - name: Mark Hanson
   - name: Pablo Gómez Barreiro
@@ -10,7 +11,6 @@ date: "2024-03-13"
 categories: [Frontiers, The Strain, Open Access, Scientific Publishing]
 image: "thumbn2.png"
 draft: false
-lightbox: false
 format: html
 comments:
   utterances: 
@@ -20,7 +20,7 @@ comments:
     issue-term: title
 ---
 
-![Illustrated by Jasmina El Bouamraoui and Karabo Poppy Moletsane, distributed under CC0 1.0](thumbn2.png){fig-align="center"}
+![Illustrated by Jasmina El Bouamraoui and Karabo Poppy Moletsane, distributed under CC0 1.0](thumbn2.png){style="{.lightbox}" fig-align="center"}
 
 We have received a diverse, global, and humbling response to our preprint "[The Strain on Scientific Publishing](https://arxiv.org/abs/2309.15884)." We thank everyone for the kind words, thoughtful commentaries, and critiques from across the spectrum. We embrace the opportunity to critically re-evaluate our positions and better our understanding of the data. This is Open Science at its best, and we fully support it.
 
@@ -45,7 +45,7 @@ Here we provide a response focused on the most salient points. We must reply to 
 
 They did send us a personally-curated set of Dimensions data in August 2023. They did so after we shared a draft of our preprint prior to its release. Here's a screenshot of the full extent of the data Frontiers sent us:
 
-![Caption from data shared by Frontiers. Sensible information redacted](Frontiers_data_share.jpg){style="{.lightbox}"}
+![Caption from data shared by Frontiers. Sensible information redacted](Frontiers_data_share.jpg)
 
 We have redacted rows in this spreadsheet that focused on another publisher. We didn't ask Frontiers for Dimensions data, and we are also quite capable of curating data for ourselves. That is why we opted to use a conservative dataset where all journals in our analysis were indexed by both Scopus and Web of Science (downloaded from [Scimago](https://www.scimagojr.com/journalrank.php)), such that the growth in articles we described would relate solely to journals indexed by both industry heavyweights. We acknowledge in our study that there are even more journals out there, for instance, journals indexed by Dimensions but not by both Scopus and Web of Science, and so the strain we describe is likely an underestimate.
 
@@ -113,7 +113,7 @@ Frontiers claims we said many things we simply never said. We encourage readers 
 
     Constant absolute growth is linear. Constant year-over-year percent growth is exponential. So in fact, we both agree? The data are exponential. Below we have provided plots of our data with linear or exponential curves annotated, and provided formulae and model fits for both models.
 
-    ![Who wore it better? Linear (red), or exponential (black)?](expolinear.png){style="{.lightbox}"}
+    ![Who wore it better? Linear (red), or exponential (black)?](expolinear.png)
 
 +--------------------+--------------------------------+-----------+-----------------------------+-----------+
 | **Model**          | **2013-2022**                  | **R^2^**  | **2000-2022**               | **R^2^**  |
@@ -131,7 +131,7 @@ Again, we never claimed a decline. From our abstract: "Total articles... have gr
 
 Some of our plots do show a decline in the number of new PhDs per year. A lower growth rate does not create an absolute reduction -- as people all over the planet facing slower inflation this year surely know. Further, we did consider different data types and sources to pin down the growth in the global scientific workforce: some show a plateau, some show only a limited rate of growth. That's why we said "growth in articles outpaced the limited growth -- if any -- of researchers". It's what the data (from several sources) tell us. Here is our Fig.1supp1, which uses OECD PhD data supplemented with data for India and China (A-B), or UNESCO data on researchers-per-million (C-D):
 
-![Fig. 1supp1 from The Strain on Scientific Publishing: the growing disparity between total articles per year and active researchers is robust to use of alternate datasets. Dotted lines indicate estimated trends. A) OECD data complemented with total STEM PhD graduates from India and China (dashed red line) does not alter the pattern of an overall decline in recent years. B) The ratio of total articles to total PhD graduates has gone up substantially since 2019. C) UNESCO data instead using total active researchers (full-time equivalent) per million people shows a similar trend. Of note, this proxy for active researchers may include non-publishing scientists (private industry, governmental) that are not participating in the strain on scientific publishing in the same way that academic scientists are. D) Nevertheless, using UNESCO data the ratio of total articles to total active researchers has gone up substantially since 2019.](Fig1supp1_docs_to_researchers.png){style="{.lightbox}"}
+![Fig. 1supp1 from The Strain on Scientific Publishing: the growing disparity between total articles per year and active researchers is robust to use of alternate datasets. Dotted lines indicate estimated trends. A) OECD data complemented with total STEM PhD graduates from India and China (dashed red line) does not alter the pattern of an overall decline in recent years. B) The ratio of total articles to total PhD graduates has gone up substantially since 2019. C) UNESCO data instead using total active researchers (full-time equivalent) per million people shows a similar trend. Of note, this proxy for active researchers may include non-publishing scientists (private industry, governmental) that are not participating in the strain on scientific publishing in the same way that academic scientists are. D) Nevertheless, using UNESCO data the ratio of total articles to total active researchers has gone up substantially since 2019.](Fig1supp1_docs_to_researchers.png)
 
 **So, what did we actually say?**
 
@@ -153,7 +153,7 @@ Frontiers accuses us of omitting, cutting and editing data to reach pre-ordained
 
 **First:** Frontiers presents this plot of exponential historical article growth, which suggests that the total new articles per year has declined from 2021 to 2022 slightly in Dimensions and Scopus, and by approximately half a million articles per year in the Web of Science. Here is their Figure 1:
 
-![](Figure_1_Historical_Article_Growth.png){style="{.lightbox}"}
+![](Figure_1_Historical_Article_Growth.png)
 
 However, in their next plot in their Figure 2A (below, left), they instead show a year-over-year increase in the Dimensions and Scopus datasets, and only a minor decline in the Web of Science data. What Frontiers has done in Figure 1 is they have oversmoothed their curve, leading to a faulty data visualization that does not accurately reflect the underlying data.
 
@@ -162,7 +162,7 @@ Their Figure 2A also shows another problem with the analysis carried out by Fron
 \
 Look at the left panel below, and then the right panel. Frontiers claims that our data are "incomplete and selective" and that "employing reproducible data from original, verifiable sources painted a starkly different picture". They then provide their Figure 2A, which we give here unaltered in the left panel below. In the right panel, we have cut and pasted the black line (our data) and moved it up so the 2013 data points are aligned between Scopus and "our data". The growth rate is remarkably similar. This should not surprise anyone, because **our data are Scopus data.** We just filtered them to only include journals also indexed in Web of Science. They are **not** a "proxy, unverifiable source."
 
-![](Frontiers_Fig2a.png){style="{.lightbox}"}
+![](Frontiers_Fig2a.png)
 
 But to be sure we do not somehow mislead you with a trick of data visualisation, we crunched the numbers: the correlation between our data and Scopus is: Pearson's r = 0.992. In fact, the correlation between our data and the Dimensions data Frontiers provided us is: Pearson's r = 0.983. So even if you use Dimensions or Scopus instead, **our data do paint the same picture.**
 
@@ -174,7 +174,7 @@ Again, we never say there has been a decrease in researchers (see above). Fronti
 
 ::: columns
 ::: {.column width="40%"}
-![](Frontiers_Fig2b.png){.column style="{.lightbox}"}
+![](Frontiers_Fig2b.png){.column}
 :::
 
 ::: {.column width="5%"}
@@ -194,7 +194,7 @@ Further, Frontiers claims the COVID-19 pandemic is behind the plateauing of PhD 
 
 ::: columns
 ::: {.column width="40%"}
-![](Frontiers_Fig2c.png){.column style="{.lightbox}"}
+![](Frontiers_Fig2c.png){.column}
 :::
 
 ::: {.column width="5%"}
