@@ -31,7 +31,7 @@ We have received a diverse, global, and humbling response to our preprint "[The 
 ![Web capture from Frontiers website](frontiers_web_caption.PNG){width="300"}
 :::
 
-However, we feel compelled to publicly reply to this blog piece as it contains factual errors, distorts our work, accuses us of editing, cutting and omitting data to produce biased results. It further produces an alternative analysis that partly does not stand up to scrutiny, and partly supports the very results it claims to debunk. 
+However, we feel compelled to publicly reply to this blog piece as it contains factual errors, distorts our work, accuses us of editing, cutting and omitting data to produce biased results. **These accusations are particularly hideous to make of scientists**. Frontiers' blog further produces an alternative analysis that partly does not stand up to scrutiny, and partly supports the very results it claims to debunk. 
 
 Here we provide a response focused on the most salient points. We must reply to the claims made about our character seriously: we did not cut, distort, omit or edit any data. Here, we will set the record straight and dispel the derogatory accusations contained in Frontiers' piece. Without further ado:
 
@@ -47,7 +47,7 @@ They did send us a personally-curated set of Dimensions data in August 2023. The
 
 ![Caption from data shared by Frontiers. Sensible information redacted](Frontiers_data_share.jpg)
 
-We have redacted rows in this spreadsheet that focused on another publisher. We didn't ask Frontiers for Dimensions data, and we are also quite capable of curating data for ourselves. That is why we opted to use a conservative dataset where all journals in our analysis were indexed by both Scopus and Web of Science (downloaded from [Scimago](https://www.scimagojr.com/journalrank.php)), such that the growth in articles we described would relate solely to journals indexed by both industry heavyweights. We acknowledge in our study that there are even more journals out there, for instance, journals indexed by Dimensions but not by both Scopus and Web of Science, and so the strain we describe is likely an underestimate.
+We have redacted rows in this spreadsheet that focused on another publisher. We didn't ask Frontiers for Dimensions data, and we are also quite capable of curating data for ourselves. We opted to use a conservative dataset where all journals in our analysis were indexed by both Scopus and Web of Science (downloaded from [Scimago](https://www.scimagojr.com/journalrank.php)), such that the growth in articles we described would relate solely to journals indexed by both industry heavyweights. We acknowledge in our study that there are even more journals out there, for instance, journals indexed by Dimensions but not by both Scopus and Web of Science, and so the strain we describe is likely an underestimate.
 
 **Second:** Frontiers writes that we "resorted to unverifiable data obtained through web scraping".
 
@@ -145,7 +145,7 @@ In their piece, Frontiers makes us out to somehow be "detractors" of the open sc
 
 ## 3. Of Bad bibliometrics that don't add up
 
-Frontiers accuses us of omitting, cutting and editing data to reach pre-ordained and biased conclusions, of using methodologically unsound practices, of leaning on visual impressions to imply causality, and more. **These accusations are particularly hideous to make of scientists.** Moreover, this may be a case of "pointing fingers with a mouth full of cookies..." We struggled to come up with a delicate way to phrase this, but we simply couldn't find the words. To be blunt: the Frontiers analysis is amateurish, careless in its data curation and interpretation, leans heavily on visual impressions, and evokes results out of thin air. Let's dive in.
+We struggled to come up with a delicate way to phrase this, but we simply couldn't find the words. To be blunt: the Frontiers analysis is amateurish, careless in its data curation and interpretation, leans heavily on visual impressions, and evokes results out of thin air. Let's dive in.
 
 **Frontiers claims:**
 
@@ -204,7 +204,7 @@ Further, Frontiers claims the COVID-19 pandemic is behind the plateauing of PhD 
 ::: {.column width="55%"}
 **Briefly:** there is actually quite a good correlation between total articles and Frontiers Research Topic articles per year. The correlation between the Scopus data in green and the Frontiers Research Topic data is: Pearson's r = 0.912. Moreover, the growth in Frontiers Research Topic articles has been exponential: a mean year-over-year growth of 43%, far outpacing the overall strain (\~6%).
 
-**But somewhat incredibly:** this plot actually validates our own scraped data from Frontiers. As we mentioned, we requested data from Frontiers on special issue article numbers so we could validate or even replace our web-scraped data, but they never sent us those data. **But in this Figure 2C, in fact, Frontiers provides the data we requested.** So, how did we do? It seems we were spot-on.
+**But somewhat ironically:** this plot actually validates our own scraped data from Frontiers. As we mentioned, we requested data from Frontiers on special issue article numbers so we could validate or even replace our web-scraped data, but they never sent us those data. **But in this Figure 2C, in fact, Frontiers provides the data we requested.** So, how did we do? It seems we were spot-on.
 :::
 :::
 
@@ -216,11 +216,13 @@ We started a conversation with Frontiers while we were working on our article. W
 
 That is why it is so surprising to see this latest piece, which contains a startling level of animosity and many derogatory accusations that are simply untrue.
 
-In an alternate universe, perhaps Frontiers might have read our article and celebrated our work. Instead, Frontiers has released this blog containing many analytical errors just one week after they published [the questionable article on rodent genitalia](https://arstechnica.com/science/2024/02/scientists-aghast-at-bizarre-ai-rat-with-huge-genitals-in-peer-reviewed-article/). Of course mistakes happen, and Frontiers retracted that article swiftly. But this? This is something else. These are their own words, chosen intentionally. 
+Others, including publishers, have welcomed our scientific countribution. Frontiers could have done the same. Instead, Frontiers has released this blog containing many analytical errors just one week after they published [the questionable article on rodent genitalia](https://www.swissinfo.ch/eng/science/wrong-ai-generated-images-in-scientific-journal-put-a-strain-on-swiss-publisher-frontiers/73657004). Of course mistakes happen, and Frontiers retracted that article swiftly. But this? This is something else. These are their own words, chosen intentionally. 
 
-We still want to thank specific employees at Frontiers with whom we had a respectful relationship. None of this had to be public. We made every effort we could to adhere to ethical research conduct. We had good faith, mutually beneficial exchanges with Frontiers. Thus why it is so disheartening to see this blog post and the tone it took.
+We still want to thank specific employees at Frontiers with whom we had a respectful relationship. We made every effort we could to adhere to ethical research conduct. We had good faith, mutually beneficial exchanges with Frontiers. Thus why it is so disheartening to see this blog post and the tone it took. We hope Frontiers will reflect on what they've said, how they've said it, and choose to engage with us more productively in the future.
 
-We hope Frontiers will reflect on what they've said, how they've said it, and choose to engage with us more productively in the future.
+We wrote the Strain paper because we wanted there to be more transparency over the data that publishers control on academic publishing; because we thought we needed a more strongly data-driven conversation about publishing trends; because some of the contributions to that conversation are misguided, dysfunctional and require rectifying, and because we think researchers need to scrutinise publishers\' data if they are to be effectively analysed and interpreted. We cannot assume publishers will do that well.
+
+The Frontier\'s blog confirms us in that view.
 
 *Sincerely,*
 
