@@ -98,6 +98,7 @@ title: "Articles, threads, posts... about our paper"
 -   [**Giuseppe Vizzari's blog \[EN\]**](https://giuseppevizzari.github.io/posts/2023/11/Contributing/) - Contributing to the public goods game...
 -   [**/USR/SPACE \[EN\]**](https://www.mrowe.co.za/blog/2023/11/link-the-strain-on-scientific-publishing/) - Michael Rowe's blog
 -   [**Daily Nous \[EN\]**](https://dailynous.com/2024/02/06/philosophers-should-you-pay-to-publish-your-paper-guest-post/) - Philosophers, Should You Pay to Publish Your Paper? by Justin Weinberg
+-   [**Frontiers' Science News \[EN\]**](https://www.frontiersin.org/news/2024/02/21/bad-bibliometrics-dont-add-up-for-research-or-why-research-publishing-policy) - *Bad bibliometrics don’t add up for research or why research publishing policy needs sound science*. This is a very critical piece. We explain why it's incorrect and faulty in [**our reply here**](https://the-strain-on-scientific-publishing.github.io/website/posts/response_to_frontiers/).
 
 # Online magazines
 
