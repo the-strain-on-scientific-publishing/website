@@ -24,7 +24,6 @@ comments:
 
 We have received a diverse, global, and humbling response to our preprint "[The Strain on Scientific Publishing](https://arxiv.org/abs/2309.15884)." We thank everyone for the kind words, thoughtful commentaries, and critiques from across the spectrum. We embrace the opportunity to critically re-evaluate our positions and better our understanding of the data. This is Open Science at its best, and we fully support it.
 
-\
 [A recently-published Frontiers Media "science news" blog](https://www.frontiersin.org/news/2024/02/21/bad-bibliometrics-dont-add-up-for-research-or-why-research-publishing-policy) commented publicly on our work. We read this piece with great interest, but were surprised to see this blog mischaracterize our work and the relationship we had with Frontiers in the lead-up to releasing our preprint. We feel the debate around our preprint is best left to the scientific discourse, including peer review; ultimately the worth of our work to the scientific community at large will be judged by the utility that it provides to understanding the academic publishing landscape.
 
 ::: column-margin
@@ -159,7 +158,6 @@ However, in their next plot in their Figure 2A (below, left), they instead show 
 
 Their Figure 2A also shows another problem with the analysis carried out by Frontiers, that will occur again later: they claim one thing in the text, provide no numbers in support, and simply reference a figure that, in fact, does not support the claim.
 
-\
 Look at the left panel below, and then the right panel. Frontiers claims that our data are "incomplete and selective" and that "employing reproducible data from original, verifiable sources painted a starkly different picture". They then provide their Figure 2A, which we give here unaltered in the left panel below. In the right panel, we have cut and pasted the black line (our data) and moved it up so the 2013 data points are aligned between Scopus and "our data". The growth rate is remarkably similar. This should not surprise anyone, because **our data are Scopus data.** We just filtered them to only include journals also indexed in Web of Science. They are **not** a "proxy, unverifiable source."
 
 ![](Frontiers_Fig2a.png)
@@ -220,9 +218,9 @@ Others, including publishers, have welcomed our scientific countribution. Fronti
 
 We still want to thank specific employees at Frontiers with whom we had a respectful relationship. We made every effort we could to adhere to ethical research conduct. We had good faith, mutually beneficial exchanges with Frontiers. Thus why it is so disheartening to see this blog post and the tone it took. We hope Frontiers will reflect on what they've said, how they've said it, and choose to engage with us more productively in the future.
 
-We wrote the Strain paper because we wanted there to be more transparency over the data that publishers control on academic publishing; because we thought we needed a more strongly data-driven conversation about publishing trends; because some of the contributions to that conversation are misguided, dysfunctional and require rectifying, and because we think researchers need to scrutinise publishers\' data if they are to be effectively analysed and interpreted. We cannot assume publishers will do that well.
+We wrote the Strain paper because we wanted there to be more transparency over the data that publishers control on academic publishing; because we thought we needed a more strongly data-driven conversation about publishing trends; because some of the contributions to that conversation are misguided, dysfunctional and require rectifying, and because we think researchers need to scrutinise publishers' data if they are to be effectively analysed and interpreted. We cannot assume publishers will do that well.
 
-The Frontier\'s blog confirms us in that view.
+The Frontier's blog confirms us in that view.
 
 *Sincerely,*
 
