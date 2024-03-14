@@ -49,7 +49,7 @@ In the file Shiny_scripts_data_release.zip there is a folder setup in an R packa
 
 **Data related to Figures 1 & 5**
 
-These data come from Scimago, OECD, and UNESCO. This .pdf contains step-by-step instructions on how to assemble these data for yourself.
+These data come from Scimago, OECD, and UNESCO. [This .pdf](README_assemble_Scimago_OECD_UNESCO.pdf) contains step-by-step instructions on how to assemble these data for yourself.
 
 **Data related to Figures 2, 3, and 4**
 
