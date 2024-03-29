@@ -4,7 +4,14 @@ title: "Presentations"
 
 # Presentations
 
--   April 2023, SNSF Swiss National Science Foundation (with **preliminary** results) by Paolo. [Here the slides](Slides/SNSF_04_2023_Paolo.pdf).
--   May 2023, University of Exeter (with **preliminary** results) by Mark. [Here the slides](Slides/HansonMark_ResponsibleMetrics_UoExeter.pdf).
--   November 2023, Semaine de la Science Ouverte de l'Université de Bourgogne Franche Comté (in **French**) by Paolo. [Here the slides](Slides/Dijon.pdf).
+### Preprint results
+
+-   March 2024, Paolo presented (in **French**) at the Université de Rennes, IRMAR ethics seminar – slides [in French here](Slides/Rennes.pdf).
+-   March 2024, Paolo presented in Paris at the Open Science day of the Graduate School University Paris-Saclay. [Here the slides](Slides/Paris_Saclay_March_24.pdf).
 -   December 2023, Dan & Mark presented at the 385th CGHE webinar. [Here the slides](Slides/CGHE_HansonBarreiroCrosettoBrockington_Dec12-2023.pdf). You can also visit [the website of the event](https://www.researchcghe.org/events/cghe-seminar/the-strain-on-scientific-publishing/) and a [youtube video](https://youtu.be/3cUSkNbYI08?si=x3LlOZvpJ8wib4Np) of the seminar.
+-   November 2023, Semaine de la Science Ouverte de l'Université de Bourgogne Franche Comté (in **French**) by Paolo. [Here the slides](Slides/Dijon.pdf).
+
+### Preliminary results
+
+-   May 2023, University of Exeter (with **preliminary** results) by Mark. [Here the slides](Slides/HansonMark_ResponsibleMetrics_UoExeter.pdf).
+-   April 2023, SNSF Swiss National Science Foundation (with **preliminary** results) by Paolo. [Here the slides](Slides/SNSF_04_2023_Paolo.pdf).
