@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/about.html</loc>
-    <lastmod>2024-04-04T22:02:55.383Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/in-the-press.html</loc>
-    <lastmod>2024-04-04T22:02:55.507Z</lastmod>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/presentation.html</loc>
+    <lastmod>2024-06-07T15:19:58.213Z</lastmod>
   </url>
   <url>
     <loc>https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/index.html</loc>
-    <lastmod>2024-04-04T22:02:55.507Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/index.html</loc>
-    <lastmod>2024-04-04T22:02:55.507Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/presentation.html</loc>
-    <lastmod>2024-04-04T22:02:55.527Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/post.html</loc>
-    <lastmod>2024-04-04T22:02:55.507Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/delete.html</loc>
-    <lastmod>2024-04-04T22:02:55.499Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/posts/response_to_frontiers/index.html</loc>
-    <lastmod>2024-04-04T22:02:55.527Z</lastmod>
+    <lastmod>2024-06-07T15:19:58.193Z</lastmod>
   </url>
   <url>
     <loc>https://the-strain-on-scientific-publishing.github.io/website/media.html</loc>
-    <lastmod>2024-04-04T22:02:55.507Z</lastmod>
+    <lastmod>2024-06-07T15:19:58.189Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/delete.html</loc>
+    <lastmod>2024-06-07T15:19:58.185Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/about.html</loc>
+    <lastmod>2024-06-07T15:19:58.069Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/post.html</loc>
+    <lastmod>2024-06-07T15:19:58.189Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/index.html</loc>
+    <lastmod>2024-06-07T15:19:58.189Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/posts/response_to_frontiers/index.html</loc>
+    <lastmod>2024-06-07T15:19:58.213Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/in-the-press.html</loc>
+    <lastmod>2024-06-07T15:19:58.189Z</lastmod>
   </url>
 </urlset>
