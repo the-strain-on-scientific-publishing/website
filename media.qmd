@@ -32,4 +32,4 @@ title: "Media related to our project"
 
 # Others
 
-[**Viaje al lado oscuro de la ciencia** \[Spanish\]](slides/pArAdigmA.pdf) - Building on "The Strain" paper, this is a brief comment on all things wrong affecting the current scientific publishing panorama. Published in Malaga´s University magazine, [**pArAdigmA**](https://riuma.uma.es/xmlui/handle/10630/23) (volúmen 26, 2024).
+[**Viaje al lado oscuro de la ciencia** \[Spanish\]](Slides/pArAdigmA.pdf) - Building on "The Strain" paper, this is a brief comment on all things wrong affecting the current scientific publishing panorama. Published in Malaga´s University magazine, [**pArAdigmA**](https://riuma.uma.es/xmlui/handle/10630/23) (volúmen 26, 2024).
