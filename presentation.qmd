@@ -6,6 +6,8 @@ title: "Presentations"
 
 ### Preprint results
 
+-   May 2024, Paolo presented our results in a brief intervention at the Global Research Council meeting in Interlake, Switzerland. [Slides in English here](Slides/GRC-Crosetto.pdf).
+-   Spring/Summer 2024 Paolo gave several presentations based on an updated set of slides (in English): here the [slides for the NEOMA Workshop](Slides/NEOMA.pdf) on June 19th, but similar slides were used for other talks (Basel, Israel,
 -   March 2024, Paolo presented (in **French**) at the Université de Rennes, IRMAR ethics seminar – slides [in French here](Slides/Rennes.pdf).
 -   March 2024, Paolo presented in Paris at the Open Science day of the Graduate School University Paris-Saclay. [Here the slides](Slides/Paris_Saclay_March_24.pdf).
 -   December 2023, Dan & Mark presented at the 385th CGHE webinar. [Here the slides](Slides/CGHE_HansonBarreiroCrosettoBrockington_Dec12-2023.pdf). You can also visit [the website of the event](https://www.researchcghe.org/events/cghe-seminar/the-strain-on-scientific-publishing/) and a [youtube video](https://youtu.be/3cUSkNbYI08?si=x3LlOZvpJ8wib4Np) of the seminar.
