@@ -29,3 +29,7 @@ title: "Media related to our project"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CNcSDSdWCfA?si=mgAhpguFgzpUdlx3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
 </iframe>
+
+# Others
+
+[**Viaje al lado oscuro de la ciencia** \[Spanish\]](slides/pArAdigmA.pdf) - Building on "The Strain" paper, this is a brief comment on all things wrong affecting the current scientific publishing panorama. Published in Malaga´s University magazine, [**pArAdigmA**](https://riuma.uma.es/xmlui/handle/10630/23) (volúmen 26, 2024).
