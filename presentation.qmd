@@ -6,7 +6,8 @@ title: "Presentations"
 
 ### Preprint results
 
--   May 2024, Paolo presented our results in a brief intervention at the Global Research Council meeting in Interlake, Switzerland. [Slides in English here](Slides/GRC-Crosetto.pdf).
+-   September 2024, Paolo presented our results in Italian at an open science event in Milan, at the presence of the Dean of the University fo Milan. Slides in Italian here.
+-   May 2024, Paolo presented our results in a brief intervention at the Global Research Council meeting in Interlaken, Switzerland. [Slides in English here](Slides/GRC-Crosetto.pdf).
 -   Spring/Summer 2024 Paolo gave several presentations based on an updated set of slides (in English): here the [slides for the NEOMA Workshop](Slides/NEOMA.pdf) on June 19th, but similar slides were used for other talks (Basel, Israel,
 -   March 2024, Paolo presented (in **French**) at the Université de Rennes, IRMAR ethics seminar – slides [in French here](Slides/Rennes.pdf).
 -   March 2024, Paolo presented in Paris at the Open Science day of the Graduate School University Paris-Saclay. [Here the slides](Slides/Paris_Saclay_March_24.pdf).
