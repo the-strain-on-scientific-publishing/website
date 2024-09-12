@@ -36,7 +36,6 @@ title: "Articles, threads, posts... about our paper"
 -   [**The Citizen -- Tanzania \[EN\]**](https://www.thecitizen.co.tz/tanzania/news/national/mushrooming-academic-papers-researchers-concern-about-scientific-trust-4512832) - *Mushrooming academic papers: Researchers' concern about scientific trust*
 -   [**Swissinfo.ch -- Switzerland \[EN\]**](https://www.swissinfo.ch/eng/science/wrong-ai-generated-images-in-scientific-journal-put-a-strain-on-swiss-publisher-frontiers/73657004) - *AI-generated rat genitalia: Swiss publisher of scientific journal under pressure*
 
-
 ### French
 
 -   [**Actualité web \[FR\]**](https://www.inrae.fr/actualites/ledition-scientifique-pression) on the INRAE website
@@ -115,3 +114,4 @@ title: "Articles, threads, posts... about our paper"
 -   [**ROARS \[IT\]**](https://www.roars.it/la-pressione-per-pubblicare-e-le-crepe-delleditoria-scientifica/) - the Returns on Academic Research and School website interviewed Paolo on the preprint.
 -   [**The Meta News \[FR\]**](https://themeta.news/bourdieu-ou-shakespeare/) - access restricted to researchers in French universities and Research Institutes
 -   [**SciELO en perspectiva \[PT\]**](https://blog.scielo.org/blog/2023/11/29/a-comunidade-cientifica-esta-publicando-muito-mais-e-isso-e-um-problema/?utm_source=rss&utm_medium=rss&utm_campaign=a-comunidade-cientifica-esta-publicando-muito-mais-e-isso-e-um-problema) - Portuguese blog hosting an article by Lilan Nassi-Calo
+-   [**Upstrean \[EN\]**](https://upstream.force11.org/drinking-from-the-firehose/) - Drinking from the Firehose? Write More and Publish Less
