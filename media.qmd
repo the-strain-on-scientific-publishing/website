@@ -30,6 +30,8 @@ title: "Media related to our project"
 
 </iframe>
 
+-   **Paolo** presented our work *in Italian* in Milan, at an Open Science conference held at the headquarters of UniMi in September 2013. The [webpage of the event is here](https://openscience.unimi.it/ciclo-di-incontri-sulla-comunicazione-scientifica/); and here you find [**the full video of the conference**](https://garr.tv/w/7dj2iHjQHUXK18Kiwk6gXB), including introduction by the Dean of the University of Milan Elio Franzini and by the philosopher Haikel Hosni.
+
 # Others
 
 [**Viaje al lado oscuro de la ciencia** \[Spanish\]](Slides/pArAdigmA.pdf) - Building on "The Strain" paper, this is a brief comment on all things wrong affecting the current scientific publishing panorama. Published in Malaga´s University magazine, [**pArAdigmA**](https://riuma.uma.es/xmlui/handle/10630/23) (volúmen 26, 2024).
