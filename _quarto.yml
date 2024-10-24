@@ -30,7 +30,7 @@ website:
         href: about.qmd
         text: "About the team"
       - icon: file-pdf-fill
-        href: https://arxiv.org/abs/2309.15884 
+        href: https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00327/124269/The-strain-on-scientific-publishing 
         text: "The paper on ArXiV"
         target: "_blank"
         
