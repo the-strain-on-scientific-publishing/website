@@ -8,6 +8,6 @@ This website will also host, when this will be possible, the data underlying the
 
 ## The paper
 
-You can find the paper [on ArXiV](https://arxiv.org/abs/2309.15884).\
+You can find the published paper [on Quantitative Science Studies](https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00327/124269/The-strain-on-scientific-publishing).\
 \
-![](images/abstract.jpeg)
+[![](images/abstract_qss.JPG)](https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00327/124269/The-strain-on-scientific-publishing)

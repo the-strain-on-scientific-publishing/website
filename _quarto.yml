@@ -31,7 +31,7 @@ website:
         text: "About the team"
       - icon: file-pdf-fill
         href: https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00327/124269/The-strain-on-scientific-publishing 
-        text: "The paper on ArXiV"
+        text: "The paper on Quantitative Science Studies"
         target: "_blank"
         
     style: "docked"
@@ -40,7 +40,7 @@ website:
     contents:
       - href: index.qmd
         text: "Home"
-      - href: https://arxiv.org/abs/2309.15884
+      - href: https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00327/124269/The-strain-on-scientific-publishing 
         text: "Get the paper!"
         target: "_blank"
       - href: https://figshare.com/articles/figure/The_strain_on_scientific_publishing_figures_/24203790

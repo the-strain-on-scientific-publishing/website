@@ -2,11 +2,17 @@
 title: "Articles, threads, posts... about our paper"
 ---
 
-# Altmetric
+# Altmetric (arXiv | Quantitative Science studies)
 
-```{=html}
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-type="medium-donut" data-badge-details='right' data-altmetric-id="154736608"></div>
-```
+<!-- Add the Altmetric embed script once at the beginning -->
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+<div style="display: flex; gap: 10px; align-items: center;">
+  <div class="altmetric-embed" data-badge-type="medium-donut" data-badge-details="right" data-altmetric-id="154736608"></div>
+  <div class="altmetric-embed" data-badge-type="medium-donut" data-badge-details="right" data-altmetric-id="167017617"></div>
+</div>
+
+
 # Twitter + Mastodon threads
 
 -   [Mastodon thread](https://t.co/pL6Hwl9mnk) by Mark A Hanson
@@ -109,7 +115,7 @@ title: "Articles, threads, posts... about our paper"
 -   [**Federation of European Biochemical Societies Network \[EN\]**](https://network.febs.org/posts/beyond-the-journal-the-future-of-scientific-publishing/) - Beyond the journal: The future of scientific publishing
 -   [**International Science Council \[EN\]**](https://council.science/blog/more-is-not-better-the-developing-crisis-of-scientific-publishing) - More is not better: the developing crisis of scientific publishing
 -   [**Africa at LSE \[EN\]**](https://blogs.lse.ac.uk/africaatlse/2024/07/09/we-need-to-put-open-access-journals-at-the-heart-of-academic-publishing/) - We need to put Open Access journals at the heart of academic publishing
--   [**Mesures et démesure de la publication scientifique \[FR\]**](https://www.ouvrirlascience.fr/mesures-et-demesure-de-la-publication-scientifique/) 
+-   [**Mesures et démesure de la publication scientifique \[FR\]**](https://www.ouvrirlascience.fr/mesures-et-demesure-de-la-publication-scientifique/)
 
 # Online magazines
 
