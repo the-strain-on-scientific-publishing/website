@@ -2,16 +2,20 @@
 title: "Articles, threads, posts... about our paper"
 ---
 
-# Altmetric (arXiv | Quantitative Science studies)
+# Altmetric (arXiv \| Quantitative Science studies)
 
 <!-- Add the Altmetric embed script once at the beginning -->
+
+```{=html}
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+```
+::: {style="display: flex; gap: 10px; align-items: center;"}
+::: {.altmetric-embed data-badge-type="medium-donut" data-badge-details="right" data-altmetric-id="154736608"}
+:::
 
-<div style="display: flex; gap: 10px; align-items: center;">
-  <div class="altmetric-embed" data-badge-type="medium-donut" data-badge-details="right" data-altmetric-id="154736608"></div>
-  <div class="altmetric-embed" data-badge-type="medium-donut" data-badge-details="right" data-altmetric-id="167017617"></div>
-</div>
-
+::: {.altmetric-embed data-badge-type="medium-donut" data-badge-details="right" data-altmetric-id="167017617"}
+:::
+:::
 
 # Twitter + Mastodon threads
 
@@ -116,6 +120,7 @@ title: "Articles, threads, posts... about our paper"
 -   [**International Science Council \[EN\]**](https://council.science/blog/more-is-not-better-the-developing-crisis-of-scientific-publishing) - More is not better: the developing crisis of scientific publishing
 -   [**Africa at LSE \[EN\]**](https://blogs.lse.ac.uk/africaatlse/2024/07/09/we-need-to-put-open-access-journals-at-the-heart-of-academic-publishing/) - We need to put Open Access journals at the heart of academic publishing
 -   [**Mesures et démesure de la publication scientifique \[FR\]**](https://www.ouvrirlascience.fr/mesures-et-demesure-de-la-publication-scientifique/)
+-   [**Desafíos en la Publicación Científica: El Impacto del Crecimiento Exponencial en la Rigurosidad y Calidad \[ES\]**](https://gestion.pe/blog/el-arte-de-emprender-y-fallar/2024/10/desafios-en-la-publicacion-cientifica-el-impacto-del-crecimiento-exponencial-en-la-rigurosidad-y-calidad.html) - Blog on Peru newspaper Gestión
 
 # Online magazines
 
