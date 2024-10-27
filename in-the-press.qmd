@@ -2,20 +2,28 @@
 title: "Articles, threads, posts... about our paper"
 ---
 
-# Altmetric (arXiv \| Quantitative Science studies)
+# Altmetric
 
 <!-- Add the Altmetric embed script once at the beginning -->
 
 ```{=html}
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-```
-::: {style="display: flex; gap: 10px; align-items: center;"}
-::: {.altmetric-embed data-badge-type="medium-donut" data-badge-details="right" data-altmetric-id="154736608"}
-:::
 
-::: {.altmetric-embed data-badge-type="medium-donut" data-badge-details="right" data-altmetric-id="167017617"}
-:::
-:::
+
+<div style="display: flex; gap: 20px; align-items: center; justify-content: center;">
+  <div style="text-align: center;">
+    <p><strong>arXiv</strong></p>
+    <div class="altmetric-embed" data-badge-type="medium-donut" data-badge-details="right" data-altmetric-id="154736608"></div>
+    
+  </div>
+  
+  <div style="text-align: center;">
+    <p><strong>Quantitative Science Studies</trong></p>
+    <div class="altmetric-embed" data-badge-type="medium-donut" data-badge-details="right" data-altmetric-id="167017617"></div>
+    
+  </div>
+</div>
+```
 
 # Twitter + Mastodon threads
 
