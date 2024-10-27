@@ -16,10 +16,10 @@ title: "About the authors"
 ::: {.column width="60%"}
 *Biologist interested in immunity and host pathogen interactions \@ University of Exeter, UK, using Drosophila*
 
--   [Institutional website](https://ecologyconservation.exeter.ac.uk/staff/profile/index.php?web_id=mark_hanson)
+-   [Institutional website](https://sites.exeter.ac.uk/evolution/people/)
 -   [Blog and personal website](https://mahansonresearch.weebly.com)
 -   [Google scholar](https://scholar.google.ca/citations?user=lfL-37cAAAAJ&hl=en)
--   [Twitter](https://x.com/HansonM90?s=20)
+-   [Bluesky](https://bsky.app/profile/hansonmark.bsky.social)
 -   [Mastodon](https://fediscience.org/@MarkHanson)
 :::
 :::
