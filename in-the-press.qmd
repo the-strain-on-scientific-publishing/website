@@ -18,7 +18,7 @@ title: "Articles, threads, posts... about our paper"
   </div>
   
   <div style="text-align: center;">
-    <p><strong>Quantitative Science Studies</trong></p>
+    <p><strong>Quantitative Science Studies</strong></p>
     <div class="altmetric-embed" data-badge-type="medium-donut" data-badge-details="right" data-altmetric-id="167017617"></div>
     
   </div>
