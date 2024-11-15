@@ -56,6 +56,7 @@ title: "Articles, threads, posts... about our paper"
 
 ### French
 
+-   [**Le Monde \[FR\]**](https://www.lemonde.fr/sciences/article/2024/11/12/l-inflation-du-nombre-de-publications-scientifiques-interroge_6389778_1650684.html) article by David Laroussière
 -   [**Actualité web \[FR\]**](https://www.inrae.fr/actualites/ledition-scientifique-pression) on the INRAE website
 -   [**L'Express \[FR\]**](https://www.lexpress.fr/sciences-sante/sciences/articles-frauduleux-comment-des-dizaines-de-revues-scientifiques-ont-ete-detournees-YSAUA44SFVEWZKCOJDFO5SKSUI/?utm_medium=Social&utm_source=Twitter&s=09#Echobox=1702965183-1) - article by Antoine Beau on the Hindawi crisis and shutdown
 -   [**L'Express \[FR\]**](https://www.lexpress.fr/sciences-sante/comme-si-on-etait-avant-le-krach-lombre-dune-crise-des-subprimes-de-ledition-scientifique-4VT43GRG3NGVDENZ7MN5MM6MXY/) - long article by Antoine Beau featuring an interview to Paolo on the "Bubble" of scientific publishing.
