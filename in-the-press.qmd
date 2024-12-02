@@ -6,6 +6,7 @@ title: "Articles, threads, posts... about our paper"
 
 <!-- Add the Altmetric embed script once at the beginning -->
 
+```{=html}
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 
 
@@ -22,6 +23,7 @@ title: "Articles, threads, posts... about our paper"
     
   </div>
 </div>
+```
 
 # Twitter + BlueSky + Mastodon threads
 
