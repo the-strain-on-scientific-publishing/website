@@ -30,7 +30,6 @@ title: "Articles, threads, posts... about our paper"
 ### Preprint
 
 -   [Mastodon thread](https://t.co/pL6Hwl9mnk) by Mark A Hanson
--   [Twitter thread](https://x.com/pagomba/status/1709835364301443388?s=20) by Pablo Gómez Barreiro
 -   [Twitter thread](https://twitter.com/PaoloCrosetto/status/1707771226947469471) by Paolo Crosetto
 -   [Twitter thread](https://twitter.com/danbrockington/status/1707737121228820523) by Dan Brockington
 -   [Twitter thread](https://x.com/eggersnsf/status/1708458262717239692?s=20) by Matthias Egger
