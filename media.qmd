@@ -4,7 +4,7 @@ title: "Media related to our project"
 
 # Radio & Podcasts
 
--   **Mark, Pablo** and **Paolo** were interviewed on [Episode 7 of the Science of doing Science podcast][https://creators.spotify.com/pod/show/sinnopsis/episodes/Episode-7-The-Strain-on-Scientific-Publishing-with-by-Mark-A-Hanson--Pablo-Gmez-Barreiro-and-Paolo-Crosetto-e2sfmii] held by the UNiversity of Cyprus SinnoPSis team
+-   **Mark, Pablo** and **Paolo** were interviewed on [Episode 7 of the Science of doing Science podcast](https://creators.spotify.com/pod/show/sinnopsis/episodes/Episode-7-The-Strain-on-Scientific-Publishing-with-by-Mark-A-Hanson--Pablo-Gmez-Barreiro-and-Paolo-Crosetto-e2sfmii) held by the University of Cyprus SinnoPSis team
 -   **Mark** participated to the [Tech & Science Daily](https://play.acast.com/s/tech-science-daily) podcast run by the Evening Standard. [Listen to Mark here!](https://play.acast.com/s/tech-science-daily/tom-hanks-targeted-in-fake-ai-dental-plan-ad)
 -   **Pablo** was interviewed live on Radio 5 \[Spanish\]. Listen here: [Ciencia con pies de barro](https://www.rtve.es/play/audios/a-hombros-de-gigantes/proliferacion-publicaciones-cientificas-ciencia-pies-barro/7006765/)
 -   **Pablo** was interviewed by Cadena Ser \[Catalan/Spanish\]. Download section [here](https://github.com/the-strain-on-scientific-publishing/website/raw/main/audio/exces%20estudis.wav) (Github link)
@@ -13,6 +13,7 @@ title: "Media related to our project"
 # Videos
 
 -   **Paolo** made a video to summarise the study for the Open Science directorate of INRAE \[French\]. Here: [L'édition Scientifique sous pression - décryptage par paolo Crosetto](http://science-ouverte.inrae.fr/fr/actualites/video-ledition-scientifique-sous-pression-decryptage-de-paolo-crosetto-co-auteur-de)
+
 -   **Dan** and **Mark** presented at the 384th CGHE webinar, and there is a [Youtube video](https://youtu.be/3cUSkNbYI08?si=x3LlOZvpJ8wib4Np) of the seminar.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3cUSkNbYI08?si=x3LlOZvpJ8wib4Np" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
