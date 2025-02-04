@@ -69,7 +69,11 @@ title: "Articles, threads, posts... about our paper"
 
 ### Catalan
 
--   [**3CAT \[Cat\]**](https://www.ccma.cat/324/alerten-duna-allau-darticles-cientifics-que-es-publiquen-sense-revisar-ne-la-qualitat/noticia/3259015/): *Alerten d'una "allau" d'articles científics que es publiquen sense revisar-ne la qualitat*
+-   **3CAT \[Cat\]** - *Alerten d'una "allau" d'articles científics que es publiquen sense revisar-ne la qualitat*
+
+### Portuguese
+
+-   [**Outras Palavras \[PT\]**](https://outraspalavras.net/tecnologiaemdisputa/os-mercadores-globais-do-saber/) - *Os mercadores globais do saber*
 
 ### Dutch
 
@@ -132,6 +136,7 @@ title: "Articles, threads, posts... about our paper"
 -   [**Desafíos en la Publicación Científica: El Impacto del Crecimiento Exponencial en la Rigurosidad y Calidad \[ES\]**](https://gestion.pe/blog/el-arte-de-emprender-y-fallar/2024/10/desafios-en-la-publicacion-cientifica-el-impacto-del-crecimiento-exponencial-en-la-rigurosidad-y-calidad.html) - Blog on Peru newspaper Gestión
 -   [**Crooked Timber \[EN\]**](https://crookedtimber.org/2024/11/08/for-profit-academic-publishers-love-llm-garbage/) -- For-Profit Academic Publishers Love LLM Garbage by Keving Munger
 -   [**Looking at nothing – Fixing science: a new approach for trust? \[EN\]**](https://lookingatnothing.com/index.php/archives/4233)
+-   [**Quo vadis, Open Access \[SI\]**](https://metinalista.si/quo-vadis-odprti-dostop/) – from Slovenian media network Metina Lista (Mint leaf)
 
 # Online magazines
 
