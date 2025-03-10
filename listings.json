@@ -2,8 +2,8 @@
   {
     "listing": "/post.html",
     "items": [
-      "/posts/app_announcement/index.html",
-      "/posts/response_to_frontiers/index.html"
+      "/posts/response_to_frontiers/index.html",
+      "/posts/app_announcement/index.html"
     ]
   }
 ]
