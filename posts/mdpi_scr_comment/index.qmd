@@ -6,7 +6,7 @@ author:
 date: "2025-03-23"
 categories: [R, MDPI,self-citations]
 image: "thumbn.jpg"
-draft: true
+draft: false
 format: html
 lightbox: true
 comments:
