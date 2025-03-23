@@ -80,13 +80,27 @@
 <figcaption>MDPI individual journals plotted by total number of articles published in 2024 (x-axis) and self-citing rate % (y-axis</figcaption>
 </figure>
 </div>
-<p>The data shows that, out of the 237 selected journals, 57 have a self-citation rate over 20%, although only 25 have more than 1,000 articles published in 2024. Therefore higher self-citation rates when weighted means are applied are driven by megajournals such as IJMS, Applied Scieces, Sustainability, etc.</p>
-<p>Weighted means present a different perspective on the 2024 self-citation landscape, making it important to analyze them in a multi-publisher context. However, conclusions drawn from both the original and reinterpreted graphs still come with significant caveats:</p>
+<p>The data shows that, out of the 237 selected journals, 57 have a self-citation rate over 20%, although only 25 have more than 1,000 articles published in 2024. MDPI published 193,873 articles, of which 47% where published in journals with a self-citation rate over 20%. This % decreases down to 10.8% for number of articles published in journals with self-cite rates over 30%. Assigning each article the journal’s self-citation rate provides an alternative perspective on MDPI’s decision to plot journal frequency by average self-citation rate.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="articles_self_cite.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="A different take on self-citations. Plotting frequency of articles instead of average journal self-citation"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/articles_self_cite.png" class="img-fluid figure-img" alt="A different take on self-citations. Plotting frequency of articles instead of average journal self-citation"></a></p>
+<figcaption>A different take on self-citations. Plotting frequency of articles instead of average journal self-citation</figcaption>
+</figure>
+</div>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="figure1_publisher_self-cites-0.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="2018-2021 MDPI self-citation rates from previous publication"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/figure1_publisher_self-cites-0.png" class="img-fluid figure-img" width="300" alt="2018-2021 MDPI self-citation rates from previous publication"></a></p>
+<p><a href="scr_mdpi.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Original histogram with average journal self-citation"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/scr_mdpi.png" class="img-fluid figure-img" width="300" alt="Original histogram with average journal self-citation"></a></p>
+<figcaption>Original histogram with average journal self-citation</figcaption>
+</figure>
+</div>
+</div></div><p>Weighted means present a different perspective on the 2024 self-citation landscape, making it important to analyze them in a multi-publisher context. However, conclusions drawn from both the original and reinterpreted graphs still come with significant caveats:</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figure1_publisher_self-cites-0.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="2018-2021 MDPI self-citation rates from previous publication"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/figure1_publisher_self-cites-0.png" class="img-fluid figure-img" width="300" alt="2018-2021 MDPI self-citation rates from previous publication"></a></p>
 <figcaption>2018-2021 MDPI self-citation rates from previous publication</figcaption>
 </figure>
 </div>

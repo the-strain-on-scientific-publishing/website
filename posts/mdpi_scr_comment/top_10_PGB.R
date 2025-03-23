@@ -219,3 +219,31 @@ data%>%
         legend.text = element_text(size=10))
 
 ggsave("MDPI_scr.png",dpi="retina")  
+
+## Frequency, considering number of articles per journal, instead of just journal
+
+MDPI<-data%>%
+  filter(Publisher=="MDPI")%>%
+  rowwise() %>%
+  mutate(rep_values = list(rep(`Self Citation Rate`, `Web of Science Documents`))) %>%
+  ungroup() %>%
+  pull(rep_values) %>%
+  unlist()%>%
+  as.data.frame()%>%
+  rename(values=1)
+
+
+ggplot(MDPI, aes(x = values)) +
+  geom_histogram(aes(fill=..count..),bins = 60, alpha = 0.7, color = "black") +
+  labs(title = "Total number of articles in journals with a certain self-citation value", x = "Self-citation", y = "Total Articles") +
+  theme_minimal()+
+  scale_x_continuous(labels = scales::percent_format()) +
+  theme(text = element_text(size=16),
+        plot.background = element_rect(fill="white"),
+        legend.position = c(.7,.8),
+        legend.direction = "horizontal",
+        legend.title = element_text(size=10),
+        legend.text = element_text(size=10))+
+  guides(fill="none")
+
+ggsave("articles_self_cite.png",dpi="retina")

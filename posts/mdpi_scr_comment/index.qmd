@@ -49,7 +49,15 @@ Overall, MDPI is the most affected publisher after applying weighted means. The 
 
 ![MDPI individual journals plotted by total number of articles published in 2024 (x-axis) and self-citing rate % (y-axis](MDPI_scr.png){fig-align="center"}
 
-The data shows that, out of the 237 selected journals, 57 have a self-citation rate over 20%, although only 25 have more than 1,000 articles published in 2024. Therefore higher self-citation rates when weighted means are applied are driven by megajournals such as IJMS, Applied Scieces, Sustainability, etc.
+The data shows that, out of the 237 selected journals, 57 have a self-citation rate over 20%, although only 25 have more than 1,000 articles published in 2024. MDPI published 193,873 articles, of which 47% where published in journals with a self-citation rate over 20%. This % decreases down to 10.8% for number of articles published in journals with self-cite rates over 30%. Assigning each article the journal's self-citation rate provides an alternative perspective on MDPI's decision to plot journal frequency by average self-citation rate.
+
+
+
+![A different take on self-citations. Plotting frequency of articles instead of average journal self-citation](articles_self_cite.png)
+
+::: column-margin
+![Original histogram with average journal self-citation](scr_mdpi.png){width="300"}
+:::
 
 Weighted means present a different perspective on the 2024 self-citation landscape, making it important to analyze them in a multi-publisher context. However, conclusions drawn from both the original and reinterpreted graphs still come with significant caveats:
 
