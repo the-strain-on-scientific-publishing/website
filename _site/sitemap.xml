@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/about.html</loc>
-    <lastmod>2024-10-27T16:47:18.147Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/delete.html</loc>
-    <lastmod>2024-10-27T16:47:19.042Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/in-the-press.html</loc>
-    <lastmod>2024-10-27T16:47:20.092Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/index.html</loc>
-    <lastmod>2024-10-27T16:47:20.730Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/media.html</loc>
-    <lastmod>2024-10-27T16:47:21.647Z</lastmod>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/presentation.html</loc>
+    <lastmod>2025-03-23T17:54:15.012Z</lastmod>
   </url>
   <url>
     <loc>https://the-strain-on-scientific-publishing.github.io/website/post.html</loc>
-    <lastmod>2024-10-27T16:47:23.077Z</lastmod>
+    <lastmod>2024-10-25T18:29:10.494Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/index.html</loc>
+    <lastmod>2024-10-25T18:35:45.869Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/delete.html</loc>
+    <lastmod>2024-10-25T18:29:10.464Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/about.html</loc>
+    <lastmod>2024-12-08T21:15:58.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/in-the-press.html</loc>
+    <lastmod>2025-03-23T17:54:15.010Z</lastmod>
+  </url>
+  <url>
+    <loc>https://the-strain-on-scientific-publishing.github.io/website/media.html</loc>
+    <lastmod>2025-03-23T17:54:15.011Z</lastmod>
   </url>
   <url>
     <loc>https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/index.html</loc>
-    <lastmod>2024-10-27T16:47:24.720Z</lastmod>
+    <lastmod>2024-10-25T18:29:10.503Z</lastmod>
   </url>
   <url>
     <loc>https://the-strain-on-scientific-publishing.github.io/website/posts/response_to_frontiers/index.html</loc>
-    <lastmod>2024-10-27T16:47:26.978Z</lastmod>
-  </url>
-  <url>
-    <loc>https://the-strain-on-scientific-publishing.github.io/website/presentation.html</loc>
-    <lastmod>2024-10-27T16:47:28.000Z</lastmod>
+    <lastmod>2024-10-25T18:29:10.555Z</lastmod>
   </url>
 </urlset>
