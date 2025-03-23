@@ -10,7 +10,102 @@
 <atom:link href="https://the-strain-on-scientific-publishing.github.io/website/post.xml" rel="self" type="application/rss+xml"/>
 <description>Home page for the paper &#39;The Strain on Scientific Publishing&#39; by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro</description>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Wed, 13 Mar 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 23 Mar 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>How much does a journal weight? A commentary on MDPI’s own study on their self-citations rates</title>
+  <dc:creator>Pablo Gómez Barreiro</dc:creator>
+  <link>https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A recent <a href="https://blog.alpsp.org/2025/03/mdpi-self-citations-study-highlights.html">blog</a> published by the Association of Learned and Professional Society Publishers, written by MDPI staff Dr.&nbsp;Giulia Stefenelli and Dr.&nbsp;Enric Sayas, explored MDPI and other publishers self-citations in 2024. In line with MDPI usual transparency, they kindly included the data they used, along with the relevant code in Python.</p>
+<p>Figure 1 in their blog instantly caught my attention, and my commentary on their blog is mainly around this figure and its interpretation.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="mdpi_figure1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure 1, as seen in original blog. Left y-axis represents total documents per publishers in year 2024 (blue columns), while right axis shows average self-citation per publishers in 2024 (orange dots)."><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/mdpi_figure1.png" class="img-fluid figure-img" alt="Figure 1, as seen in original blog. Left y-axis represents total documents per publishers in year 2024 (blue columns), while right axis shows average self-citation per publishers in 2024 (orange dots)."></a></p>
+<figcaption>Figure 1, as seen in original blog. Left y-axis represents total documents per publishers in year 2024 (blue columns), while right axis shows average self-citation per publishers in 2024 (orange dots).</figcaption>
+</figure>
+</div>
+<p>Figure 1 is easily reproducible thanks to the provided (and well-documented) script, <code>top_10.py</code>. Now, I can do a little bit of Python, but I’m less likely to make mistakes in my native language: R. I’ve teamed up with chatGPT to translate <code>top_10.py</code> into <code>top_10_PGB.R</code>, and the code necessary to replicate this commentary is available here: [<a href="https://github.com/pgomba/pgb_website/blob/main/posts/22_03_25/top_10_PGB.R">Github link</a>]. The conversion outputs same data as their Table 1 and similar graph (I took the liberty of some aesthetic changes):</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="MDPI_graph_with_R.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="My attempt to replicated original graph. Good enough?"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/MDPI_graph_with_R.png" class="img-fluid figure-img" alt="My attempt to replicated original graph. Good enough?"></a></p>
+<figcaption>My attempt to replicated original graph. Good enough?</figcaption>
+</figure>
+</div>
+<p>Having Total Documents in this graph was masking the information conveyed by Average Self-citation rates. Here is the data for Average self citation rates with publishers rearranged by it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="MDPI_redo.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Graph showing average self-citation values (2024) from Blog’s Figure 1 by publishers arranged by rate valueverage self-citing rate values."><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/MDPI_redo.png" class="img-fluid figure-img" alt="Graph showing average self-citation values (2024) from Blog’s Figure 1 by publishers arranged by rate valueverage self-citing rate values."></a></p>
+<figcaption>Graph showing average self-citation values (2024) from Blog’s Figure 1 by publishers arranged by rate valueverage self-citing rate values.</figcaption>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="quote.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Quote from MDPI’s self assessment on self-citation rates"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/quote.png" class="img-fluid figure-img" width="300" alt="Quote from MDPI’s self assessment on self-citation rates"></a></p>
+<figcaption>Quote from MDPI’s self assessment on self-citation rates</figcaption>
+</figure>
+</div>
+</div></div><p>As discussed on the blog, MDPI ranks 6th in self-citation among the largest publishers. However, there is a major issue with how this data has been analyzed: the average self-citation rate was calculated by simply averaging each journal’s self-citation rate without accounting for the total number of publications per journal. In other words, every journal contributed equally to the average, regardless of its size.</p>
+<p>Here, I present the results of the analysis when the means are weighted by the total number of documents published per journal in 2024:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="MDPI_redo_mw.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Graph showing average self-citation rates (2024) after being corrected via weighted means by total number of publications by journal."><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/MDPI_redo_mw.png" class="img-fluid figure-img" alt="Graph showing average self-citation rates (2024) after being corrected via weighted means by total number of publications by journal."></a></p>
+<figcaption>Graph showing average self-citation rates (2024) after being corrected via weighted means by total number of publications by journal.</figcaption>
+</figure>
+</div>
+<p>Additionally, here is a summary table comparing self-citation rates before and after considering weighted means.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="table_changes.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Table showing original and corrected (weighted) self-citation rates (2024) in %, along with difference between these values"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/table_changes.PNG" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Table showing original and corrected (weighted) self-citation rates (2024) in %, along with difference between these values"></a></p>
+</figure>
+</div>
+<figcaption>Table showing original and corrected (weighted) self-citation rates (2024) in %, along with difference between these values</figcaption>
+</figure>
+</div>
+<p>Overall, MDPI is the most affected publisher after applying weighted means. The reanalysis of the data using weighted means moves MDPI from 6th position (with a 14% self-citation rate) to 3rd position (with a 19.7% self-citation rate). Notably, the previous table leaders, OUP and T&amp;F, remain in their respective positions with little change in their final percentages, likely due to the balance of total documents across their journals. This contrasts with the higher threshold of total documents per journal in MDPI, possibly driven by larger journals having higher levels of self citation than smaller ones. Lets find out:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="MDPI_scr.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="MDPI individual journals plotted by total number of articles published in 2024 (x-axis) and self-citing rate % (y-axis"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/MDPI_scr.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="MDPI individual journals plotted by total number of articles published in 2024 (x-axis) and self-citing rate % (y-axis"></a></p>
+</figure>
+</div>
+<figcaption>MDPI individual journals plotted by total number of articles published in 2024 (x-axis) and self-citing rate % (y-axis</figcaption>
+</figure>
+</div>
+<p>The data shows that, out of the 237 selected journals, 57 have a self-citation rate over 20%, although only 25 have more than 1,000 articles published in 2024. Therefore higher self-citation rates when weighted means are applied are driven by megajournals such as IJMS, Applied Scieces, Sustainability, etc.</p>
+<p>Weighted means present a different perspective on the 2024 self-citation landscape, making it important to analyze them in a multi-publisher context. However, conclusions drawn from both the original and reinterpreted graphs still come with significant caveats:</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="figure1_publisher_self-cites-0.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="2018-2021 MDPI self-citation rates from previous publication"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/figure1_publisher_self-cites-0.png" class="img-fluid figure-img" width="300" alt="2018-2021 MDPI self-citation rates from previous publication"></a></p>
+<figcaption>2018-2021 MDPI self-citation rates from previous publication</figcaption>
+</figure>
+</div>
+</div></div><ol type="1">
+<li><p>The time window is limited to 2024. Temporal context is crucial, especially for understanding shifts in self-citation trends in modern publishing. A previous <a href="https://www.mdpi.com/about/announcements/2979">MDPI self-assessment on self-citations</a>, covering the period from 2018 to 2021, showed self-citation rates close to 30%.</p></li>
+<li><p>Publishers have different balances of natural sciences and humanities in their coverage, and each discipline may exhibit varying self-citation rates.</p></li>
+</ol>
+<p>In conclusion, analyzing self-citation at the publisher level <strong>requires the use of weighted data</strong> to be truly effective, especially to avoid biases introduced by the disparity in journal sizes. I encourage MDPI (and other publishers) to try this approach in further self-analysis of their practices.</p>
+
+
+
+ ]]></description>
+  <category>R</category>
+  <category>MDPI</category>
+  <category>self-citations</category>
+  <guid>https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/</guid>
+  <pubDate>Sun, 23 Mar 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/thumbn.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Response to: “Bad bibliometrics don’t add up for research or why research publishing policy needs sound science”</title>
   <dc:creator>Mark Hanson</dc:creator>
