@@ -10,60 +10,7 @@
 <atom:link href="https://the-strain-on-scientific-publishing.github.io/website/post.xml" rel="self" type="application/rss+xml"/>
 <description>Home page for the paper &#39;The Strain on Scientific Publishing&#39; by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro</description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 09 Jun 2025 00:00:00 GMT</lastBuildDate>
-<item>
-  <title>Nature discovers MPDI</title>
-  <dc:creator>The Strain team</dc:creator>
-  <link>https://the-strain-on-scientific-publishing.github.io/website/posts/discovery_nature/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="thumbn.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/discovery_nature/thumbn.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a></p>
-</figure>
-</div>
-<p>Ambiguous one-word journal titles are an MDPI trademark (“<a href="https://www.mdpi.com/journal/foods">Foods</a>”, “<a href="https://www.mdpi.com/journal/plants">Plants</a>”). In the spirit of “if you can’t beat ’em, join ’em”, Springer Nature has launched a series of journals, the “Discover” series, with near-identical names (<a href="https://link.springer.com/journal/44187">Discover Food</a>, <a href="https://link.springer.com/journal/44372">Discover Plants</a>). if you don’t believe us, you can try it yourself in our “Guess Who Is Who” mini-game: 👉👉👉👉👉👉👉👉👉👉👉</p>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="https://pagoba.shinyapps.io/publi_guess/" target="_blank"> <img src="https://the-strain-on-scientific-publishing.github.io/website/posts/discovery_nature/game.jpg" alt="Click the image to play our mini-game" width="300"> </a></p>
-<div style="text-align: center; font-size: 0.9em; margin-top: 0.5em;">
-<p>Click the image to play our mini-games</p>
-</div>
-</div></div><p>Why? How? And let’s ask the most important question of all: who will this benefit? It’s certainly not the authors.</p>
-<p>For-profit academic publishers say they’re allies to the research community. They provide the venue to publish articles, and only ask a small, insignificant, multi-thousand dollar fee for the trouble. <em>It’s really a steal if you think about it</em>. Researchers get to promote their work, and publishers get to have profit margins rivalling Google and other big tech companies. Everybody wins!</p>
-<p>Here at the strain team, we do have a concern though. There has been an unprecedented growth in published academic articles, including the new onslaught of <a href="https://deevybee.blogspot.com/2023/10/spitting-out-ai-gobbledegook-sandwich.html">AI-gobbledygook</a>. In our study “<a href="https://direct.mit.edu/qss/article/5/4/823/124269/The-strain-on-scientific-publishing">The strain on scientific publishing”</a>, we highlighted how certain Gold Open Access for-profit publishers motivate this growth. The most significant outlier by any metric was Multi-Disciplinary Publishing Institute (MDPI), a publisher that has been at the centre of many critiques (see: <a href="https://retractionwatch.com/2024/12/24/finland-publication-forum-will-downgrade-hundreds-of-frontiers-and-mdpi-journals/">here</a>, <a href="https://www.timeshighereducation.com/news/germany-faces-questions-over-publishing-agreement-mdpi">here</a>, <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/leap.1574">here</a>, <a href="https://www.science.org/content/article/fast-growing-open-access-journals-stripped-coveted-impact-factors">here</a>, <a href="https://english.elpais.com/science-tech/2023-06-04/a-researcher-who-publishes-a-study-every-two-days-reveals-the-darker-side-of-science.html">here</a>…).</p>
-<p>MDPI is a unique entity, attracting negative attention for their email spam to scientists inviting them to guest edit “special issues.” This has enabled systematic citation gaming across MDPI journals by unsavoury editors, leading to a farcical and extraordinarily fast peer review process, alongside rampant rates of self-citation and impact factor inflation. On the substance of the articles themselves, the lack of scientific rigour in the MDPI editorial process has led to ridiculous articles being published on “<a href="https://deevybee.blogspot.com/2025/01/tomatoes-roaming-fields-and-canaries-in.html">tomatoes roaming the fields</a>” among <a href="https://deevybee.blogspot.com/2024/08/guest-post-my-experience-as-reviewer.html">other bunk</a>. Such practices in other publishers resulted in mass article retractions and <a href="https://retractionwatch.com/2023/12/06/wiley-to-stop-using-hindawi-name-amid-18-million-revenue-decline/">the end of the Hindawi publishing brand</a>. As a result of these high profile controversies, a number of groups have taken concrete actions to curb the damage done by the model of aggressive recruitment of guest-edited article collections, including refusing to fund the publication charges of such papers [refs: SNSF, Finland, DOAJ].</p>
-<p><a href="TAT_strain.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/discovery_nature/TAT_strain.png" class="img-fluid"></a></p>
-<p>In a healthy world, other publishers might look at the concern over MDPI and consider how to right the ship. <em>But, dear readers, we do not live in a healthy world.</em> The biggest publishing houses are complicit, and actively contribute, to the current strain (including Elsevier, Frontiers, and more). But we were shocked and dismayed <em>(ok… not shocked, just dismayed)</em> to learn that Springer Nature Portfolio has launched a “Discover” series of journals that seem to deliberately and systematically mimic the MDPI brand.</p>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="Picture1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Mean Turnaround Times (days) of major publishers in 2022"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/discovery_nature/Picture1.jpg" class="img-fluid figure-img" alt="Mean Turnaround Times (days) of major publishers in 2022"></a></p>
-<figcaption>Mean Turnaround Times (days) of major publishers in 2022</figcaption>
-</figure>
-</div>
-</div></div><p>Publicly, the Discover series journals say they’ll accept any science: <em>“Discover journals… provide a home for all research… our remit is to ensure that all research, validated by peers, has a place in a trusted imprint.”</em> And they’ll do it fast:“[X is] <em>a Discover</em>[PG1]&nbsp; <em>journal focused on speed of submission and review, service, and integrity.</em>”In other words: <em>“we will publish, fast, anything that you send us so long as it we can call it ‘science.’ It doesn’t need to be useful, you just need to pay us thousands of dollars.”</em></p>
-<p>Sound familiar? Yes, this is precisely <a href="https://danbrockington.com/2019/12/04/an-open-letter-to-mdpi-publishing/">what MDPI used to say about its role</a> in the publishing ecosystem. They wanted to publish, fast, anything that was true, under the auspice of ‘<a href="https://danbrockington.com/2019/12/04/an-open-letter-to-mdpi-publishing/">letting readers determine its significance</a>.’</p>
-<p>But it gets so much worse. Springer Nature <em>Discover</em> journals <em>are literally carbon copying MDPI titles –</em> just pricing them lower to lure scientists in. Below we provide the full list of Discover journals, alongside their MDPI equivalents, and the APC charged in 2025. Out of 66 <em>Discover</em> journals, 25 have <em>identical</em> names to existing MDPI journals (<a href="https://link.springer.com/journal/44370">Viruses</a> - <a href="https://www.mdpi.com/journal/viruses">Viruses</a>), 11 differ by one letter (<a href="https://link.springer.com/journal/44187">Food</a> – <a href="https://www.mdpi.com/journal/foods">Foods</a>) and 22 more have looser but clearly distinguishable similarity (<a href="https://link.springer.com/journal/10791">Computing</a> – <a href="https://www.mdpi.com/journal/computers">Computers</a>). That’s 58 copycat journal titles out of 66 for you.</p>
-<p><a href="Equivalence_table_all.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/discovery_nature/Equivalence_table_all.png" class="img-fluid"></a></p>
-<p>And, Discover, like MDPI, are now sending unsolicited mails to academics inviting them to head up special collections (aka Special Issues). We know, because we received one such, <em>generous,</em> invitation.</p>
-<p>It seems that <u><strong>Springer Nature has Discovered MDPI</strong></u><strong>.</strong></p>
-<p>Why does this matter? Well, publishers claim to be filling a market need. While this siren call sounds sweet and inviting, the reality behind it has been much darker. The rush to produce more work in special issues has produced an <a href="https://phys.org/news/2023-11-avalanche-published-academic-articles-erode.html">avalanche of poor quality work</a>. It also matters because the one thing that MDPI had going for it was its transparency. <span class="bg-warning px-1" data-bs-toggle="tooltip" title="”: silly or not important. “He could always do something useful instead of wasting my time with footling queries.” https://dictionary.cambridge.org/dictionary/english/footling">Footling</span> around on the MDPI website, their rejection rates, turn around times, and special issue collections were easily visible. The Discover series demonstrates no such transparency, making it much harder to hold them to account. This muddies the waters of genuine research fields, and undermines public trust in science.</p>
-
-
-
- ]]></description>
-  <category>SpringerNature</category>
-  <category>MDPI</category>
-  <category>Discovery</category>
-  <guid>https://the-strain-on-scientific-publishing.github.io/website/posts/discovery_nature/</guid>
-  <pubDate>Mon, 09 Jun 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://the-strain-on-scientific-publishing.github.io/website/posts/discovery_nature/thumbn.jpg" medium="image" type="image/jpeg"/>
-</item>
+<lastBuildDate>Sun, 23 Mar 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>How much does a journal weight? A commentary on MDPI’s own study on their self-citations rates</title>
   <dc:creator>Pablo Gómez Barreiro</dc:creator>
