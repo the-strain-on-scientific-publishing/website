@@ -9,13 +9,14 @@
 <link>https://the-strain-on-scientific-publishing.github.io/website/post.html</link>
 <atom:link href="https://the-strain-on-scientific-publishing.github.io/website/post.xml" rel="self" type="application/rss+xml"/>
 <description>Home page for the paper &#39;The Strain on Scientific Publishing&#39; by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro</description>
-<generator>quarto-1.6.42</generator>
+<generator>quarto-1.7.31</generator>
 <lastBuildDate>Sun, 23 Mar 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>How much does a journal weight? A commentary on MDPI’s own study on their self-citations rates</title>
   <dc:creator>Pablo Gómez Barreiro</dc:creator>
   <link>https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -128,6 +129,7 @@
   <dc:creator>Dan Brockington</dc:creator>
   <link>https://the-strain-on-scientific-publishing.github.io/website/posts/response_to_frontiers/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -343,11 +345,12 @@ bx = (5.12*10-2) (yr-2000)</td>
 
 
 
+
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://pagoba.shinyapps.io/strain_explorer/"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/thumbn.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="627" alt="The Strain Explorer app is here!"></a></p>
+<p><a href="https://pagoba.shinyapps.io/strain_explorer/"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/thumbn.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="627"></a></p>
 </figure>
 </div>
 <figcaption>The Strain Explorer app is here!</figcaption>
