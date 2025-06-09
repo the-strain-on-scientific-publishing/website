@@ -50,12 +50,9 @@ Publicly, the Discover series journals say they’ll accept any science: *“Dis
 
 Sound familiar? Yes, this is precisely [what MDPI used to say about its role](https://danbrockington.com/2019/12/04/an-open-letter-to-mdpi-publishing/) in the publishing ecosystem. They wanted to publish, fast, anything that was true, under the auspice of ‘[letting readers determine its significance](https://danbrockington.com/2019/12/04/an-open-letter-to-mdpi-publishing/).’
 
-But it gets so much worse. Springer Nature *Discover* journals *are literally carbon copying MDPI titles –* just pricing them lower to lure scientists in. Below we provide the full list of Discover journals, alongside their MDPI equivalents, and the APC charged in 2025. Out of 66 *Discover* journals, 25 have *identical* names to existing MDPI journals ([Viruses](https://link.springer.com/journal/44370) - [Viruses](https://www.mdpi.com/journal/viruses)), 11 differ by one letter ([Food](https://link.springer.com/journal/44187) – [Foods](https://www.mdpi.com/journal/foods)) and 22 more have looser but clearly distinguishable similarity ([Computing](https://link.springer.com/journal/10791) – [Computers](https://www.mdpi.com/journal/computers)). That’s 58 copycat journal titles out of 66 for you.
+But it gets so much worse. Springer Nature *Discover* journals *are literally carbon copying MDPI titles –* just pricing them lower to lure scientists in. Below in the [Long and Boring Data Appendix](#LBDA) we provide the full list of Discover journals, alongside their MDPI equivalents, and the APC charged in 2025. Here we just put one section – *Applied Sciences* – as an appetizer. Out of 66 *Discover* journals, 25 have *identical* names to existing MDPI journals ([Viruses](https://link.springer.com/journal/44370) - [Viruses](https://www.mdpi.com/journal/viruses)), 11 differ by one letter ([Food](https://link.springer.com/journal/44187) – [Foods](https://www.mdpi.com/journal/foods)) and 22 more have looser but clearly distinguishable similarity ([Computing](https://link.springer.com/journal/10791) – [Computers](https://www.mdpi.com/journal/computers)). That’s 58 copycat journal titles out of 66 for you.
 
-::: column-margin
-![All *Discover* journals and their MDPI omonyms](Equivalence_table_all.png)
-:::
-
+![*Discover* journals in the Applied Sciences section and their MDPI omonyms](Equivalence_table_Applied_Sciences.png)
 
 And, Discover, like MDPI, are now sending unsolicited mails to academics inviting them to head up special collections (aka Special Issues). We know, because we received one such, *generous,* invitation.
 
@@ -114,7 +111,7 @@ Let’s stop falling for the same (in this case, *literally* the same) old trick
 
 ![](Discover_N_articles.png)
 
-#### Impact Factor Inflation at *Discover*
+#### Impact Factor Inflation at *Discover* and their MDPI omonyms
 
 ![](Discover_MDPI_IFI.png)
 
