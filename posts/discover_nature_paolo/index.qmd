@@ -110,3 +110,7 @@ Let’s stop falling for the same (in this case, *literally* the same) old trick
 #### Impact Factor Inflation at *Discover*
 
 ![](Discover_MDPI_IFI.png)
+
+#### Turnaround times at *Discover*
+
+![](Discover_TAT_all.png)
