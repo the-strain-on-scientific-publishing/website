@@ -10,7 +10,7 @@
 <atom:link href="https://the-strain-on-scientific-publishing.github.io/website/post.xml" rel="self" type="application/rss+xml"/>
 <description>Home page for the paper &#39;The Strain on Scientific Publishing&#39; by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro</description>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Sat, 22 Mar 2025 23:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 23 Mar 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>How much does a journal weight? A commentary on MDPI’s own study on their self-citations rates</title>
   <dc:creator>Pablo Gómez Barreiro</dc:creator>
@@ -117,7 +117,7 @@
   <category>MDPI</category>
   <category>self-citations</category>
   <guid>https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/</guid>
-  <pubDate>Sat, 22 Mar 2025 23:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Mar 2025 00:00:00 GMT</pubDate>
   <media:content url="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/thumbn.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -196,7 +196,7 @@ The nitty gritty details
   <category>The Strain</category>
   <category>Scientific Publishing</category>
   <guid>https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/</guid>
-  <pubDate>Tue, 12 Mar 2024 23:00:00 GMT</pubDate>
+  <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
   <media:content url="https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/thumbn.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
@@ -407,7 +407,7 @@ bx = (5.12*10-2) (yr-2000)</td>
   <category>Open Access</category>
   <category>Scientific Publishing</category>
   <guid>https://the-strain-on-scientific-publishing.github.io/website/posts/response_to_frontiers/</guid>
-  <pubDate>Tue, 12 Mar 2024 23:00:00 GMT</pubDate>
+  <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
   <media:content url="https://the-strain-on-scientific-publishing.github.io/website/posts/response_to_frontiers/thumbn2.png" medium="image" type="image/png" height="112" width="144"/>
 </item>
 </channel>
