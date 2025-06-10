@@ -1,5 +1,5 @@
 ---
-title: "Spinger Nature Discovers MDPI"
+title: "Springer Nature Discovers MDPI"
 author:
   - name: The Strain team
 date: "2025-06-10"
