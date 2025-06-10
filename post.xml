@@ -70,7 +70,7 @@
 </section>
 <section id="why-does-this-matter" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="why-does-this-matter">Why does this matter?</h2>
-<p>Well, publishers claim to be filling a market need. While this siren call sounds sweet and inviting, the reality behind it has been much darker. The rush to produce more work in special issues has produced an <a href="https://phys.org/news/2023-11-avalanche-published-academic-articles-erode.html">avalanche of poor quality work</a>. It also matters because the one thing that MDPI had going for it was its transparency. Footling around<sup><span class="bg-warning px-1" data-bs-toggle="tooltip" title="also known as wasting time in frivolous activities">a</span></sup> on the MDPI website, their rejection rates, turn around times, and special issue collections were easily visible. The Discover series demonstrates no such transparency, making it much harder to hold them to account. This muddies the waters of genuine research fields, and undermines public trust in science.</p>
+<p>Well, publishers claim to be filling a market need. While this siren call sounds sweet and inviting, the reality behind it has been much darker. The rush to produce more work in special issues has produced an <a href="https://phys.org/news/2023-11-avalanche-published-academic-articles-erode.html">avalanche of poor quality work</a>. It also matters because the one thing that MDPI had going for it was its transparency. Footling around<sup><span class="bg-warning px-1" data-bs-toggle="tooltip" title="footling: wasting time on frivolous activities. Great word.">a</span></sup> on the MDPI website, their rejection rates, turn around times, and special issue collections were easily visible. The Discover series demonstrates no such transparency, making it much harder to hold them to account. This muddies the waters of genuine research fields, and undermines public trust in science.</p>
 <p>We need to remember that Springer Nature has previously demonstrated a keen interest in generating quantity, rather than quality. In 2011 it launched Scientific Reports, which has become the largest Open Access megajournal ever, overtaking PLOS One back in 2016. What is especially salient there is that PLOS One stated publicly that its editorial rigour was uncompromising, and part of the drop in its publications <a href="https://retractionwatch.com/2017/03/15/plos-one-faced-decline-submissions-new-editor-speaks/">was a lower acceptance rate</a>. PLOS One had further recruited 3000 editorial board members to handle the then <a href="https://everyone.plos.org/2021/11/26/fifteen-years-of-plos-one/">~5000 submissions per month</a>, and introduced new article triaging measures before peer review, helping to handle the immense volume of submissions while maintaining editorial quality. <a href="https://deevybee.blogspot.com/2024/10/an-open-letter-regarding-scientific.html">We cannot see evidence of similar behaviour in Scientific Reports</a>.</p>
 <p><strong>And the worst thing of all?</strong> <em>This will work.</em> The Springer Nature brand will protect Discover. Springer Nature will allow <em>Discover</em> to prosper at the same time as the services it offers are an expensive distraction. Scientists will turn to <em>Discover</em> journals, as the service offers what they are looking for – a reputable open access publication for a small fee. Indeed, many already are: the <em>Discover</em> series has grown from 5 journals in 2020 to 66 in June 2025, collectively publishing just 35 papers in 2020, but a whole 2827 in 2024 – so far, we have counted 2398 papers published from January to May in 2025 alone, so this number seems likely to double.</p>
 <p>Apart from the literally identical names, how similar are <em>Discover</em> journals to their MDPI twins? It’s a mixed bag.</p>
@@ -95,8 +95,8 @@
 <p><strong>Third,</strong> notify our Director of Research. Ask them to tell to their boss, and ask them to alert key funders (i.e.&nbsp;universities and research councils). Each group will find its own tolerance for action, but time and again it has been shown that change happens when the funders take action.</p>
 <p><em>And, of course:</em></p>
 <p><strong>Fourth</strong>, embrace the ridiculousness of the for-profit publishing landscape, try our “Springer Nature or MDPI” mini-games and let’s have a chat on the <a href="https://bsky.app/profile/hansonmark.bsky.social/feed/aaadbjpiqymi4">Bluesky</a> #ResearchIntegrity feed.</p>
-<p>Let’s stop falling for the same (in this case, <em>literally</em> the same) old tricks. Let’s stop wasting money on journals we do not need.</p>
 </div>
+<p>Let’s stop falling for the same (in this case, <em>literally</em> the same) old tricks. Let’s stop wasting money on journals we do not need.</p>
 <p>~ <em>The strain team</em>.</p>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -106,12 +106,9 @@
     });
   });
 </script>
-<div style="margin-top: 10em;">
-
-</div>
 </section>
-<section id="LBDA" class="level2">
-<h2 class="anchored" data-anchor-id="LBDA"><span style="color: #8B1A1A;">Long and Boring Data Appendix</span></h2>
+<section id="long-and-boring-data-appendix" class="level2">
+<h2 class="anchored" data-anchor-id="long-and-boring-data-appendix">Long and Boring Data Appendix</h2>
 <section id="all-discover-journal-and-their-mdpi-homonyms" class="level4">
 <h4 class="anchored" data-anchor-id="all-discover-journal-and-their-mdpi-homonyms">All <em>Discover</em> journal and their MDPI homonyms</h4>
 <p><a href="Equivalence_table_all.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/discover_nature/Equivalence_table_all.png" class="img-fluid"></a></p>
@@ -249,86 +246,6 @@
   <guid>https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/</guid>
   <pubDate>Sun, 23 Mar 2025 00:00:00 GMT</pubDate>
   <media:content url="https://the-strain-on-scientific-publishing.github.io/website/posts/mdpi_scr_comment/thumbn.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Announcement: “The Strain on Scientific Publishing” data explorer!</title>
-  <dc:creator>Pablo Gómez Barreiro</dc:creator>
-  <dc:creator>Mark Hanson</dc:creator>
-  <dc:creator>Paolo Crosetto</dc:creator>
-  <dc:creator>Dan Brockington</dc:creator>
-  <link>https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://pagoba.shinyapps.io/strain_explorer/"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/thumbn.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="627"></a></p>
-</figure>
-</div>
-<figcaption>The Strain Explorer app is here!</figcaption>
-</figure>
-</div>
-<p>A common sentiment we have received is that it is a shame we cannot release our data. We think so too. But the legal advice about how to treat web-scraped data is clear: we cannot share the raw data<sup>1</sup>.</p>
-<p>But… After many consultations, we’ve figured out exactly what data we <strong>can</strong> share, and so we’re doing just that. We’ve provided the first of some step-by-step guides for you to download the raw data for yourself (complete with screenshots!), and R code to assemble Scimago yearly data into a single dataframe. Take a look <strong>here</strong></p>
-<p>But if that sounds like a lot of work, <strong>we’re building an R-based shiny app</strong> that lets you type in your journal or publisher of interest and get reports on strain added by each publisher, proportion of special issue articles, average turnaround times per journal, and impact inflation!</p>
-<p>We were planning to share this during our revisions, but we’ve decided to release a sneak peek: <a href="https://pagoba.shinyapps.io/strain_explorer/"><strong>we now have a beta version of this “Strain data explorer” on our website</strong></a><strong>.</strong> As this app is in beta, we expect a few bugs. We’ve also got some data visualization ideas to develop, and some kinks to fix. We’ll be making improvements over time, so do check back for updates, and do send in improvements and suggestions on what you’d like to see it show!</p>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="https://pagoba.shinyapps.io/strain_explorer/"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/strain_explorer.PNG" class="img-fluid"></a></p>
-</div></div><p>Cheers,</p>
-<p>Pablo Gómez Barreiro, Mark A. Hanson, Paolo Crosetto, and Dan Brockington</p>
-<div id="callout-1" class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-The nitty gritty details
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>For those interested in accessing raw data, here are technical notes and instructions on how you can assemble those data for yourself.</p>
-<p><strong>Scripts</strong></p>
-<p>In the file Shiny_scripts_data_release.zip there is a folder setup in an R package format. Download <a href="https://github.com/the-strain-on-scientific-publishing/website/blob/main/data/Shiny_scripts_data_release.zip">this .zip file from Github</a>, unzip the file, and open the Rproject and the main analysis script. The “Scripts” folder does not need to be touched. But you will need to follow the instructions below to populate the folders with the data needed for running the analysis.</p>
-<p><strong>Data related to Figures 1 &amp; 5</strong></p>
-<p>These data come from Scimago, OECD, and UNESCO. <a href="README_assemble_Scimago_OECD_UNESCO.pdf">This .pdf</a> contains step-by-step instructions on how to assemble these data for yourself.</p>
-<p><strong>Data related to Figures 2, 3, and 4</strong></p>
-<p>Unfortunately, these data we simply cannot share. If publishers authorize us to release the data we have on them, we could. But until then, we have to keep these data private.</p>
-<p>Still, we can explain how we collected these data, and if you’re coding-savvy, you can follow along. Pablo has been writing blog posts [<a href="https://pgomba.github.io/pgb_website/posts/08_10_23/">1</a>, <a href="https://pgomba.github.io/pgb_website/posts/11_10_23/">2</a>, <a href="https://pgomba.github.io/pgb_website/posts/18_10_23/">3</a>] on how he scraped different publishers, so stay tuned for updates. The current posts already guide you through the process for example publishers. In brief: we had to take a unique strategy to scraping each publisher, based on how they built their web HTML code. This is why our study is more limited in which publishers we analyse in Figures 2, 3, and 4. But the idea is generally the same for each publisher:</p>
-<ul>
-<li>Feed the script a list of DOIs/addresses</li>
-<li>Search the web page for lines in the html that contain the data of interest.</li>
-<li>For instance, the line below can be gives the date the article was put online: “<em>meta name=”citation_online_date” content=”2018/01/23”</em>”</li>
-<li>Customize the script for each data point you want to collect, for each publisher, sometimes in subgroup-specific ways…</li>
-<li>Check your data very very carefully for errors. Web pages can themselves contain errors even if your script is good! For example, we got quite a few articles published online Jan 1st 1970 (the so-called “epoch date”).</li>
-</ul>
-<p><strong>A technical note on Impact Inflation</strong></p>
-<p>In the preprint we used a 2-year window for Clarivate Impact Factor or Scopus cites/doc. However the standard calculation of Scimago Journal Rank (SJR) uses a 3-year window. As a result, changes in SJR lag changes in Impact Factor a bit. Because these are values derived from 2-3 years of citation behaviour, no single year totally throws off the calculation, but this difference in time window can introduce noise unnecessarily. We prefer to use 2-year Impact Factors and cites/doc values in the preprint as this is the most common form of Impact Factor, and so more intuitive for the reader.</p>
-<p>But we can avoid this lag effect if we simply use 3-year windows for Impact Factors or cites/doc. So in the shiny app, we have used Scimago cies/doc (3-years) / SJR to calculate Impact Inflation. These numbers are very similar to the values you get from using a 2-year window for cites/doc, but for journals with big changes to cites/doc over time, the result is a slightly lower volatility in Impact Inflation from year-to-year as a result.</p>
-</div>
-</div>
-
-
-
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Researchers have a right to web-scrape information and to use it for scientific analyses, but not to further release the raw data scraped. Those data belong to the web-scraped parties (in this case, publishers), who retain rights over their distribution.↩︎</p></li>
-</ol>
-</section></div> ]]></description>
-  <category>Data explorer</category>
-  <category>Shiny</category>
-  <category>The Strain</category>
-  <category>Scientific Publishing</category>
-  <guid>https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/</guid>
-  <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/thumbn.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Response to: “Bad bibliometrics don’t add up for research or why research publishing policy needs sound science”</title>
@@ -541,6 +458,86 @@ bx = (5.12*10-2) (yr-2000)</td>
   <guid>https://the-strain-on-scientific-publishing.github.io/website/posts/response_to_frontiers/</guid>
   <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
   <media:content url="https://the-strain-on-scientific-publishing.github.io/website/posts/response_to_frontiers/thumbn2.png" medium="image" type="image/png" height="112" width="144"/>
+</item>
+<item>
+  <title>Announcement: “The Strain on Scientific Publishing” data explorer!</title>
+  <dc:creator>Pablo Gómez Barreiro</dc:creator>
+  <dc:creator>Mark Hanson</dc:creator>
+  <dc:creator>Paolo Crosetto</dc:creator>
+  <dc:creator>Dan Brockington</dc:creator>
+  <link>https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://pagoba.shinyapps.io/strain_explorer/"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/thumbn.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="627"></a></p>
+</figure>
+</div>
+<figcaption>The Strain Explorer app is here!</figcaption>
+</figure>
+</div>
+<p>A common sentiment we have received is that it is a shame we cannot release our data. We think so too. But the legal advice about how to treat web-scraped data is clear: we cannot share the raw data<sup>1</sup>.</p>
+<p>But… After many consultations, we’ve figured out exactly what data we <strong>can</strong> share, and so we’re doing just that. We’ve provided the first of some step-by-step guides for you to download the raw data for yourself (complete with screenshots!), and R code to assemble Scimago yearly data into a single dataframe. Take a look <strong>here</strong></p>
+<p>But if that sounds like a lot of work, <strong>we’re building an R-based shiny app</strong> that lets you type in your journal or publisher of interest and get reports on strain added by each publisher, proportion of special issue articles, average turnaround times per journal, and impact inflation!</p>
+<p>We were planning to share this during our revisions, but we’ve decided to release a sneak peek: <a href="https://pagoba.shinyapps.io/strain_explorer/"><strong>we now have a beta version of this “Strain data explorer” on our website</strong></a><strong>.</strong> As this app is in beta, we expect a few bugs. We’ve also got some data visualization ideas to develop, and some kinks to fix. We’ll be making improvements over time, so do check back for updates, and do send in improvements and suggestions on what you’d like to see it show!</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><a href="https://pagoba.shinyapps.io/strain_explorer/"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/strain_explorer.PNG" class="img-fluid"></a></p>
+</div></div><p>Cheers,</p>
+<p>Pablo Gómez Barreiro, Mark A. Hanson, Paolo Crosetto, and Dan Brockington</p>
+<div id="callout-1" class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+The nitty gritty details
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For those interested in accessing raw data, here are technical notes and instructions on how you can assemble those data for yourself.</p>
+<p><strong>Scripts</strong></p>
+<p>In the file Shiny_scripts_data_release.zip there is a folder setup in an R package format. Download <a href="https://github.com/the-strain-on-scientific-publishing/website/blob/main/data/Shiny_scripts_data_release.zip">this .zip file from Github</a>, unzip the file, and open the Rproject and the main analysis script. The “Scripts” folder does not need to be touched. But you will need to follow the instructions below to populate the folders with the data needed for running the analysis.</p>
+<p><strong>Data related to Figures 1 &amp; 5</strong></p>
+<p>These data come from Scimago, OECD, and UNESCO. <a href="README_assemble_Scimago_OECD_UNESCO.pdf">This .pdf</a> contains step-by-step instructions on how to assemble these data for yourself.</p>
+<p><strong>Data related to Figures 2, 3, and 4</strong></p>
+<p>Unfortunately, these data we simply cannot share. If publishers authorize us to release the data we have on them, we could. But until then, we have to keep these data private.</p>
+<p>Still, we can explain how we collected these data, and if you’re coding-savvy, you can follow along. Pablo has been writing blog posts [<a href="https://pgomba.github.io/pgb_website/posts/08_10_23/">1</a>, <a href="https://pgomba.github.io/pgb_website/posts/11_10_23/">2</a>, <a href="https://pgomba.github.io/pgb_website/posts/18_10_23/">3</a>] on how he scraped different publishers, so stay tuned for updates. The current posts already guide you through the process for example publishers. In brief: we had to take a unique strategy to scraping each publisher, based on how they built their web HTML code. This is why our study is more limited in which publishers we analyse in Figures 2, 3, and 4. But the idea is generally the same for each publisher:</p>
+<ul>
+<li>Feed the script a list of DOIs/addresses</li>
+<li>Search the web page for lines in the html that contain the data of interest.</li>
+<li>For instance, the line below can be gives the date the article was put online: “<em>meta name=”citation_online_date” content=”2018/01/23”</em>”</li>
+<li>Customize the script for each data point you want to collect, for each publisher, sometimes in subgroup-specific ways…</li>
+<li>Check your data very very carefully for errors. Web pages can themselves contain errors even if your script is good! For example, we got quite a few articles published online Jan 1st 1970 (the so-called “epoch date”).</li>
+</ul>
+<p><strong>A technical note on Impact Inflation</strong></p>
+<p>In the preprint we used a 2-year window for Clarivate Impact Factor or Scopus cites/doc. However the standard calculation of Scimago Journal Rank (SJR) uses a 3-year window. As a result, changes in SJR lag changes in Impact Factor a bit. Because these are values derived from 2-3 years of citation behaviour, no single year totally throws off the calculation, but this difference in time window can introduce noise unnecessarily. We prefer to use 2-year Impact Factors and cites/doc values in the preprint as this is the most common form of Impact Factor, and so more intuitive for the reader.</p>
+<p>But we can avoid this lag effect if we simply use 3-year windows for Impact Factors or cites/doc. So in the shiny app, we have used Scimago cies/doc (3-years) / SJR to calculate Impact Inflation. These numbers are very similar to the values you get from using a 2-year window for cites/doc, but for journals with big changes to cites/doc over time, the result is a slightly lower volatility in Impact Inflation from year-to-year as a result.</p>
+</div>
+</div>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Researchers have a right to web-scrape information and to use it for scientific analyses, but not to further release the raw data scraped. Those data belong to the web-scraped parties (in this case, publishers), who retain rights over their distribution.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>Data explorer</category>
+  <category>Shiny</category>
+  <category>The Strain</category>
+  <category>Scientific Publishing</category>
+  <guid>https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/</guid>
+  <pubDate>Wed, 13 Mar 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://the-strain-on-scientific-publishing.github.io/website/posts/app_announcement/thumbn.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
 </rss>
