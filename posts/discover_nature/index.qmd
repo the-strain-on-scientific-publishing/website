@@ -62,7 +62,7 @@ It seems that [**Springer Nature has Discovered MDPI**]{.underline}**.**
 
 ## Why does this matter?
 
-Well, publishers claim to be filling a market need. While this siren call sounds sweet and inviting, the reality behind it has been much darker. The rush to produce more work in special issues has produced an [avalanche of poor quality work](https://phys.org/news/2023-11-avalanche-published-academic-articles-erode.html). It also matters because the one thing that MDPI had going for it was its transparency. Footling around^[a]{.bg-warning .px-1 data-bs-toggle="tooltip" title="also known as wasting time in frivolous activities"}^ on the MDPI website, their rejection rates, turn around times, and special issue collections were easily visible. The Discover series demonstrates no such transparency, making it much harder to hold them to account. This muddies the waters of genuine research fields, and undermines public trust in science.
+Well, publishers claim to be filling a market need. While this siren call sounds sweet and inviting, the reality behind it has been much darker. The rush to produce more work in special issues has produced an [avalanche of poor quality work](https://phys.org/news/2023-11-avalanche-published-academic-articles-erode.html). It also matters because the one thing that MDPI had going for it was its transparency. Footling around^[a]{.bg-warning .px-1 data-bs-toggle="tooltip" title="footling: wasting time on frivolous activities. Great word."}^ on the MDPI website, their rejection rates, turn around times, and special issue collections were easily visible. The Discover series demonstrates no such transparency, making it much harder to hold them to account. This muddies the waters of genuine research fields, and undermines public trust in science.
 
 We need to remember that Springer Nature has previously demonstrated a keen interest in generating quantity, rather than quality. In 2011 it launched Scientific Reports, which has become the largest Open Access megajournal ever, overtaking PLOS One back in 2016. What is especially salient there is that PLOS One stated publicly that its editorial rigour was uncompromising, and part of the drop in its publications [was a lower acceptance rate](https://retractionwatch.com/2017/03/15/plos-one-faced-decline-submissions-new-editor-speaks/). PLOS One had further recruited 3000 editorial board members to handle the then [\~5000 submissions per month](https://everyone.plos.org/2021/11/26/fifteen-years-of-plos-one/), and introduced new article triaging measures before peer review, helping to handle the immense volume of submissions while maintaining editorial quality. [We cannot see evidence of similar behaviour in Scientific Reports](https://deevybee.blogspot.com/2024/10/an-open-letter-regarding-scientific.html).
 
@@ -94,9 +94,9 @@ Let's start by collectively doing what we can:
 *And, of course:*
 
 **Fourth**, embrace the ridiculousness of the for-profit publishing landscape, try our “Springer Nature or MDPI” mini-games and let’s have a chat on the [Bluesky](https://bsky.app/profile/hansonmark.bsky.social/feed/aaadbjpiqymi4) #ResearchIntegrity feed.
+:::
 
 Let’s stop falling for the same (in this case, *literally* the same) old tricks. Let’s stop wasting money on journals we do not need.
-:::
 
 \~ *The strain team*.
 
@@ -111,10 +111,8 @@ Let’s stop falling for the same (in this case, *literally* the same) old trick
 </script>
 ```
 
-::: {style="margin-top: 10em;"}
-:::
 
-## [Long and Boring Data Appendix]{style="color: #8B1A1A;"} {#LBDA}
+## Long and Boring Data Appendix
 
 #### All *Discover* journal and their MDPI homonyms
 
