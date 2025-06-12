@@ -168,11 +168,11 @@ While we were correcting our scraping problem, we took the opportunity to add da
 +-----------------------+-----------------------------------------------------+----------------------------------------+
 | Turnaround Times      | For *Discover*: web scrape of individual articles   | Discover: June 1st and June 11th, 2025 |
 |                       |                                                     |                                        |
-|                       | For all others: The Strain on Scinetific Publishing | All others: August 2023                |
+|                       | For all others: The Strain on Scientific Publishing | All others: August 2023                |
 +-----------------------+-----------------------------------------------------+----------------------------------------+
 | N papers              | For *Discover*: web scrape of individual articles   | Discover: June 1st and June 11th, 2025 |
 |                       |                                                     |                                        |
-|                       | For all others: The Strain on Scinetific Publishing | All others: August 2023                |
+|                       | For all others: The Strain on Scientific Publishing | All others: August 2023                |
 +-----------------------+-----------------------------------------------------+----------------------------------------+
 | N open Special Issues | Scrape of *Discover* website                        | June 11th, 2025                        |
 +-----------------------+-----------------------------------------------------+----------------------------------------+
