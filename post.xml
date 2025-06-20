@@ -9,7 +9,7 @@
 <link>https://the-strain-on-scientific-publishing.github.io/website/post.html</link>
 <atom:link href="https://the-strain-on-scientific-publishing.github.io/website/post.xml" rel="self" type="application/rss+xml"/>
 <description>Home page for the paper &#39;The Strain on Scientific Publishing&#39; by Mark A Hanson, Dan Brockington, Paolo Crosetto and Pablo Gomez Barreiro</description>
-<generator>quarto-1.7.31</generator>
+<generator>quarto-1.7.32</generator>
 <lastBuildDate>Tue, 10 Jun 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Springer Nature Discovers MDPI</title>
@@ -26,7 +26,10 @@
 <p><a href="thumbn.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/discover_nature/thumbn.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a></p>
 </figure>
 </div>
-<p><span style="color: #8B1A1A;">Ambiguous one-word journal titles are a Multi-Disciplinary Publishing Institute (MDPI) trademark (“<a href="https://www.mdpi.com/journal/foods">Foods</a>”, “<a href="https://www.mdpi.com/journal/plants">Plants</a>”). In the spirit of “if you can’t beat ’em, join ’em”, Springer Nature has launched a series of journals, the “Discover” series, with near-identical names (<a href="https://link.springer.com/journal/44187">Discover Food</a>, <a href="https://link.springer.com/journal/44372">Discover Plants</a>). if you don’t believe us, you can try it yourself in our “Guess Who Is Who” mini-game: 👉👉</span></p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>To cite this blog post</strong>: <em>Paolo Crosetto, Mark Austin Hanson, Daniel Brockington, Pablo Gómez Barreiro. Springer Nature Discovers MDPI. 2025. HAL Id: <a href="https://hal.science/hal-05113253v1">05113253</a>, url = <a href="https://hal.science/hal-05113253" class="uri">https://hal.science/hal-05113253</a>.</em></p>
+</div></div><p><span style="color: #8B1A1A;">Ambiguous one-word journal titles are a Multi-Disciplinary Publishing Institute (MDPI) trademark (“<a href="https://www.mdpi.com/journal/foods">Foods</a>”, “<a href="https://www.mdpi.com/journal/plants">Plants</a>”). In the spirit of “if you can’t beat ’em, join ’em”, Springer Nature has launched a series of journals, the “Discover” series, with near-identical names (<a href="https://link.springer.com/journal/44187">Discover Food</a>, <a href="https://link.springer.com/journal/44372">Discover Plants</a>). if you don’t believe us, you can try it yourself in our “Guess Who Is Who” mini-game: 👉👉</span></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <p><a href="https://pagoba.shinyapps.io/publi_guess/" target="_blank"> <em><img src="https://the-strain-on-scientific-publishing.github.io/website/posts/discover_nature/game.jpg" alt="Click the image to play our mini-game" width="300"></em> </a></p>
