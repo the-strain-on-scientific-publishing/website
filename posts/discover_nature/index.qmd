@@ -18,6 +18,10 @@ comments:
 
 ![](thumbn.jpg){fig-align="center"}
 
+::: column-margin
+**To cite this blog post**: *Paolo Crosetto, Mark Austin Hanson, Daniel Brockington, Pablo Gómez Barreiro. Springer Nature Discovers MDPI. 2025. HAL Id: [05113253](https://hal.science/hal-05113253v1), url = <https://hal.science/hal-05113253>.*
+:::
+
 [Ambiguous one-word journal titles are a Multi-Disciplinary Publishing Institute (MDPI) trademark (“[Foods](https://www.mdpi.com/journal/foods)”, “[Plants](https://www.mdpi.com/journal/plants)”). In the spirit of “if you can’t beat ‘em, join ‘em”, Springer Nature has launched a series of journals, the “Discover” series, with near-identical names ([Discover Food](https://link.springer.com/journal/44187), [Discover Plants](https://link.springer.com/journal/44372)). if you don’t believe us, you can try it yourself in our “Guess Who Is Who” mini-game: 👉👉]{style="color: #8B1A1A;"}
 
 :::: column-margin
