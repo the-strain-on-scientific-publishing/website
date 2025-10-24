@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,18 +34,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bcb74635c3a8069a255aa47a53f56b95.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8faa92879b3eb953cdf952c39e82c94e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-bcb74635c3a8069a255aa47a53f56b95.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-60688041620dd0f67a359125b3914969.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-83caa5dc78b5f2dada6482c2a2f5ad8b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-60688041620dd0f67a359125b3914969.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -117,7 +118,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -322,7 +323,8 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="./images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/the-strain-on-scientific-publishing" title="GitHub pages for the project" class="quarto-navigation-tool px-1" aria-label="GitHub pages for the project" target="_blank"><i class="bi bi-github"></i></a>
@@ -424,7 +426,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="U3ByaW5nZXJOYXR1cmUlMkNNRFBJJTJDRGlzY292ZXI=" data-listing-date-sort="1749513600000" data-listing-file-modified-sort="1752762044858" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2987">
+<div class="quarto-post image-right" data-index="0" data-categories="U3ByaW5nZXJOYXR1cmUlMkNNRFBJJTJDRGlzY292ZXI=" data-listing-date-sort="1749513600000" data-listing-file-modified-sort="1761295146080" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2987">
 <div class="thumbnail"><a href="./posts/discover_nature/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/discover_nature/thumbn.jpg" class="thumbnail-image">
@@ -458,7 +460,7 @@ The Strain team
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="UiUyQ01EUEklMkNzZWxmLWNpdGF0aW9ucw==" data-listing-date-sort="1742688000000" data-listing-file-modified-sort="1752762044865" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="740">
+<div class="quarto-post image-right" data-index="1" data-categories="UiUyQ01EUEklMkNzZWxmLWNpdGF0aW9ucw==" data-listing-date-sort="1742688000000" data-listing-file-modified-sort="1761295146087" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="740">
 <div class="thumbnail"><a href="./posts/mdpi_scr_comment/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/mdpi_scr_comment/thumbn.jpg" class="thumbnail-image">
@@ -492,43 +494,7 @@ Pablo Gómez Barreiro
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="RnJvbnRpZXJzJTJDVGhlJTIwU3RyYWluJTJDT3BlbiUyMEFjY2VzcyUyQ1NjaWVudGlmaWMlMjBQdWJsaXNoaW5n" data-listing-date-sort="1710288000000" data-listing-file-modified-sort="1752762044884" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-word-count-sort="3923">
-<div class="thumbnail"><a href="./posts/response_to_frontiers/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/response_to_frontiers/thumbn2.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/response_to_frontiers/index.html" class="no-external">Response to: “Bad bibliometrics don’t add up for research or why research publishing policy needs sound science”</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RnJvbnRpZXJz'); return false;">Frontiers</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGhlJTIwU3RyYWlu'); return false;">The Strain</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3BlbiUyMEFjY2Vzcw=='); return false;">Open Access</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U2NpZW50aWZpYyUyMFB1Ymxpc2hpbmc='); return false;">Scientific Publishing</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/response_to_frontiers/index.html" class="no-external">
-We have received a diverse, global, and humbling response to our preprint “The Strain on Scientific Publishing.” We thank everyone for the kind words, thoughtful…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/response_to_frontiers/index.html" class="no-external">
-<div class="listing-date">
-Mar 13, 2024
-</div>
-<div class="listing-author">
-Mark Hanson, Pablo Gómez Barreiro, Paolo Crosetto, Dan Brockington
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="RGF0YSUyMGV4cGxvcmVyJTJDU2hpbnklMkNUaGUlMjBTdHJhaW4lMkNTY2llbnRpZmljJTIwUHVibGlzaGluZw==" data-listing-date-sort="1710288000000" data-listing-file-modified-sort="1752762044832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="810">
+<div class="quarto-post image-right" data-index="2" data-categories="RGF0YSUyMGV4cGxvcmVyJTJDU2hpbnklMkNUaGUlMjBTdHJhaW4lMkNTY2llbnRpZmljJTIwUHVibGlzaGluZw==" data-listing-date-sort="1710288000000" data-listing-file-modified-sort="1761295146054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="810">
 <div class="thumbnail"><a href="./posts/app_announcement/index.html" class="no-external">
 
 <img loading="lazy" src="./posts/app_announcement/thumbn.png" class="thumbnail-image">
@@ -560,6 +526,42 @@ Mar 13, 2024
 </div>
 <div class="listing-author">
 Pablo Gómez Barreiro, Mark Hanson, Paolo Crosetto, Dan Brockington
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="RnJvbnRpZXJzJTJDVGhlJTIwU3RyYWluJTJDT3BlbiUyMEFjY2VzcyUyQ1NjaWVudGlmaWMlMjBQdWJsaXNoaW5n" data-listing-date-sort="1710288000000" data-listing-file-modified-sort="1761295146106" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-word-count-sort="3923">
+<div class="thumbnail"><a href="./posts/response_to_frontiers/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/response_to_frontiers/thumbn2.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/response_to_frontiers/index.html" class="no-external">Response to: “Bad bibliometrics don’t add up for research or why research publishing policy needs sound science”</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RnJvbnRpZXJz'); return false;">Frontiers</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGhlJTIwU3RyYWlu'); return false;">The Strain</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('T3BlbiUyMEFjY2Vzcw=='); return false;">Open Access</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpZW50aWZpYyUyMFB1Ymxpc2hpbmc='); return false;">Scientific Publishing</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/response_to_frontiers/index.html" class="no-external">
+We have received a diverse, global, and humbling response to our preprint “The Strain on Scientific Publishing.” We thank everyone for the kind words, thoughtful…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/response_to_frontiers/index.html" class="no-external">
+<div class="listing-date">
+Mar 13, 2024
+</div>
+<div class="listing-author">
+Mark Hanson, Pablo Gómez Barreiro, Paolo Crosetto, Dan Brockington
 </div>
 </a>
 </div>
@@ -631,13 +633,14 @@ Pablo Gómez Barreiro, Mark Hanson, Paolo Crosetto, Dan Brockington
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
